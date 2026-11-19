@@ -1,0 +1,44 @@
+{
+  "paper": "/home/msseo/works/Claude/korean_mw_ml/references/Hong_Sheen_2026_BSSA_Moment_magnitude.pdf",
+  "sha256": "0740cd4857a818ac9929a0d55b8578385fc0e02134c7b477e25e42069d1d0ed6",
+  "pages": 15,
+  "DOI": "10.1785/0120250293",
+  "paper_C_SI": 9.05,
+  "our_C_SI": 9.05,
+  "spreading_Hong_minus_ours_Mw_at_100km": -0.0516339866619144,
+  "source_prefactor_scope": "Same fitted plateau; density and beta only; not a complete method harmonization",
+  "TD_equivalent_displacement_FAS": "peak_vertical / bandwidth / 1.62 * 2.25",
+  "coefficient_units": "Dividing displacement by bandwidth supplies Fourier-amplitude units; 1.62 and 2.25 are empirical matching/partition factors.",
+  "paper_catalog_comparison": {
+    "n": 490,
+    "csv_mean_TD_minus_spectral": 0.04106122448979591,
+    "csv_std_TD_minus_spectral": 0.07616373558924736,
+    "csv_correlation_squared": 0.968478296247481,
+    "paper_reported_residual": -0.04,
+    "paper_reported_scatter": 0.08,
+    "note": "The CSV mean TD-minus-spectral is positive; the paper text p.8 labels a negative residual. Preserve CSV columns and state the sign; do not swap columns."
+  },
+  "still_unspecified": [
+    "DPSS NW/K and exact PSD-to-FAS conversion in the implementation",
+    "Response-removal water level and prefilter",
+    "Full MCMC likelihood/priors and covariance among spectral samples",
+    "Exact correspondence of station details to event-summary versions and station corrections"
+  ],
+  "magnitude_values_changed": true,
+  "source_prefactor_shift_Hong_minus_fixed_Vs3500_Mw": 0.016348803655276547,
+  "our_source_velocity_model": "Kim & Kim (1983); Vp/Vs=1.73",
+  "our_source_velocity_comparison": "Kim et al. (2011)",
+  "source_velocity_config_sha256": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+  "source_prefactor_shift_Hong_minus_ours_by_model": {
+    "Kim1983": {
+      "min": -0.029064258828905856,
+      "median": 0.027174730636596867,
+      "max": 0.027174730636596867
+    },
+    "Kim2011": {
+      "min": -0.03191855577816206,
+      "median": -0.008120109178746629,
+      "max": 0.04152705827131766
+    }
+  }
+}

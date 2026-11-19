@@ -1,0 +1,14 @@
+[
+  {
+    "stem": "09_KR_Mw_comparison",
+    "caption": "199 quality-A events matched by exact UTC ID, origin time and KMA ML. Our source Vs(z): Kim & Kim (1983), Vp/Vs=1.73.\nDotted: equal Mw. Published KR_Mw is used as reported; no empirical offset. Both estimators use the same events."
+  },
+  {
+    "stem": "10_MT_Fourier_diagnosis",
+    "caption": "All finite fits are shown. A requires |\u0394Mw| \u22640.10; this is an acceptance rule.\nBottom: cut-edge leakage (left), unresolved plateau and corner tradeoff (right). Both examples are excluded."
+  },
+  {
+    "stem": "11_Window_edge_controls",
+    "caption": "Same corrected records and 10.1 s windows. Right: long-period motion cut at unequal endpoint values.\nCosine tapering reduces its artificial FFT tail. Gray dots: endpoint scale. The taper is a diagnostic control."
+  }
+]

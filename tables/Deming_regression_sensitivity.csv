@@ -1,0 +1,4 @@
+error_variance_ratio_Mw_to_ML,intercept,slope,slope_lo,slope_hi,note
+0.25,0.7640860549248707,0.7780713555783286,0.7308786136962709,0.8380510856614423,"Assumed error ratio, family-balanced Deming sensitivity; not an estimated true measurement-error ratio"
+1.0,0.8654575124649035,0.7364611748956961,0.696259677244533,0.7860518212720587,"Assumed error ratio, family-balanced Deming sensitivity; not an estimated true measurement-error ratio"
+4.0,0.9326921930705954,0.7088631973581125,0.67121348775214,0.7517772121749308,"Assumed error ratio, family-balanced Deming sensitivity; not an estimated true measurement-error ratio"

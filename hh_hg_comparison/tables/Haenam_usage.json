@@ -1,0 +1,35 @@
+{
+  "local_ml": [
+    {
+      "sensor": "EL",
+      "station_event_pairs": 648,
+      "events": 264,
+      "stations": 8
+    },
+    {
+      "sensor": "HG",
+      "station_event_pairs": 2845,
+      "events": 274,
+      "stations": 43
+    },
+    {
+      "sensor": "HH",
+      "station_event_pairs": 1047,
+      "events": 228,
+      "stations": 23
+    }
+  ],
+  "spectral_example": {
+    "event_id": "20260825004122",
+    "station_spectra": 59,
+    "sensors": {
+      "EL": 3,
+      "HH": 16,
+      "HG": 40
+    }
+  },
+  "component_table": {
+    "path": "/home/msseo/works/27.Haenam_sequence_renewal/magnitudes/local_ml/full_period/component_measurements.csv",
+    "sha256": "d633b66d28724e7db9ba582cdf4eb618da6a72c00756a77bb907de9d5fa72adc"
+  }
+}

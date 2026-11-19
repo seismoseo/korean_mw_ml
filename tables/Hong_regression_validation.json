@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "closed_form": "Weighted total least squares; Deming lambda=1 is Euclidean ODR",
+  "scipy_ODRPACK_checks": 55,
+  "max_parameter_difference": 4.5425718830927053e-07,
+  "previous_headline_method": "Family-balanced OLS of Mw on ML, with Deming sensitivities",
+  "previous_KR_comparison_slopes": "Unweighted vertical OLS",
+  "equal_axis_assumption": "lambda=sigma_y^2/sigma_x^2=1; sensitivities .25 and 4",
+  "uncertainty": "2500 family-block resamples for matched/current samples; event resamples for full KR",
+  "caution": "Shared waveform/response errors are correlated; standard ODR does not model their cross-axis covariance or selection bias.",
+  "primary_magnitudes_modified_by_regression": false,
+  "current_OLS_reproduced": true,
+  "source_velocity_model": "Kim1983, Vp/Vs=1.73",
+  "comparison_model": "Kim2011, published Table 2",
+  "n_common_Mw_A": 199,
+  "n_common_paired_A": 165,
+  "n_published": 490
+}

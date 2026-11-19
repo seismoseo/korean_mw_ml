@@ -1,0 +1,34 @@
+[
+  {
+    "stem": "01_Sangju_magnitude",
+    "caption": "One triplet per site; HH, then EL, then HG among usable records. Dashed: generalized Boatwright fit. Depth 19.76 km.\nKim & Kim (1983), Vp/Vs = 1.73; source Vs = 3.688 km/s. C = 9.05. Kim et al. (2011) is compared separately."
+  },
+  {
+    "stem": "02_Sangju_local_magnitude",
+    "caption": "Revised Wood\u2013Anderson; geometric mean of N/E zero-to-peak amplitudes; SNR \u22653 on both components; 10\u2013100 km.\nSolid: event median. Dotted: reported ML 3.6. Published Sheen et al. attenuation, with station terms set to zero. No magnitude anchoring."
+  },
+  {
+    "stem": "03_Sangju_WA_waveforms",
+    "caption": "Physical Wood\u2013Anderson amplitudes, with a separate vertical scale for each trace. Shading: signal (colored), noise (gray).\nThe six-pole 0.5\u201310 Hz filter is causal, as in the established ML recipe. Response removal uses no displacement water-level floor."
+  },
+  {
+    "stem": "04_Mw_ML_comparison",
+    "caption": "357 quality-A events; 194 sequence blocks. Lines: family-balanced OLS. Red star: Sangju, held out.\nShared response and site errors, and reliable-depth selection, limit interpretation of these descriptive fits."
+  },
+  {
+    "stem": "05_HG_effect",
+    "caption": "Top: adding HG sites with common processing. Bottom: changing velocity processing, metadata and QA relative to the previous release.\nBoth previous and current Mw use the same source Vs(z) coefficient. Finite pairs; current Mw A. No ML-based correction."
+  },
+  {
+    "stem": "06_map_and_depth",
+    "caption": "Gray: all depth-qualified candidates. Color: paired quality-A events. Depth bars show project uncertainty envelopes, not calibrated 95% CIs.\nDotted: national D90 = 16.89 km, fixed from 10,233 reliable-depth events. The regression uses continuous depth; no hard deep-event cutoff."
+  },
+  {
+    "stem": "07_quality_and_coverage",
+    "caption": "All 642 candidates remain in the catalog. A enters the primary Mw comparison; B is exploratory; C/F is excluded.\nMw quality uses station count, plateau, bandwidth, residual and estimator/window/source-shape stability. ML quality A requires \u22655 sites and scatter \u22640.35."
+  },
+  {
+    "stem": "08_regression_controls",
+    "caption": "Family-balanced OLS slopes. Bars: 95% sequence-block bootstrap intervals, conditional on measured magnitudes.\nThe Vs(z) test changes the source Vs\u00b3 factor only. Depth trends remain sensitive to physical assumptions."
+  }
+]

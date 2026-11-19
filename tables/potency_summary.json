@@ -1,0 +1,94 @@
+{
+  "n_historical": 642,
+  "n_Mw_A": 439,
+  "n_paired_A": 357,
+  "n_paired_blocks": 194,
+  "measured_ML_range": [
+    1.8878473207333355,
+    5.324574647586785
+  ],
+  "KMA_ML_range": [
+    2.0,
+    5.1
+  ],
+  "n_fits": 132,
+  "n_bootstrapped_fits": 64,
+  "source_velocity_sensitivity": {
+    "Mw": {
+      "median_abs": 0.03529483981534298,
+      "max_abs": 0.03529483981534387,
+      "min": -0.020944149650160337,
+      "max": 0.03529483981534387
+    },
+    "Mp": {
+      "median_abs": 0.011764946605113735,
+      "max_abs": 0.011764946605114623,
+      "min": -0.006981383216721149,
+      "max": 0.011764946605114623
+    }
+  },
+  "exact_coefficient_sensitivity_ratio": "Delta Mp = Delta Mw / 3 for this source-coefficient-only experiment; algebraic, not independent validation",
+  "Liu_vs_Mpo28_offset": 0.07276131243852069,
+  "published_curve_residuals": [
+    {
+      "sample": "Our paired, measured ML",
+      "n": 357,
+      "median": -0.2397773075598706,
+      "mean": -0.23527021633887613,
+      "RMS": 0.24693195115991867
+    },
+    {
+      "sample": "Our paired, KMA ML",
+      "n": 357,
+      "median": -0.09582483171976719,
+      "mean": -0.09652382285515959,
+      "RMS": 0.1514717181283958
+    },
+    {
+      "sample": "Hong full spectral",
+      "n": 490,
+      "median": -0.038118778646868634,
+      "mean": -0.06782653374890976,
+      "RMS": 0.20986239371006846
+    },
+    {
+      "sample": "Hong full TD",
+      "n": 490,
+      "median": -0.002118778646869046,
+      "mean": -0.026765309259113853,
+      "RMS": 0.18413241825211774
+    }
+  ],
+  "examples": [
+    {
+      "event_id": "20200503130714",
+      "Mw": 3.1694743088321964,
+      "Mw_source_Vs_Kim2011": 3.1723286057814533,
+      "ML_KMA": 3.1,
+      "ML_Sheen": 3.1662667747642743,
+      "P0_m3_Kim1983": 1673.0321269352153,
+      "P0_m3_Kim2011": 1678.5389724940965,
+      "Mp_Liu_Kim1983": 3.1198695204808944,
+      "Mp_Liu_Kim2011": 3.1208209527973136,
+      "Mpo28_C9p10_Kim1983": 3.047108208042374,
+      "Mpo28_C9p05_Kim1983": 3.080441541375707
+    },
+    {
+      "event_id": "20261117141017",
+      "Mw": 3.41747647093014,
+      "Mw_source_Vs_Kim2011": 3.396532321279981,
+      "ML_KMA": 3.6,
+      "ML_Sheen": 3.6927297198829505,
+      "P0_m3_Kim1983": 3940.102535559297,
+      "P0_m3_Kim2011": 3846.2317541478556,
+      "Mp_Liu_Kim1983": 3.367871682578838,
+      "Mp_Liu_Kim2011": 3.3608902993621186,
+      "Mpo28_C9p10_Kim1983": 3.2951103701403177,
+      "Mpo28_C9p05_Kim1983": 3.3284437034736505
+    }
+  ],
+  "Mpv_status": "Not computed. Requires matched full-waveform Green-function inversions and the actual model density/velocity and dominant periods for characteristic-rigidity estimation.",
+  "ODR_linear_closed_form_max_error": 2.7138601232934434e-07,
+  "ODR_quadratic_projection_max_error": 1.6589772769970423e-06,
+  "adopted_Mw_and_reports_modified": false
+}

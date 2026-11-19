@@ -1,0 +1,81 @@
+{
+  "version": "source-Vs-20261119",
+  "primary_model": "Kim1983",
+  "comparison_model": "Kim2011",
+  "density_kg_m3": 2800.0,
+  "reference_Vs_m_s": 3500.0,
+  "scope": "Source coefficient rho*Vs(z)^3 only. Geometry, event depths, observed travel times, Q, station selections, and measured spectra remain fixed; not a new layered Green-function or relocation analysis.",
+  "depth_policy": "National cohort z_central, including Haenam 21.26 km; held-out Sangju 19.76 km. Layer boundaries use the deeper layer at an exact boundary.",
+  "models": {
+    "Kim1983": {
+      "label": "Kim & Kim (1983); Vp/Vs=1.73",
+      "implementation": "kim1983_kma, as used by the Haenam relocation and rupture analysis",
+      "layer_tops_km": [
+        0.0,
+        15.0,
+        32.0
+      ],
+      "Vp_km_s": [
+        5.98,
+        6.38,
+        7.95
+      ],
+      "Vp_over_Vs": 1.73,
+      "Vs_km_s": [
+        3.456647398843931,
+        3.6878612716763004,
+        4.595375722543353
+      ],
+      "provenance": [
+        {
+          "path": "/home/msseo/works/27.Haenam_sequence_renewal/source/common/sdm_config_R7.py",
+          "sha256": "f1cfb1dca148ad395b0d16f48cb8ecb475605dd24a0bc4663299b3a8648a464e"
+        },
+        {
+          "path": "/home/msseo/works/24.Slip_inversion/pipeline/models/kim1983_kma.nd",
+          "sha256": "5e6a41ee5a63c69c77eab8f6f1d67345e792bc4e0fb99d9baefb253aafc09be6"
+        }
+      ],
+      "note": "The alternate stored Kim1983 model with lower-crustal Vs=3.79 km/s is not the Haenam Vp/Vs=1.73 implementation and is not used as this model."
+    },
+    "Kim2011": {
+      "label": "Kim et al. (2011)",
+      "implementation": "Published regional average, Table 2, final S-wave model",
+      "layer_tops_km": [
+        0.0,
+        7.29,
+        20.7,
+        31.3
+      ],
+      "Vp_km_s": [
+        5.63,
+        6.17,
+        6.58,
+        7.77
+      ],
+      "Vs_km_s": [
+        3.4,
+        3.6,
+        3.7,
+        4.45
+      ],
+      "DOI": "10.1111/j.1365-246X.2011.04949.x",
+      "url": "https://seismo.snu.ac.kr/publications/KimSR.GJI.V185.P453.2011.pdf",
+      "note": "Use published S1=3.40, S2=3.60, S3=3.70, S4=4.45 rather than slightly different values in the old project file."
+    }
+  },
+  "Hong": {
+    "source_Vs_m_s": 3610.0,
+    "density_kg_m3": 2700.0,
+    "reference_depth_km": 10.0,
+    "source": "Hong and Sheen 2026, supplied BSSA PDF, p.5 equation 4; cites Kim et al. 2011. The paper explicitly states 3.61 km/s.",
+    "magnitude_constant_SI": 9.05
+  },
+  "Haenam_depth_context": {
+    "event_id": "20200503130714",
+    "national_depth_km": 21.26,
+    "dedicated_Haenam_depth_km": 19.867,
+    "dedicated_catalog": "/home/msseo/works/27.Haenam_sequence_renewal/relocation/provenance/adoption_tm_R5/reference_25m_tm/focused_reference.csv",
+    "note": "The dedicated relocation lies above the Kim2011 20.7-km boundary; its Vs is 3.60 km/s. The systematic catalog retains its own national depth consistently."
+  }
+}

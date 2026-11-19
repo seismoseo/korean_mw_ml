@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_velocity_updated": true,
+  "estimator_and_selection_unchanged": true,
+  "all_eight_matched_ML_Mw_fits_use_same_165_events": true,
+  "ODRPACK_parameter_checks": 55,
+  "maximum_parameter_difference": 4.5425718830927053e-07,
+  "stability_events": 568,
+  "report_pages": 9,
+  "source_velocity_config_sha256": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3"
+}

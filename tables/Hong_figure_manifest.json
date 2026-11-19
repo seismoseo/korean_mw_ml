@@ -1,0 +1,18 @@
+[
+  {
+    "stem": "12_ODR_Mw_Mw",
+    "caption": "199 identical quality-A events; 119 sequence blocks. ODR assumes equal error scales in the two magnitude axes.\nSource Vs(z): Haenam Kim & Kim (1983), Vp/Vs=1.73; published Kim et al. (2011) control. Shading: 1983 mean-line interval."
+  },
+  {
+    "stem": "13_ODR_ML_Mw",
+    "caption": "165 identical events with our Mw-A and ML-A assessments. All lines use equal-axis, equal-event ODR.\nOur two Vs(z) models use common density and event depths. The right panel uses our measured ML for every Mw estimate."
+  },
+  {
+    "stem": "14_ML_Mw_selection",
+    "caption": "The KR magnitudes are unchanged across panels. Black: equal-event ODR; gray dots: the full KR catalog.\nRestricting only the full catalog ML range to 2.0\u20133.9 gives slope 0.963. The change above is not explained by that range cut alone."
+  },
+  {
+    "stem": "15_estimator_stability",
+    "caption": "568 events before the Mw-A agreement/window gates; both methods pass the fitted-plateau criterion on common station/frequency support.\n250 station resamples, fixed source shape. Existing SNR masks come from MT. These measure stability, not absolute bias; TD was not rerun."
+  }
+]

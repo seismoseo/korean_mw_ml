@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "n_events": 357,
+  "n_families": 194,
+  "n_magnitude_fits": 128,
+  "n_depth_fits": 84,
+  "identical_Mp_Mw_sample": true,
+  "source_catalogs_and_six_previous_reports_unchanged": true,
+  "bootstrap_success_fraction": 1.0,
+  "large_event_predictions_independently_refit": true,
+  "large_event_results": [
+    {
+      "y": "Mp_Liu_Kim1983",
+      "linear_RMSE": 0.16088573198652523,
+      "quadratic_RMSE": 0.11143135364455836,
+      "gain_lo": -0.01261531072394,
+      "gain_hi": 0.0819968833643702
+    },
+    {
+      "y": "Mw",
+      "linear_RMSE": 0.16894879001214352,
+      "quadratic_RMSE": 0.11637298228357001,
+      "gain_lo": -0.0154687562482027,
+      "gain_hi": 0.0870124389158245
+    }
+  ],
+  "exact_five_family_gain_interval_verified": true,
+  "depth_FWL_max_error": 1.994931997373328e-15,
+  "independently_duplicated_cluster_bootstrap_max_error": 5.717648576819556e-14,
+  "depth_Gyeongju_holdout_verified": true,
+  "normalization_C9p05_identity_verified": true,
+  "ODR_linear_closed_form_max_error": 4.7471770181495294e-08,
+  "ODR_quadratic_stationarity_max_error": 2.711402323496426e-07,
+  "report_pages": 11,
+  "pdf_text_spans_checked": 740,
+  "report_sha256": "9d40840d42e797381701fe693654ab7b76338397ae40aa9b717d0f151bcd5bfa",
+  "code_sha256": {
+    "analyze_magnitude_followup.py": "fe44f3274f48fa391fe1417e4f5b90cc954f75e7e4b30deb1279a3fa8499f955",
+    "report_magnitude_followup.py": "d4a14cd59f96d829c9786933f5c48740db9d8c8758871c147cf2d74915b02951",
+    "validate_magnitude_followup.py": "fdc1b85e3f89a625f5332803d70a7f4795139251bd9844314a9b5f0ea1a673a6",
+    "report_potency.py": "fc80034c3264f2a67ca9647428a35bdde82000d6208532ecfa68c0d5dc32faba",
+    "validate_potency.py": "e5dda84f82655f8a0cebf9413fd89a9da12ba61874746b850c4a0340a1115adc",
+    "potency_regression.py": "aa5765cc7fe2ad79fb156338e84c0354e0faf7d51efe53ced13ac6fa10817b7f"
+  }
+}

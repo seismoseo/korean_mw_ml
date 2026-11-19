@@ -1,0 +1,41 @@
+{
+  "known_acceleration_controls": [
+    {
+      "frequency_Hz": 0.1,
+      "true_displacement_m": 1e-06,
+      "recovered_no_waterlevel": 9.999520590450823e-07,
+      "recovered_WL60": 4.000005968225673e-09,
+      "analytic_WL60_attenuation": 0.004000000000000001
+    },
+    {
+      "frequency_Hz": 0.5,
+      "true_displacement_m": 1e-06,
+      "recovered_no_waterlevel": 1.0000001292286615e-06,
+      "recovered_WL60": 9.999999999621266e-08,
+      "analytic_WL60_attenuation": 0.1
+    },
+    {
+      "frequency_Hz": 1.0,
+      "true_displacement_m": 1e-06,
+      "recovered_no_waterlevel": 1.000000465844109e-06,
+      "recovered_WL60": 3.9999999997262e-07,
+      "analytic_WL60_attenuation": 0.4
+    },
+    {
+      "frequency_Hz": 2.0,
+      "true_displacement_m": 1e-06,
+      "recovered_no_waterlevel": 1.00000190784963e-06,
+      "recovered_WL60": 9.999999996796023e-07,
+      "analytic_WL60_attenuation": 1.0
+    },
+    {
+      "frequency_Hz": 5.0,
+      "true_displacement_m": 1e-06,
+      "recovered_no_waterlevel": 1.0000120224018936e-06,
+      "recovered_WL60": 1.000000000029418e-06,
+      "analytic_WL60_attenuation": 1.0
+    }
+  ],
+  "known_gain_and_coherence": "passed",
+  "n_station_event_pairs": 14
+}

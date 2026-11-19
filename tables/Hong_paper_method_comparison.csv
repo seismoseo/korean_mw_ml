@@ -1,0 +1,16 @@
+item,Hong_Sheen_2026,our_study,paper_page
+Spectral estimator,Prieto (2022) multitaper; DPSS settings and PSD-to-FAS formula not stated,"Prieto MTSpec NW=4, K=7; sqrt(N*dt*P1/2)",3
+Signal / noise windows,"10.24 s, 1024 samples; S-0.5; noise ends P-0.5",10.1 / 20.1 s; S-0.1; noise ends P-1,3
+Frequency samples,"50 log frequencies, 0.1-30 Hz; SNR>3 and >30% station starting-frequency rule","200 log frequencies, 0.5-20 Hz; SNR>=3 and max(3,30%) frequency coverage",4
+Source model / fit,Brune; PyMC MCMC; median spectrum illustrated,Generalized Boatwright; profiled least squares in log amplitude; Brune control,4
+Density / source Vs,2700 kg/m3 / 3610 m/s,"2800 kg/m3; source-depth Vs(z), Kim & Kim 1983 with Vp/Vs=1.73; published Kim et al. 2011 compared",5
+Radiation / free surface,0.63 / 2.0,0.63 / 2.0,5
+Moment-magnitude constant,(2/3) log10(M0[dyne cm])-10.7; equivalent SI C=9.05,(log10(M0[N m])-9.05)/1.5,5
+Depth / aperture,Fixed 10 km; hypocentral distance <=100 km,Event-specific depth; nominal 100-km epicentral archive,8
+Spreading,1/r to 70 km; 1/sqrt(70*r) beyond,1/r at all retained distances,4
+Attenuation,Q(f)=229.2*f^0.73,Same Q(f),4
+Time-domain components,Vertical only; three-pole causal Butterworth filters; 0.2 Hz bandwidth,No Hong time-domain magnitudes recomputed in this comparison,6
+TD spectral-equivalent factor,(peak displacement / bandwidth) * 2.25 / 1.62,Not a PSD one-sided/two-sided correction,7
+TD quality / fit,At least 4 of 10 bands with SNR>3; nested 50x50 + 50x50 Brune grids; station median,Regression uses published event estimates as reported,7
+Station corrections,TD sensor corrections estimated; mean station absolute deviation reduced 0.16 to 0.14,No fitted station terms in our primary magnitudes,8
+Regression in paper Figure 6,Orthogonal regression; exact error weights not specified,"New equal-error ODR plus lambda=.25,4 and family-weight controls",9

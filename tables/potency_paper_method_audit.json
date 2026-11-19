@@ -1,0 +1,42 @@
+{
+  "type": "Curated reading notes from the three supplied PDFs; page numbers are one-based PDF pages.",
+  "Trugman2026_SRL.pdf": {
+    "DOI": "10.1785/0220250419",
+    "page_3": "Full regional moment-tensor waveform inversions, with model-dependent Green functions and depths. Example passband 0.02-0.10 Hz. This is distinct from rescaling an analytical source-spectrum coefficient.",
+    "page_5_equation_5": "Mp=Mw+(2/3)*log10(mu0/muw), with mu0=28 GPa. Source-only Mpo uses muw=musrc. Effective Mpv uses muw=sqrt(musrc*muchar). The characteristic rigidity averages material properties along travel time down to a depth corresponding to one-quarter wavelength at the dominant inversion period, typically 10-20 s in this study.",
+    "magnitude_convention": "The paper uses Mw C=9.10 in SI. Do not mix its 28-GPa normalization with Liu's approximately 36-GPa potency scale.",
+    "Korean_status": "Only ordinary source scalar potency/source-only magnitude analogues were computed here. No Korean Mpv estimate or independent full-waveform validation is claimed."
+  },
+  "Liu2026_GRL.pdf": {
+    "DOI": "10.1029/2026GL124983",
+    "page_4_equation_2": "MP=(2/3)*(log10(P0)+5.4563), where P0 is in cm km^2. Since 1 cm km^2=10^4 m^3, the exact SI constant is 1.4563. P0 is area times average slip, equivalent to M0/mu for a shear source.",
+    "pages_4_to_6": "Three-component P-wave source spectra, multitaper estimation, region-specific source/attenuation and instrument treatments, generalized Brune spectral form, and Bayesian inference. Density cancels in the analytical potency coefficient but source velocities remain. This processing was studied, not reproduced on new Korean P-wave data here.",
+    "page_6": "Bayesian parameters are sampled with Metropolis-Hastings, with a variance hyperparameter; the supplement specifies the likelihood.",
+    "page_7_section_4_1": "Divide the full ML range into 50 equal-width bins. Compute the initial MP median in each occupied bin; remove observations more than 0.5 MP from it; recompute median ML and MP on retained observations; fit ordinary unweighted quadratic least squares to bin medians. This is not ODR.",
+    "page_7_equation_6": "Published MP=0.040 ML^2+0.556 ML+1.133 over approximately -1.8<=ML<=7.5. Reported coefficient intervals use fit covariance and Student-t, rather than resampling complete earthquake sequences.",
+    "pages_8_to_10": "Synthetic results and discussion identify source scaling, attenuation and the Wood-Anderson passband as contributors to curvature. Regional magnitude calibration limits direct transfer of a pooled empirical relation.",
+    "archive": "Paper cites Zenodo DOI 10.5281/zenodo.22092097. Landing page and API were unavailable through the available web tool; no author-code reproduction is claimed.",
+    "page_8_depth_test": "Explicitly tests MP minus the published quadratic relation versus hypocentral depth for all four datasets and reports no clear systematic trend. This is a dataset-dependent empirical result, not proof of universal depth independence."
+  },
+  "Liu2026_GRK_SM.pdf": {
+    "identity": "User-provided Supporting Information to Liu2026_GRL.pdf; the original filename is preserved.",
+    "page_2_equation_S1": "Station ML=log10(A)+1.110*log10(Rhyp/100)+0.00189*(Rhyp-100)+3, with event station median. The observation subsection does not fully establish gain and component aggregation for all source catalogs.",
+    "page_3_equations_S12_S13": "Gaussian residuals in base-10 log spectral amplitude; variance is jointly inferred. This is not a Gaussian likelihood in linear amplitude.",
+    "page_4_synthetic_setup": "Synthetic Wood-Anderson period 0.8 s, damping 0.8, static magnification 2800. This does not establish that every observational ML in the paper uses gain 2800.",
+    "Korean_control": "The separate same-waveform Korean attenuation control preserves accepted station sets and measured horizontal WA amplitudes at gain 2080. A separate gain-only control adds log10(2800/2080)=0.1290946964 to ML. Neither is a complete reproduction of the paper's observational processing.",
+    "page_15_Figure_S7": "MP residual is MP-(0.040 ML^2+0.556 ML+1.133), plotted versus focal depth. The pre-existing regional-catalog subset is restricted to ML>3 and within-bin observations farther than 0.5 MP from the median are excluded. Three newly analyzed regional datasets are also plotted."
+  },
+  "Korean_interpretation": {
+    "source_coefficient": "Current spectra imply M0 proportional to rho*Vs^3 and P0 proportional to Vs. Therefore the exact factor-of-three reduction in two-model magnitude differences is algebraic, not an independent full-waveform uncertainty reduction test.",
+    "Haenam": "Within a common source rigidity layer, Mw-to-MP conversion adds a constant. Event rankings and relative magnitude spacings are unchanged. Potency supports area-slip comparisons but fixed-radius stress drop still requires rigidity.",
+    "regression": "The 357 paired-A events in 194 families are a selected depth/spectral-quality sample. Sequence bootstrap and whole-family-held-out prediction address dependence within that sample; they do not establish a national population calibration or remove spectral-SNR selection bias.",
+    "rigidity_and_literature": "Source mu=rho*Vs(z)^2 and reference mu have distinct roles. The plotted Korean MP uses the exact Liu normalization (approximately 36 GPa/C9.10). Source mu is 33.456 or 38.081 GPa within the paired regression sample. Additional explicit depth references and matched Liu-residual checks are retained in tables/potency_rigidity_literature_audit.json."
+  },
+  "Trugman2024_primary_author_report": {
+    "URL": "https://files.scec.org/s3fs-public/reports/2024/24169_report.pdf?h64GRlv2wy8iT.1M_nQV_Hvym9y9hCnX=",
+    "identity": "Author SCEC project report 24169, documenting Trugman and Ben-Zion (2024), DOI 10.1785/0320240022; retrieved through web tool.",
+    "page_4": "Nominal 36-GPa rigidity converts published moment to potency. Quadratic regression uses ODR on magnitude-bin medians.",
+    "page_5": "MP normalization is designed to equal Mw at reference rigidity 36 GPa. Other reference rigidities shift the magnitude zero point. ML follows an empirical conversion, not an identity.",
+    "distinction": "The 2024 binned ODR differs from Liu2026 binned ordinary least squares. The supplied 2026 Trugman SRL paper instead chooses reference rigidity 28 GPa."
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "passed": true,
+  "source_density_kg_m3": 2800.0,
+  "source_velocity_config_sha256": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+  "source_rigidity_layers": [
+    {
+      "model": "Kim1983",
+      "top_km": 0.0,
+      "bottom_km": 15.0,
+      "Vs_km_s": 3.456647398843931,
+      "mu_GPa": 33.45555147181664,
+      "n_paired": 250
+    },
+    {
+      "model": "Kim1983",
+      "top_km": 15.0,
+      "bottom_km": 32.0,
+      "Vs_km_s": 3.6878612716763004,
+      "mu_GPa": 38.08089812556383,
+      "n_paired": 107
+    },
+    {
+      "model": "Kim1983",
+      "top_km": 32.0,
+      "bottom_km": null,
+      "Vs_km_s": 4.595375722543353,
+      "mu_GPa": 59.128938487754354,
+      "n_paired": 0
+    },
+    {
+      "model": "Kim2011",
+      "top_km": 0.0,
+      "bottom_km": 7.29,
+      "Vs_km_s": 3.4,
+      "mu_GPa": 32.368,
+      "n_paired": 43
+    },
+    {
+      "model": "Kim2011",
+      "top_km": 7.29,
+      "bottom_km": 20.7,
+      "Vs_km_s": 3.6,
+      "mu_GPa": 36.288,
+      "n_paired": 296
+    },
+    {
+      "model": "Kim2011",
+      "top_km": 20.7,
+      "bottom_km": 31.3,
+      "Vs_km_s": 3.7,
+      "mu_GPa": 38.332,
+      "n_paired": 18
+    },
+    {
+      "model": "Kim2011",
+      "top_km": 31.3,
+      "bottom_km": null,
+      "Vs_km_s": 4.45,
+      "mu_GPa": 55.447,
+      "n_paired": 0
+    }
+  ],
+  "plotted_MP": "Mp_Liu_Kim1983 = (2/3)*(log10(P0[m3])+1.4563), identical to Liu equation 2 after unit conversion.",
+  "reference_rigidity_GPa": 35.99979270433568,
+  "other_28GPa_reference": "Retained in explicitly named Mpo28 columns; not used as the MP axis in the Liu comparison.",
+  "C_status": "The Liu MP axis uses the exact published definition. Current Mw retains C=9.05. There is no extra C or 28-to-36-GPa correction to apply to the plotted MP.",
+  "offset_statistics": [
+    {
+      "ML": "ML_Sheen",
+      "n": 357,
+      "median": -0.2397773075598706,
+      "RMS": 0.24693195115991867,
+      "equivalent_potency_factor": 2.289106303783965
+    },
+    {
+      "ML": "ML_KMA",
+      "n": 357,
+      "median": -0.09582483171976719,
+      "RMS": 0.1514717181283958,
+      "equivalent_potency_factor": 1.3923141843398474
+    }
+  ],
+  "measured_ML_minus_KMA_median": 0.18584913829659033,
+  "two_model_MP_median_absolute_difference": 0.011764946605113735,
+  "Liu_S7_analogue": [
+    {
+      "case_id": "Liu_depth_00",
+      "ML": "ML_Sheen",
+      "selection": "Paired A",
+      "n_events": 357,
+      "n_families": 194,
+      "median_residual": -0.2397773075598706,
+      "intercept_at_15km": -0.2349783673910622,
+      "slope_per_10km": -0.0615754057168392,
+      "slope_lo": -0.08913662157848412,
+      "slope_hi": -0.035839400011868285
+    },
+    {
+      "case_id": "Liu_depth_01",
+      "ML": "ML_Sheen",
+      "selection": "ML > 3",
+      "n_events": 53,
+      "n_families": 31,
+      "median_residual": -0.28489358467127923,
+      "intercept_at_15km": -0.29683485480375765,
+      "slope_per_10km": -0.08378142217162393,
+      "slope_lo": -0.16096453862254145,
+      "slope_hi": -0.01642534375590497
+    },
+    {
+      "case_id": "Liu_depth_02",
+      "ML": "ML_KMA",
+      "selection": "Paired A",
+      "n_events": 357,
+      "n_families": 194,
+      "median_residual": -0.09582483171976719,
+      "intercept_at_15km": -0.10062074749663852,
+      "slope_per_10km": -0.037581599259907596,
+      "slope_lo": -0.07627623370998664,
+      "slope_hi": -0.0008717512380499393
+    },
+    {
+      "case_id": "Liu_depth_03",
+      "ML": "ML_KMA",
+      "selection": "ML > 3",
+      "n_events": 31,
+      "n_families": 21,
+      "median_residual": -0.1257839979942439,
+      "intercept_at_15km": -0.1864068923946416,
+      "slope_per_10km": -0.11234071796363077,
+      "slope_lo": -0.2089595718322851,
+      "slope_hi": 0.0048256934417985325
+    }
+  ],
+  "literature": [
+    {
+      "citation": "Liu et al. (2026), GRL",
+      "DOI": "10.1029/2026GL124983",
+      "primary_URL": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2026GL124983",
+      "local_main": "references/Liu2026_GRL.pdf",
+      "main_PDF_page": 8,
+      "local_supplement": "references/Liu2026_GRK_SM.pdf",
+      "supplement_PDF_page": 15,
+      "figure": "S7",
+      "result": "Reports no clear systematic hypocentral-depth trend in residuals MP minus the published quadratic ML relation, across four datasets.",
+      "scope": "Three newly analyzed regional datasets plus the existing regional potency catalog. The regional-catalog subset in S7 is restricted to ML>3 and within-bin outliers greater than 0.5 MP are removed. This is not proof of zero depth effects in every region.",
+      "access": "Supplied full main paper and supplement inspected; S7 rendered and viewed."
+    },
+    {
+      "citation": "Dowrick and Rhoades (1998), Bulletin NZSEE 31, 260-280",
+      "DOI": "10.5459/bnzsee.31.4.260-280",
+      "primary_URL": "https://bulletin.nzsee.org.nz/article/view/533/510",
+      "PDF_page": 18,
+      "printed_page": 277,
+      "equation": 11,
+      "result": "Mw=0.96+0.84 ML-0.0055(hc-25), with centroid depth hc in km; reported depth-coefficient uncertainty 0.0015 and residual standard deviation 0.31.",
+      "scope": "Larger historical/instrumental New Zealand earthquakes, roughly M5 and above and extending to much greater depths. Same sign as the Korean trend, but not a transferable Korean calibration.",
+      "access": "Primary full-text publisher PDF and equation inspected."
+    },
+    {
+      "citation": "Rhoades et al. (2021), BSSA 111, 1056-1066",
+      "DOI": "10.1785/0120200252",
+      "title": "A Depth-Dependent Local Magnitude Scale for New Zealand Earthquakes Consistent with Moment Magnitude",
+      "primary_URL": "https://pubs.geoscienceworld.org/ssa/bssa/article-abstract/111/2/1056/593423/A-Depth-Dependent-Local-Magnitude-Scale-for-New",
+      "result": "NZ20 adds a hypocentral-depth explanatory variable to ML attenuation to improve consistency with Mw over the New Zealand depth range.",
+      "scope": "Regional calibration with heterogeneous crustal/subduction depths; does not validate its depth coefficients for Korean crustal earthquakes.",
+      "access": "Primary publisher abstract verified through search; full text not retrieved."
+    },
+    {
+      "citation": "Lin, Huang and Wu (2026), TAO 37, 18",
+      "DOI": "10.1007/s44195-026-00136-x",
+      "title": "Discussion of local magnitude scale for deep earthquakes in Taiwan",
+      "primary_URL": "https://link.springer.com/article/10.1007/s44195-026-00136-x",
+      "result": "Hypocentral-distance-only ML attenuation leaves depth-dependent residuals. Including log depth produces recalibrated ML with no remaining depth trend and approximately one-to-one Mw scaling; reported scatter 0.16.",
+      "scope": "649 events, Mw 3.0-6.6, depths 35-313 km; demonstrates calibration dependence, not a numerical correction for Korea.",
+      "access": "Primary publisher full text inspected."
+    },
+    {
+      "citation": "Altindal et al. (2025), BSSA 115, 2385-2406",
+      "DOI": "10.1785/0120250032",
+      "primary_URL": "https://gfzpublic.gfz.de/pubman/item/item_5036752_1/component/file_5036760/5036752.pdf?mode=download",
+      "result": "Station-ML minus event-ML residuals become negative for deeper-than-10-km, Foreland-dominated data; authors emphasize regional/path dependence.",
+      "scope": "Related caution: station/event ML residuals are NOT direct Mw-ML or Mp-ML residuals. Do not present this as direct evidence for the question.",
+      "access": "Primary institutional full-text PDF inspected, discussion and Figure 15."
+    }
+  ],
+  "interpretation": "A matched MP magnitude zero point rules out a reference-rigidity convention mismatch. It does not validate source amplitudes or ML calibration. P/S source inference, velocity/path/site corrections, amplitude conventions and selected event populations differ. A pooled cross-region curve does not establish identical regional offsets.",
+  "prior_omission": "The prior depth discussion did not highlight Liu main-text p.8 and Figure S7. These directly relevant results have now been added to the report reading notes and discussion.",
+  "adopted_Mw_ML_changed": false,
+  "code_sha256": "1e9242503d1ae7f8ea3a6b34d2dcdb5f5b98a4c9fc1694013cbdc2a597f432da",
+  "input_sha256": {
+    "tables/magnitude_followup_events.csv": "eb2e29b255b6d1452b14b9f0166881ddbb3485f1ac440bedf77edb2e4bedb804",
+    "references/Liu2026_GRL.pdf": "60a461de6d123d1315dc196b57df175d427a725c1abb0d882ee6a642985e9866",
+    "references/Liu2026_GRK_SM.pdf": "67e376e43776a6f62d6f39412ec519e0eb37b2bc42d72103a18f81612ba8e31b"
+  }
+}

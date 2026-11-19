@@ -1,0 +1,71 @@
+{
+  "instrument_policy": {
+    "version": "HH_EL_HG_20261119_v1",
+    "water_level": null,
+    "spectral_prefilter_Hz": [
+      0.1,
+      0.2,
+      25.0,
+      40.0
+    ],
+    "full_record_taper": "1 percent, capped at 5 s, once",
+    "spectral_noise": "equal duration ending 1 s before P; quiet-window search",
+    "primary_sensors": [
+      "HH",
+      "EL",
+      "HG"
+    ],
+    "one_measurement_per_site": true,
+    "preference": "HH, EL, HG among usable records; independent of amplitude or KMA ML",
+    "exclusions": [
+      "KS.KWJU.HH",
+      "KS.SEJF.EL"
+    ],
+    "target_pair_exclusion": "Sangju KS.BURB: unresolved co-located horizontal response discrepancy; both families excluded",
+    "magnitude_constant": 9.05
+  },
+  "policy": {
+    "version": "independent-ML-HG-2",
+    "scale": "Sheen, Kang & Rhie (2018), equations 5--6, station corrections zero",
+    "amplitude": "revised Wood-Anderson zero-to-peak mm; geometric mean of N/E peaks",
+    "processing": "demean, linear detrend, one 1-percent taper capped 5 s; regularized response to DISP, waterlevel=None, .1/.2/25/40 Hz prefilter; causal six-pole .5--10 Hz Butterworth; revised WA, no additional taper",
+    "WA": "{'sensitivity': 2080.0, 'zeros': [0j, 0j], 'poles': [(-6.283+4.7124j), (-6.283-4.7124j)], 'gain': 1.0}",
+    "timing": "origin+[hypocentral_km/4, hypocentral_km/2]; attenuation uses epicentral km",
+    "noise": "observed P+[ -6, -1 ] seconds, peak absolute amplitude",
+    "picking": "observed P probability >=.3; no theoretical-P rescued stations",
+    "primary": "median horizontal station ML; both N/E peak SNR>=3; >=3 stations; HH preferred then EL then HG; one observation per site; 10<=R_epi<=100 km",
+    "comparison_quality": "at least 5 horizontal stations, robust station scatter <=.35",
+    "sensitivities": "SNR2, H-preferred/V-fallback, all valid sensors incl HG, BB only, strict metadata, 40--100 km, epicentral timing, trimmed mean",
+    "units": "HH/EL must declare M/S; HG must declare M/S**2; unknown response units quarantined",
+    "response": "dated merged response override, historical master otherwise; coordinate check <=2 km; exclude KS.KWJU.HH and KS.SEJF.EL",
+    "source_selection": "KMA ML>=2 defines parent sample only; ML amplitudes/zero point/station corrections are not fitted to KMA or Mw",
+    "overlap": "full catalog M>=1.5 within 180 s and 50 km; exclude overlapping signal or pre-P noise; no quiet-window search",
+    "published_calibration": "published epicentral attenuation; 100-km aperture is narrower than original 10--600 km calibration; no independently fitted station terms"
+  },
+  "config_sha256": "2b74dbdfc696a957837022e33c232943a2fe0a118964b4f442a2e40d2a9dcfd4",
+  "recipe": {
+    "path": "/home/msseo/works/27.Haenam_sequence_renewal/magnitudes/local_ml/buan_sheen2018_snapshot.py",
+    "sha256": "6b7fa05ecb15762fdd184e5b77d360302ccad7b2dc94d615b396988ad6d72678"
+  },
+  "driver": {
+    "path": "/home/msseo/works/Claude/korean_mw_ml/code/local_magnitude.py",
+    "sha256": "9a9b522967baaf261b032209b06e278ff070ae417cf4e3759bd1c8a09df95928"
+  },
+  "response_sources": {
+    "master_source": "/home/msseo/works/5.P_wave_moment_tensor_inversion/Response/KS_KG_metadata_1.0.2.xml/KS_KG_metadata_1.0.2.xml",
+    "master_source_sha256": "87114e03182b205e89ef46589c7805b51fe23dcc01ac2c14345a0914303a6b2d",
+    "master_creation_date": "2024-06-26",
+    "velocity_subset": "/home/msseo/works/Claude/korean_mw_ml/inputs/master_velocity.xml",
+    "subset_sha256": "c3ce703c97d9d1f086fa4c11aa5acf1ea02476ad46863ef3e5458d8b4277bd9c",
+    "retained_channel_epochs": 1632,
+    "removed_other_channel_epochs": 5526,
+    "merged_override": "/home/msseo/works/27.Haenam_sequence_renewal/docs/decisions/response_inventory_20261014/merged_inventory.xml",
+    "merged_sha256": "c8b62ce103a32832c243c9c284fb0b6a425452e5bbbf9c9f4376359cee8ce051",
+    "policy": "Exact channel and epoch; audited merged response first, dated NECIS current response second, historical master fallback; require station coordinate agreement within 2 km. HG permitted only with acceleration units. One record per site.",
+    "limitations": "An open historical epoch is not independent proof that the instrument stayed unchanged. The national response history has not received the full Haenam station audit.",
+    "necis_current": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+    "necis_current_sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+  },
+  "literature": "https://doi.org/10.1785/0120180112",
+  "numpy": "2.3.5"
+}

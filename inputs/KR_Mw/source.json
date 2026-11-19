@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/dhsheen/KR_Mw",
+  "commit": "61c24f655b83e320675cf64f01bc862792947d55",
+  "files": [
+    {
+      "file": "Events_KP_2017_2022_Mw.csv",
+      "git_blob_sha1": "7c4a836941e1967856104992085f8589fb5f340b",
+      "url": "https://github.com/dhsheen/KR_Mw/blob/61c24f655b83e320675cf64f01bc862792947d55/Events_KP_2017_2022_Mw.csv",
+      "bytes": 52153,
+      "sha256": "7989b2cf8c121b36126298ce03cd0401135be8c54703e5407ee5fe2e2d43fcbd"
+    },
+    {
+      "file": "Details_KP_2017_2022_Mw.csv",
+      "git_blob_sha1": "d82f9ea537fa3a261875682ce8a4646eb4d312ca",
+      "url": "https://github.com/dhsheen/KR_Mw/blob/61c24f655b83e320675cf64f01bc862792947d55/Details_KP_2017_2022_Mw.csv",
+      "bytes": 678657,
+      "sha256": "3e480718f52be1e0a67267bb8c582203a589a83412e0a869efd037c85ffa837e"
+    }
+  ],
+  "comparison_study_sha256": {
+    "tables/Mw_ML_catalog.csv": "821d8e04e579718f3ba973d7e9f2a19376cab0603bb2356aef7744d0da9c6220",
+    "tables/independent_ML_catalog.csv": "a72e8bbd67d7e5e0d10d916f7140154eb8713a29bbe711cdb0e6da6bff71b064",
+    "tables/Mw_independent_ML_catalog.csv": "b992c16b1d35e13c895c7fef6d21a7343db0a279c0fd2dff41d69c542dd962a4",
+    "tables/Mw_independent_ML_primary.csv": "58858ec81fc4d04e929b5f7baaf1b72b3fa76304c56d3a58f32d21b39cb9c920",
+    "code/spectra.py": "007c848e6cdccdb9ba277b15021014e33ab205acb99b489bc33bba4a03c62b2b",
+    "inputs/study_config.json": "b749dbd9ee117a8fc0c6a3ff0ca90b3194d3ff1344bc42e18d7c4330da0bfce0"
+  }
+}

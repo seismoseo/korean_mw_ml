@@ -1,0 +1,68 @@
+{
+  "report_pages": 11,
+  "narrative_scales": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "figures": [
+    {
+      "stem": "17_potency_ML_scaling",
+      "caption": "357 identical paired-A events; 194 event families. Potency comes from existing S-wave spectra and the Haenam Kim & Kim (1983), Vp/Vs=1.73.\nBoth models and magnitude conventions are retained in the tables. Shading resamples whole families; the published Liu curve is not shifted."
+    },
+    {
+      "stem": "18_potency_curvature_validation",
+      "caption": "Red dotted: Liu c=0.040. Positive RMSE gain favors the quadratic; error bars resample paired held-out family losses.\nBinned quadratic gains are relative to binned linear fits. Across the full sample, the ordinary family-weighted line predicts at least as well.\nHong panel: final group independently restricts the full catalog ML range; it is not the next nested selection."
+    },
+    {
+      "stem": "19_potency_velocity_and_ML_definition",
+      "caption": "Left: \u0394MP=\u0394Mw/3 follows algebraically from P0=M0/(\u03c1Vs\u00b2) and M0\u221d\u03c1Vs\u00b3 in this analytical S-wave method.\nIt is not an independent validation of full-waveform Mpv. Right: attenuation/distance definitions differ even at identical amplitude.\nThe Korean relation uses epicentral distance; Liu supplement S1 uses Hutton\u2013Boore with hypocentral distance."
+    },
+    {
+      "stem": "20_Mw_ML_scaling",
+      "caption": "357 identical paired-A events; 194 families. Mw uses C=9.05 and the Haenam Kim & Kim (1983) source model.\nThe fit weights, bootstrap blocks, bins and prediction tests match the potency analysis. Shading resamples whole families.\nThese are selected-sample relations; the published Liu potency curve is not a moment-magnitude calibration."
+    },
+    {
+      "stem": "21_large_event_fit_comparison",
+      "caption": "Six events with measured ML > 4, in five independent families. Dates are UTC. Events 2 and 3 are in the Gyeongju family.\nThe quadratic improves large-event prediction, while changes below ML 4 are small. The five-family gain interval includes zero.\nThe highest event is outside the training magnitude range when its entire family is held out. KMA ML > 4 gives only three events."
+    },
+    {
+      "stem": "22_magnitude_depth_residuals",
+      "caption": "357 paired-A events. Right: remove the ML polynomial estimated jointly with depth; the remaining slope is conditional on ML.\nShading: 95% whole-family coefficient intervals. Diamonds: 5-km-bin medians. Dotted: Kim & Kim boundary at 15 km.\nThe decline is concentrated at 5\u201315 km; a slope within the 15\u201324 km subset is unresolved. Depth is not established as the cause."
+    }
+  ],
+  "followup": {
+    "narrative_scales": [
+      1.0,
+      1.0
+    ],
+    "figures": [
+      {
+        "stem": "20_Mw_ML_scaling",
+        "caption": "357 identical paired-A events; 194 families. Mw uses C=9.05 and the Haenam Kim & Kim (1983) source model.\nThe fit weights, bootstrap blocks, bins and prediction tests match the potency analysis. Shading resamples whole families.\nThese are selected-sample relations; the published Liu potency curve is not a moment-magnitude calibration."
+      },
+      {
+        "stem": "21_large_event_fit_comparison",
+        "caption": "Six events with measured ML > 4, in five independent families. Dates are UTC. Events 2 and 3 are in the Gyeongju family.\nThe quadratic improves large-event prediction, while changes below ML 4 are small. The five-family gain interval includes zero.\nThe highest event is outside the training magnitude range when its entire family is held out. KMA ML > 4 gives only three events."
+      },
+      {
+        "stem": "22_magnitude_depth_residuals",
+        "caption": "357 paired-A events. Right: remove the ML polynomial estimated jointly with depth; the remaining slope is conditional on ML.\nShading: 95% whole-family coefficient intervals. Diamonds: 5-km-bin medians. Dotted: Kim & Kim boundary at 15 km.\nThe decline is concentrated at 5\u201315 km; a slope within the 15\u201324 km subset is unresolved. Depth is not established as the cause."
+      }
+    ],
+    "followup_first_page": 7,
+    "followup_pages": 5,
+    "n_regressions": 128,
+    "n_depth_regressions": 84
+  },
+  "adopted_outputs_changed": false,
+  "headline_curvature": 0.0330497665632836,
+  "headline_curvature_CI": [
+    -0.0153553331688446,
+    0.0699304166219399
+  ],
+  "linear_family_CV_RMS": 0.0764453706580868,
+  "quadratic_family_CV_RMS": 0.0764110229351299
+}

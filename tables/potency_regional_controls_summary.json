@@ -1,0 +1,62 @@
+{
+  "scope": "Change attenuation/distance formula on exactly the same accepted Korean horizontal WA amplitudes and station sets; not a full reproduction of Liu ML.",
+  "gain_scope": "The 2800/2080 gain control is illustrative. Liu supplement S4 explicitly uses 2800 in the synthetic example; S1 does not fully specify the observational WA gain or component aggregation.",
+  "n_stations": 19814,
+  "n_paired_A": 357,
+  "Hong_full": 490,
+  "Hong_same_ML_range": 483,
+  "Hong_matched_paired_ML_range": [
+    2.0,
+    3.9
+  ],
+  "original_station_ML_reproduction_error": 4.440892098500626e-15,
+  "gain_shift_ML": 0.1290946963794577,
+  "definitions": [
+    {
+      "ML_definition": "ML_Sheen",
+      "n": 357,
+      "median_ML_minus_ours": 0.0,
+      "median_Mp_minus_Liu_curve": -0.2397773075598706,
+      "RMS_to_Liu_curve": 0.24693195115991864
+    },
+    {
+      "ML_definition": "ML_KMA",
+      "n": 357,
+      "median_ML_minus_ours": -0.18584913829659033,
+      "median_Mp_minus_Liu_curve": -0.09582483171976719,
+      "RMS_to_Liu_curve": 0.1514717181283958
+    },
+    {
+      "ML_definition": "ML_HB87_same_WA2080",
+      "n": 357,
+      "median_ML_minus_ours": -0.11015639107666697,
+      "median_Mp_minus_Liu_curve": -0.15501978367848812,
+      "RMS_to_Liu_curve": 0.16495091740736806
+    },
+    {
+      "ML_definition": "ML_HB87_WA2800_gain_control",
+      "n": 357,
+      "median_ML_minus_ours": 0.018938305302790504,
+      "median_Mp_minus_Liu_curve": -0.25266966237534927,
+      "RMS_to_Liu_curve": 0.2572916524697105
+    }
+  ],
+  "heldout_gains": [
+    {
+      "x": "ML_HB87_same_WA2080",
+      "linear_RMS_families": 0.08143624308808275,
+      "quadratic_RMS_families": 0.08056589828941277,
+      "gain": 0.0008703447986699864,
+      "gain_lo": -0.0014433481859521878,
+      "gain_hi": 0.003400756022631255
+    },
+    {
+      "x": "ML_HB87_WA2800_gain_control",
+      "linear_RMS_families": 0.08143624308808271,
+      "quadratic_RMS_families": 0.0805658982894128,
+      "gain": 0.000870344798669917,
+      "gain_lo": -0.0014433481859522056,
+      "gain_hi": 0.0034007560226312124
+    }
+  ]
+}

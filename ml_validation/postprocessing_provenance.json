@@ -1,0 +1,12 @@
+{
+  "n_events": 643,
+  "signature": "2b74dbdfc696a957837022e33c232943a2fe0a118964b4f442a2e40d2a9dcfd4",
+  "P_timing": "Applied before amplitude measurement",
+  "primary_sensors": [
+    "HH",
+    "EL",
+    "HG"
+  ],
+  "one_observation_per_site": true,
+  "bootstrap": "2000 station resamples; conditional on accepted stations, response, scale and windows"
+}

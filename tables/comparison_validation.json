@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "repository_blob_hashes": "verified",
+  "exact_matching": "294 unique IDs, origins and KMA ML verified",
+  "report_pages": 6,
+  "primary_catalog_modified_by_comparison": false,
+  "source_velocity_updated": true,
+  "source_velocity_config_sha256": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+  "max_waveform_reproduction_error": 0.0,
+  "repeated_waveforms": 29,
+  "universal_scale_correction_applied": false,
+  "unchanged_input_sha256": {
+    "inputs/KR_Mw/Details_KP_2017_2022_Mw.csv": "3e480718f52be1e0a67267bb8c582203a589a83412e0a869efd037c85ffa837e",
+    "inputs/KR_Mw/Events_KP_2017_2022_Mw.csv": "7989b2cf8c121b36126298ce03cd0401135be8c54703e5407ee5fe2e2d43fcbd",
+    "inputs/KR_Mw/source.json": "503838a8b8101a4f54e1c1033e4d419ac6109187d1cb92c392bdc209d5857d31",
+    "tables/independent_ML_catalog.csv": "a72e8bbd67d7e5e0d10d916f7140154eb8713a29bbe711cdb0e6da6bff71b064"
+  }
+}

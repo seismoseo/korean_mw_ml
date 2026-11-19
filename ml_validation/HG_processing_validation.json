@@ -1,0 +1,53 @@
+{
+  "physical_recovery": [
+    {
+      "sensor": "HH",
+      "relative_displacement_error": 6.964736933990898e-07,
+      "WA_peak_recovery": 1.000000000002993
+    },
+    {
+      "sensor": "HG",
+      "relative_displacement_error": 6.964736970651529e-07,
+      "WA_peak_recovery": 1.000000000002994
+    }
+  ],
+  "co_located_low_band": [
+    {
+      "station": "SAJB",
+      "band_low_Hz": 0.7,
+      "band_high_Hz": 1.2,
+      "HG_HH_FAS": 1.0161224935676083,
+      "n_bins": 29
+    },
+    {
+      "station": "OKCB",
+      "band_low_Hz": 0.7,
+      "band_high_Hz": 1.2,
+      "HG_HH_FAS": 1.0025821526428995,
+      "n_bins": 29
+    },
+    {
+      "station": "CHJ3",
+      "band_low_Hz": 0.7,
+      "band_high_Hz": 1.2,
+      "HG_HH_FAS": 1.0225747727730874,
+      "n_bins": 29
+    },
+    {
+      "station": "KESB",
+      "band_low_Hz": 0.7,
+      "band_high_Hz": 1.2,
+      "HG_HH_FAS": 1.0798823551069594,
+      "n_bins": 26
+    },
+    {
+      "station": "JECB",
+      "band_low_Hz": 0.7,
+      "band_high_Hz": 1.2,
+      "HG_HH_FAS": 1.0091269435533279,
+      "n_bins": 29
+    }
+  ],
+  "passed": true,
+  "limitations": "Recovery checks response operators and units, not source, path or radiation calibration. Co-located discrepancies remain diagnostic; BURB is excluded from Sangju magnitudes."
+}

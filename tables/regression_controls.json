@@ -1,0 +1,32 @@
+{
+  "n_events": 439,
+  "n_blocks": 227,
+  "family_balanced_prediction_RMSE": 0.11648079523572373,
+  "Deming_sensitivity": [
+    {
+      "error_variance_ratio_Mw_to_ML": 0.25,
+      "intercept": 0.7640860549248707,
+      "slope": 0.7780713555783286,
+      "slope_lo": 0.7308786136962709,
+      "slope_hi": 0.8380510856614423,
+      "note": "Assumed error ratio, family-balanced Deming sensitivity; not an estimated true measurement-error ratio"
+    },
+    {
+      "error_variance_ratio_Mw_to_ML": 1.0,
+      "intercept": 0.8654575124649035,
+      "slope": 0.7364611748956961,
+      "slope_lo": 0.696259677244533,
+      "slope_hi": 0.7860518212720587,
+      "note": "Assumed error ratio, family-balanced Deming sensitivity; not an estimated true measurement-error ratio"
+    },
+    {
+      "error_variance_ratio_Mw_to_ML": 4.0,
+      "intercept": 0.9326921930705954,
+      "slope": 0.7088631973581125,
+      "slope_lo": 0.67121348775214,
+      "slope_hi": 0.7517772121749308,
+      "note": "Assumed error ratio, family-balanced Deming sensitivity; not an estimated true measurement-error ratio"
+    }
+  ],
+  "interpretation": "The relation is conditional on depth/magnitude quality selection and physical amplitude assumptions; no magnitude offset is calibrated to ML."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "stem": "01_Sangju_paired_spectra",
+    "caption": "10.1 s S windows and equal pre-P noise; three-component power sums; same UTC sample grid and dated instrument responses.\nResponse removed to acceleration before conversion to displacement-equivalent ASD. No amplitude matching or source/path correction."
+  },
+  {
+    "stem": "02_Haenam_paired_spectra",
+    "caption": "Same stations, response epochs, processing and 10.1 s windows. Dashed lines show measured pre-P noise.\nWeak-event usability changes with frequency and station; a large peak or a high coherence alone does not establish a resolved source plateau."
+  },
+  {
+    "stem": "03_Sangju_low_frequency",
+    "caption": "80 s full-wave windows and equal pre-P noise; NW=2, K=3. Shading marks 0.05\u20130.2 Hz.\nThe lowest frequency has four cycles per window. These spectra assess relative sensor performance; they are not new moment-tensor inversions."
+  },
+  {
+    "stem": "04_amplitude_and_coherence",
+    "caption": "Ratios use noise-subtracted three-component power where both amplitude SNRs \u22653; missing curves indicate insufficient shared SNR.\nCoherence is a power-weighted mean of matching component coherences. Shading marks 0.7\u20131.2 Hz; no fitted gain or polarity changes are applied."
+  },
+  {
+    "stem": "05_waterlevel_control",
+    "caption": "The control uses 100 sps and a known displacement amplitude. The right panel is computed directly from each full instrument response.\nA 60 dB floor is relative to the largest displacement-response gain. Its frequency dependence differs for velocity and acceleration sensors.\nThis demonstrates a processing effect; it does not by itself quantify the bias of any previously fitted earthquake magnitude."
+  },
+  {
+    "stem": "06_paired_waveforms",
+    "caption": "0.7\u20133 Hz zero-phase filter after response correction; same UTC grid and physical amplitude units, with no fitted rescaling.\nCHJ3 closely agrees. BURB has an amplitude discrepancy; HANB\u2019s horizontal phase differences warrant an orientation check."
+  }
+]

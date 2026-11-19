@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "source_velocity_config_sha256": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+  "primary_model": "Kim1983",
+  "comparison_model": "Kim2011",
+  "density_kg_m3": 2800.0,
+  "magnitude_constant": 9.05,
+  "immutable_input_files_verified": 1939,
+  "n_finite_fit_rows": 16980,
+  "max_relative_moment_error": {
+    "Kim1983": 2.5268676040468563e-13,
+    "Kim2011": 2.581268532253489e-13
+  },
+  "selection_and_ML_unchanged": true,
+  "Haenam_Mw": 3.1694743088321964,
+  "Haenam_Mw_Kim2011": 3.1723286057814533,
+  "Sangju_Mw": 3.41747647093014,
+  "Sangju_Mw_Kim2011": 3.396532321279981,
+  "pdf_pages": {
+    "Estimator_and_KR_Mw_comparison.pdf": 6,
+    "Hong_KR_Mw_regression_and_stability.pdf": 9,
+    "Independent_ML_and_Mw_comparison.pdf": 10,
+    "Korean_Mw_ML_study.pdf": 21,
+    "Potency_magnitude_and_quadratic_scaling.pdf": 11,
+    "Spectral_fit_atlas.pdf": 161,
+    "Velocity_models_and_magnitudes.pdf": 3
+  },
+  "n_pdf_text_spans_checked": 14683,
+  "external_Haenam_modified": false,
+  "scope": "Source coefficient rho*Vs(z)^3 only. Geometry, event depths, observed travel times, Q, station selections, and measured spectra remain fixed; not a new layered Green-function or relocation analysis."
+}

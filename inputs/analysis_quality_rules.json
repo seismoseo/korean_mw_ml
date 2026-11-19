@@ -1,0 +1,16 @@
+{
+  "purpose": "Fixed rules for the first national comparison; no Mw-ML agreement criterion",
+  "known_response_exclusions": [
+    {"station": "KS.KWJU", "sensor": "HH", "reason": "Existing Haenam response audit and user decision P4: no documented response fits the data"},
+    {"station": "KS.SEJF", "sensor": "EL", "reason": "Existing Haenam response audit and user decision P5: excluded from magnitudes"}
+  ],
+  "exclusion_source": "/home/msseo/works/27.Haenam_sequence_renewal/docs/decisions/response_inventory_20261014/README.md",
+  "quality_A": {"minimum_stations": 8, "minimum_common_window_stations": 8, "maximum_estimator_difference_Mw": 0.10, "maximum_source_shape_difference_Mw": 0.10, "maximum_common_station_window_difference_Mw": 0.10, "maximum_fit_RMS_log10": 0.15, "observed_plateau_required": true},
+  "quality_B": {"minimum_stations": 5, "minimum_common_window_stations": 5, "maximum_estimator_difference_Mw": 0.15, "maximum_source_shape_difference_Mw": 0.15, "maximum_common_station_window_difference_Mw": 0.15, "maximum_fit_RMS_log10": 0.20, "observed_plateau_required": true},
+  "primary_regression": "A-quality Mw and existing G2/G3 depths; South Korean land and surrounding seas; event-family balanced",
+  "window_check": "Compare 10.1 and 20.1 s using their common, uncontaminated station set",
+  "station_count_definition": "A useful station contributes at least 20 SNR-passing frequency samples; minimum-station and common-window counts use useful stations, not merely files",
+  "bootstrap": "Station resampling conditional on fitted source shape for event scatter; NND-family block resampling for regression sampling intervals",
+  "uncertainty_limit": "These intervals exclude absolute response, velocity, attenuation, radiation and site-model errors",
+  "sensitivity_sets": ["All-event OLS", "G3 depth only", "A or B Mw", "Land only", "HH only", "No master-response extrapolation beyond issue date", "Without Gyeongju family", "Without Pohang family", "Without both large families", "Source Vs from Kim1983 and Kim2011 velocities"]
+}

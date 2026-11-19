@@ -1,0 +1,12 @@
+{
+  "reference": "https://files.scec.org/s3fs-public/reports/2024/24169_report.pdf?h64GRlv2wy8iT.1M_nQV_Hvym9y9hCnX=",
+  "description": "Primary author project report documenting Trugman and Ben-Zion (2024), accessed through web tool.",
+  "pages_4_5": "Assumed nominal 36 GPa; MP equivalent to Mw at that reference rigidity by design. Their 2024 quadratic fits use ODR on bin medians, unlike the supplied Liu2026 binned ordinary least-squares procedure.",
+  "ML_status": "Instrumental ML is related empirically; MP is not defined to equal ML for all sizes, depths or regions.",
+  "Trugman2026": "Supplied PDF p.5 equation 5 chooses 28 GPa as representative of its models and allows a common Mw-like scale; it is not fitted to Korean ML.",
+  "C9p05": "Our adopted Mw retains C=9.05. Liu MP is approximately the 36-GPa-reference Mw at C=9.10, including the corresponding -0.033333 magnitude offset.",
+  "approximate_Liu_formula": {
+    "ML_2": 2.4050000000000002,
+    "ML_3p5": 3.569
+  }
+}

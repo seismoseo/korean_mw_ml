@@ -1,0 +1,193 @@
+x,y,method,weighting,n_bins,minimum,subset,n_events,n_families,linear_case_id,quadratic_case_id,gain_family_RMSE,gain_lo,gain_hi,gain_interval_method
+ML_Sheen,Mp_Liu_Kim1983,OLS,event,50,1,All,357,194,magnitude_000,magnitude_001,0.0007659920754230359,-0.0007602748527545236,0.00230101546321509,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,OLS,event,50,1,ML <= 4,351,191,magnitude_000,magnitude_001,0.0005214279810163147,-0.0007089836595920794,0.001876698796439091,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,OLS,event,50,1,ML > 4,6,5,magnitude_000,magnitude_001,0.033939152336356,-0.006384741818049711,0.07205142588497394,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim1983,OLS,family,50,1,All,357,194,magnitude_002,magnitude_003,3.434772295690669e-05,-0.0015026377831617774,0.0015141048031337818,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,OLS,family,50,1,ML <= 4,351,191,magnitude_002,magnitude_003,-0.0002383689633963515,-0.0012651219615552225,0.0008383039831729391,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,OLS,family,50,1,ML > 4,6,5,magnitude_002,magnitude_003,0.035991602446809295,-0.012615310723940065,0.08199688336437022,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim1983,ODR,event,50,1,All,357,194,magnitude_004,magnitude_005,0.000773956257845751,-0.00021892743790704155,0.0017695511589088545,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,ODR,event,50,1,ML <= 4,351,191,magnitude_004,magnitude_005,0.0007055172153833389,-0.00012628847728841445,0.0016114405078091424,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,ODR,event,50,1,ML > 4,6,5,magnitude_004,magnitude_005,0.017104806381111254,-0.006199216843167682,0.038540088180978066,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim1983,ODR,family,50,1,All,357,194,magnitude_006,magnitude_007,-0.00010243212339472452,-0.0010594102252669394,0.0007712966176125503,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,ODR,family,50,1,ML <= 4,351,191,magnitude_006,magnitude_007,-2.708110760502036e-07,-0.0006759395058319872,0.0006953715622058403,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,ODR,family,50,1,ML > 4,6,5,magnitude_006,magnitude_007,0.0130921790559127,-0.016315638066165136,0.0433427714341771,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim1983,BinnedOLS,event,10,1,All,357,194,magnitude_008,magnitude_009,0.009627090014865905,0.005534038268415534,0.013870434509496134,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,BinnedOLS,event,10,1,ML <= 4,351,191,magnitude_008,magnitude_009,0.00982351315965388,0.005840010717809829,0.01427824876629455,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,BinnedOLS,event,10,1,ML > 4,6,5,magnitude_008,magnitude_009,-0.010238189891671676,-0.03318505696028383,0.018369102307923657,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim1983,BinnedOLS,event,20,1,All,357,194,magnitude_010,magnitude_011,0.006178844660129371,0.0030581825968598953,0.009435664812655441,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,BinnedOLS,event,20,1,ML <= 4,351,191,magnitude_010,magnitude_011,0.0062527060240747945,0.0032472494159528657,0.009568435976338047,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,BinnedOLS,event,20,1,ML > 4,6,5,magnitude_010,magnitude_011,0.000954860908075561,-0.014715078178942298,0.01587926130623238,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim1983,BinnedOLS,event,50,1,All,357,194,magnitude_012,magnitude_013,0.003085627782301273,2.2071472488016342e-05,0.006299795520102631,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,BinnedOLS,event,50,1,ML <= 4,351,191,magnitude_012,magnitude_013,0.003051841837767341,6.279559327244771e-05,0.006265915001878088,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,BinnedOLS,event,50,1,ML > 4,6,5,magnitude_012,magnitude_013,0.014775741122595179,-0.000639766332570596,0.031903327636600184,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim1983,BinnedOLS,event,50,3,All,357,194,magnitude_014,magnitude_015,9.320861713661699e-05,-0.0006284332542193152,0.0009100737801084991,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,BinnedOLS,event,50,3,ML <= 4,351,191,magnitude_014,magnitude_015,-0.00033242322218193787,-0.0006618197318771345,-1.4601234876321012e-05,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim1983,BinnedOLS,event,50,3,ML > 4,6,5,magnitude_014,magnitude_015,0.0157518507857497,-9.682577100712659e-05,0.02697505659373922,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim2011,OLS,event,50,1,All,357,194,magnitude_016,magnitude_017,0.0007543502372637512,-0.0007288846861497608,0.0022449242151774493,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,OLS,event,50,1,ML <= 4,351,191,magnitude_016,magnitude_017,0.00045929786477960644,-0.0007423436189675552,0.0018025214848309077,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,OLS,event,50,1,ML > 4,6,5,magnitude_016,magnitude_017,0.03144778434150047,-0.004190904412608679,0.06281604681632375,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim2011,OLS,family,50,1,All,357,194,magnitude_018,magnitude_019,6.320543074112006e-05,-0.0015146666552347623,0.001579947323564171,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,OLS,family,50,1,ML <= 4,351,191,magnitude_018,magnitude_019,-0.00027050280793489145,-0.0013636816686160755,0.0008518967521228398,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,OLS,family,50,1,ML > 4,6,5,magnitude_018,magnitude_019,0.03424071863219677,-0.010480816646000549,0.07397795102011256,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim2011,ODR,event,50,1,All,357,194,magnitude_020,magnitude_021,0.0007657529961937748,-0.00022287631542632983,0.0017570266739435879,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,ODR,event,50,1,ML <= 4,351,191,magnitude_020,magnitude_021,0.0006632311758750092,-0.00015481232636344668,0.0015715306573310791,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,ODR,event,50,1,ML > 4,6,5,magnitude_020,magnitude_021,0.016938073772641726,-0.00506754279831699,0.03724962719454036,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim2011,ODR,family,50,1,All,357,194,magnitude_022,magnitude_023,-5.933321562974492e-05,-0.0010809152234350083,0.0009112284676973036,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,ODR,family,50,1,ML <= 4,351,191,magnitude_022,magnitude_023,-2.688571809461582e-06,-0.0007467450476614089,0.0007509090136741349,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,ODR,family,50,1,ML > 4,6,5,magnitude_022,magnitude_023,0.013227334917804076,-0.01536245828820787,0.040869794469260076,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim2011,BinnedOLS,event,10,1,All,357,194,magnitude_024,magnitude_025,0.008423840899432378,0.004412101829831739,0.012604532902076965,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,BinnedOLS,event,10,1,ML <= 4,351,191,magnitude_024,magnitude_025,0.008689767615154997,0.004696411967459219,0.013035706600033588,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,BinnedOLS,event,10,1,ML > 4,6,5,magnitude_024,magnitude_025,-0.02096254393772208,-0.05057491111713597,0.015357960821733685,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim2011,BinnedOLS,event,20,1,All,357,194,magnitude_026,magnitude_027,0.005677371378080068,0.002728198009115442,0.008799954903422351,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,BinnedOLS,event,20,1,ML <= 4,351,191,magnitude_026,magnitude_027,0.005800384125930258,0.0028829592841820486,0.008970831486251128,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,BinnedOLS,event,20,1,ML > 4,6,5,magnitude_026,magnitude_027,-0.01108722007447202,-0.03461495530753125,0.013255994368433305,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim2011,BinnedOLS,event,50,1,All,357,194,magnitude_028,magnitude_029,0.00281659746646222,-9.424064492836302e-06,0.0058124838852568455,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,BinnedOLS,event,50,1,ML <= 4,351,191,magnitude_028,magnitude_029,0.002795641473293295,4.484962385699696e-06,0.005804347646762823,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,BinnedOLS,event,50,1,ML > 4,6,5,magnitude_028,magnitude_029,0.009112694494248869,-0.0014626973041841212,0.017049099132651388,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mp_Liu_Kim2011,BinnedOLS,event,50,3,All,357,194,magnitude_030,magnitude_031,-0.0010357194338525,-0.002233115995054492,-3.280898532371019e-05,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,BinnedOLS,event,50,3,ML <= 4,351,191,magnitude_030,magnitude_031,-0.0002147490732366114,-0.0006207190120535423,0.00017689184345162453,2500 paired held-out-family resamples
+ML_Sheen,Mp_Liu_Kim2011,BinnedOLS,event,50,3,ML > 4,6,5,magnitude_030,magnitude_031,-0.03483301458386964,-0.047926908895987996,-0.013487014499938374,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw,OLS,event,50,1,All,357,194,magnitude_032,magnitude_033,0.0007536243693240519,-0.0008156321213594536,0.0022550025823087545,2500 paired held-out-family resamples
+ML_Sheen,Mw,OLS,event,50,1,ML <= 4,351,191,magnitude_032,magnitude_033,0.0005984096582845183,-0.0006601439660538086,0.001940980645126021,2500 paired held-out-family resamples
+ML_Sheen,Mw,OLS,event,50,1,ML > 4,6,5,magnitude_032,magnitude_033,0.03588602561833343,-0.00982481222947211,0.07818480535498795,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw,OLS,family,50,1,All,357,194,magnitude_034,magnitude_035,-4.67116095364678e-05,-0.0014703013796363868,0.0012794558138466735,2500 paired held-out-family resamples
+ML_Sheen,Mw,OLS,family,50,1,ML <= 4,351,191,magnitude_034,magnitude_035,-0.00020551399699200723,-0.001099634172733233,0.000727514411777353,2500 paired held-out-family resamples
+ML_Sheen,Mw,OLS,family,50,1,ML > 4,6,5,magnitude_034,magnitude_035,0.03674847850900069,-0.015468756248202778,0.08701243891582452,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw,ODR,event,50,1,All,357,194,magnitude_036,magnitude_037,0.0007766090414050991,-0.0002289790851433219,0.0017367415141070531,2500 paired held-out-family resamples
+ML_Sheen,Mw,ODR,event,50,1,ML <= 4,351,191,magnitude_036,magnitude_037,0.000763243498379626,-8.107439854407386e-05,0.0016693619062686253,2500 paired held-out-family resamples
+ML_Sheen,Mw,ODR,event,50,1,ML > 4,6,5,magnitude_036,magnitude_037,0.015307985114883113,-0.007827369371680645,0.035486685881832014,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw,ODR,family,50,1,All,357,194,magnitude_038,magnitude_039,-0.00018580058462132343,-0.0010092050211886953,0.0005291374599810412,2500 paired held-out-family resamples
+ML_Sheen,Mw,ODR,family,50,1,ML <= 4,351,191,magnitude_038,magnitude_039,-1.7047701741740307e-05,-0.0005525843112260561,0.0005304494758405797,2500 paired held-out-family resamples
+ML_Sheen,Mw,ODR,family,50,1,ML > 4,6,5,magnitude_038,magnitude_039,0.012150926120578054,-0.017024480567701908,0.043189247391853036,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw,BinnedOLS,event,10,1,All,357,194,magnitude_040,magnitude_041,0.011013801587301517,0.006669252789727437,0.015413284017330605,2500 paired held-out-family resamples
+ML_Sheen,Mw,BinnedOLS,event,10,1,ML <= 4,351,191,magnitude_040,magnitude_041,0.011065406575793024,0.00688129081763715,0.01561642235946226,2500 paired held-out-family resamples
+ML_Sheen,Mw,BinnedOLS,event,10,1,ML > 4,6,5,magnitude_040,magnitude_041,0.01105187825636228,-0.022810013163518647,0.03460904095289072,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw,BinnedOLS,event,20,1,All,357,194,magnitude_042,magnitude_043,0.007345565774314888,0.003977517378369666,0.010863571529633293,2500 paired held-out-family resamples
+ML_Sheen,Mw,BinnedOLS,event,20,1,ML <= 4,351,191,magnitude_042,magnitude_043,0.007338987899750876,0.004135704520615363,0.010794300004854334,2500 paired held-out-family resamples
+ML_Sheen,Mw,BinnedOLS,event,20,1,ML > 4,6,5,magnitude_042,magnitude_043,0.02037876080173838,-0.009160387915404869,0.049190241094173345,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw,BinnedOLS,event,50,1,All,357,194,magnitude_044,magnitude_045,0.0034253292538067165,6.196817278279027e-05,0.006814259349996939,2500 paired held-out-family resamples
+ML_Sheen,Mw,BinnedOLS,event,50,1,ML <= 4,351,191,magnitude_044,magnitude_045,0.003361759743607806,0.00021790841617093073,0.0068012337251157715,2500 paired held-out-family resamples
+ML_Sheen,Mw,BinnedOLS,event,50,1,ML > 4,6,5,magnitude_044,magnitude_045,0.02835352296929486,0.0005878157946795637,0.06639624664642414,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw,BinnedOLS,event,50,3,All,357,194,magnitude_046,magnitude_047,-0.00015599090052012543,-0.0025220258094029863,0.002252542699197102,2500 paired held-out-family resamples
+ML_Sheen,Mw,BinnedOLS,event,50,3,ML <= 4,351,191,magnitude_046,magnitude_047,-0.0008557459910770587,-0.001923201601522655,0.00021828576363565203,2500 paired held-out-family resamples
+ML_Sheen,Mw,BinnedOLS,event,50,3,ML > 4,6,5,magnitude_046,magnitude_047,0.05342499497150534,-0.018186689924196933,0.10079048533774299,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw_source_Vs_Kim2011,OLS,event,50,1,All,357,194,magnitude_048,magnitude_049,0.0007398584131715902,-0.0007023941524352199,0.002205084155791861,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,OLS,event,50,1,ML <= 4,351,191,magnitude_048,magnitude_049,0.0004188735010246941,-0.000738302025541714,0.0016695868569352999,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,OLS,event,50,1,ML > 4,6,5,magnitude_048,magnitude_049,0.03167667351732692,-0.0035326332731213383,0.06319301274940221,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw_source_Vs_Kim2011,OLS,family,50,1,All,357,194,magnitude_050,magnitude_051,4.150461693469554e-05,-0.0015054888246932951,0.0015219783865527046,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,OLS,family,50,1,ML <= 4,351,191,magnitude_050,magnitude_051,-0.00030072337167640073,-0.0013506917158607162,0.0007679735876635013,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,OLS,family,50,1,ML > 4,6,5,magnitude_050,magnitude_051,0.032948845835922475,-0.009584590157101364,0.07207335137831332,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw_source_Vs_Kim2011,ODR,event,50,1,All,357,194,magnitude_052,magnitude_053,0.0007787491348733161,-0.0002344384761793973,0.001789344100808714,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,ODR,event,50,1,ML <= 4,351,191,magnitude_052,magnitude_053,0.0006469498028438547,-0.00018811944841267517,0.0015489045175933406,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,ODR,event,50,1,ML > 4,6,5,magnitude_052,magnitude_053,0.01847702307863311,-0.004648862348060542,0.04011192021551992,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw_source_Vs_Kim2011,ODR,family,50,1,All,357,194,magnitude_054,magnitude_055,-4.532658914060961e-05,-0.0011233773403510768,0.0009538572097767449,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,ODR,family,50,1,ML <= 4,351,191,magnitude_054,magnitude_055,-2.515031105732035e-05,-0.0008034342607529568,0.0007617780392719391,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,ODR,family,50,1,ML > 4,6,5,magnitude_054,magnitude_055,0.014999740935313019,-0.014412904572376845,0.043412006935030875,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw_source_Vs_Kim2011,BinnedOLS,event,10,1,All,357,194,magnitude_056,magnitude_057,0.008262560281737275,0.004050820732437458,0.012702293182297441,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,BinnedOLS,event,10,1,ML <= 4,351,191,magnitude_056,magnitude_057,0.008583885414041564,0.004334909762763167,0.012974519467146553,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,BinnedOLS,event,10,1,ML > 4,6,5,magnitude_056,magnitude_057,-0.023585290024889377,-0.054936347786917056,0.01544673390222312,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw_source_Vs_Kim2011,BinnedOLS,event,20,1,All,357,194,magnitude_058,magnitude_059,0.005690268116058106,0.0029102778034433385,0.008675659393943642,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,BinnedOLS,event,20,1,ML <= 4,351,191,magnitude_058,magnitude_059,0.005830585808914629,0.0029741565589611915,0.008822435966954395,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,BinnedOLS,event,20,1,ML > 4,6,5,magnitude_058,magnitude_059,-0.011857276722248483,-0.03638770086452392,0.012902711617556406,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw_source_Vs_Kim2011,BinnedOLS,event,50,1,All,357,194,magnitude_060,magnitude_061,0.002822148561268875,4.695025676180468e-05,0.005722438915798076,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,BinnedOLS,event,50,1,ML <= 4,351,191,magnitude_060,magnitude_061,0.002802526503887945,1.780465220739097e-05,0.00574449652280158,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,BinnedOLS,event,50,1,ML > 4,6,5,magnitude_060,magnitude_061,0.010636673470545768,-0.0016677434346745734,0.020890611572600803,"Exhaustive paired empirical bootstrap, 5 families"
+ML_Sheen,Mw_source_Vs_Kim2011,BinnedOLS,event,50,3,All,357,194,magnitude_062,magnitude_063,-0.0009605889128186246,-0.00204638280293788,-3.384848787317152e-05,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,BinnedOLS,event,50,3,ML <= 4,351,191,magnitude_062,magnitude_063,-0.0002181373944195042,-0.0005695678692764754,0.0001188963471735534,2500 paired held-out-family resamples
+ML_Sheen,Mw_source_Vs_Kim2011,BinnedOLS,event,50,3,ML > 4,6,5,magnitude_062,magnitude_063,-0.010637971405916657,-0.03374590163220806,0.02601383335994739,"Exhaustive paired empirical bootstrap, 5 families"
+ML_KMA,Mp_Liu_Kim1983,OLS,event,50,1,All,357,194,magnitude_064,magnitude_065,-0.000355689974825657,-0.002347013265235894,0.0010771486160438047,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,OLS,event,50,1,ML <= 4,354,194,magnitude_064,magnitude_065,0.0006605610937564788,-0.0001844188076983274,0.0015034702884607909,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,OLS,event,50,1,ML > 4,3,2,magnitude_064,magnitude_065,-0.08681084632038899,-0.1288701660622669,-0.04535206325215259,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim1983,OLS,family,50,1,All,357,194,magnitude_066,magnitude_067,-0.0008094507622008196,-0.0021231292362517773,7.537527999883363e-08,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,OLS,family,50,1,ML <= 4,354,194,magnitude_066,magnitude_067,-0.00020306629674930743,-0.0005386931252129287,0.00011753047569426155,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,OLS,family,50,1,ML > 4,3,2,magnitude_066,magnitude_067,-0.02830859765588617,-0.1290921133376981,0.031129081159340058,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim1983,ODR,event,50,1,All,357,194,magnitude_068,magnitude_069,-0.0009326532276901778,-0.0014511206638489471,-0.0004475251221603811,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,ODR,event,50,1,ML <= 4,354,194,magnitude_068,magnitude_069,-0.0009143179042521155,-0.0014062046744558947,-0.000445577830297129,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,ODR,event,50,1,ML > 4,3,2,magnitude_068,magnitude_069,-0.0952286351341326,-0.19721083044593948,-0.002378663498095143,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim1983,ODR,family,50,1,All,357,194,magnitude_070,magnitude_071,-0.0011193768216298527,-0.002488380117169514,0.00016105088682486434,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,ODR,family,50,1,ML <= 4,354,194,magnitude_070,magnitude_071,-0.0014079778795798303,-0.0026474185774474483,-0.00023502650145741714,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,ODR,family,50,1,ML > 4,3,2,magnitude_070,magnitude_071,-0.051298109968928224,-0.12431162701966977,0.07137063913729896,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim1983,BinnedOLS,event,10,1,All,357,194,magnitude_072,magnitude_073,0.005021171167048186,0.0029392198625563613,0.007207472093733637,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,BinnedOLS,event,10,1,ML <= 4,354,194,magnitude_072,magnitude_073,0.005656491946380848,0.003417470076775261,0.007900480200055984,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,BinnedOLS,event,10,1,ML > 4,3,2,magnitude_072,magnitude_073,-0.05353792824942788,-0.06509862383111972,-0.04125743907152082,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim1983,BinnedOLS,event,20,1,All,357,194,magnitude_074,magnitude_075,0.003793073192902327,0.00024286691854017163,0.007402524128678759,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,BinnedOLS,event,20,1,ML <= 4,354,194,magnitude_074,magnitude_075,0.004547431477019637,0.0007592614502282214,0.008073303693674098,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,BinnedOLS,event,20,1,ML > 4,3,2,magnitude_074,magnitude_075,-0.0671680600956559,-0.08024544087763172,-0.05407602029129388,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim1983,BinnedOLS,event,50,1,All,357,194,magnitude_076,magnitude_077,0.002939397556018311,-0.0002532295406813746,0.006149683213963942,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,BinnedOLS,event,50,1,ML <= 4,354,194,magnitude_076,magnitude_077,0.0038735811941616044,0.000650662296944668,0.006981876735332966,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,BinnedOLS,event,50,1,ML > 4,3,2,magnitude_076,magnitude_077,-0.08049878834085034,-0.08314768551636136,-0.07803502553143696,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim1983,BinnedOLS,event,50,3,All,357,194,magnitude_078,magnitude_079,-0.0022545876321829333,-0.00708367385841205,0.0014233301783537645,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,BinnedOLS,event,50,3,ML <= 4,354,194,magnitude_078,magnitude_079,-0.00022520885103176347,-0.0027845719934529527,0.0019410791348300506,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim1983,BinnedOLS,event,50,3,ML > 4,3,2,magnitude_078,magnitude_079,-0.1302227954829101,-0.2531566714206116,0.041644700323706825,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim2011,OLS,event,50,1,All,357,194,magnitude_080,magnitude_081,-0.00032823768707522516,-0.0021924675182651994,0.001010277758004151,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,OLS,event,50,1,ML <= 4,354,194,magnitude_080,magnitude_081,0.0006200966126444912,-0.00020072086470392762,0.001431188455021697,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,OLS,event,50,1,ML > 4,3,2,magnitude_080,magnitude_081,-0.08258020621354584,-0.12420915949348124,-0.04113441410075951,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim2011,OLS,family,50,1,All,357,194,magnitude_082,magnitude_083,-0.0008002852126893778,-0.0020934418454703974,6.718087884623915e-06,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,OLS,family,50,1,ML <= 4,354,194,magnitude_082,magnitude_083,-0.00020532421810390278,-0.0005484485480585968,0.00012269658572269218,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,OLS,family,50,1,ML > 4,3,2,magnitude_082,magnitude_083,-0.028496966413216973,-0.1291533205333414,0.03275604213270325,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim2011,ODR,event,50,1,All,357,194,magnitude_084,magnitude_085,-0.0009196142535564528,-0.0014448240611057174,-0.00042510180725127754,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,ODR,event,50,1,ML <= 4,354,194,magnitude_084,magnitude_085,-0.0009159342192879005,-0.0014114048849029545,-0.0004411893193621993,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,ODR,event,50,1,ML > 4,3,2,magnitude_084,magnitude_085,-0.08976326891279057,-0.18950575430990313,-0.0006307195899935532,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim2011,ODR,family,50,1,All,357,194,magnitude_086,magnitude_087,-0.0010989665113207564,-0.002431960425763242,0.00013948295955016612,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,ODR,family,50,1,ML <= 4,354,194,magnitude_086,magnitude_087,-0.0013640287003960222,-0.0026010169441602103,-0.0002179279823332953,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,ODR,family,50,1,ML > 4,3,2,magnitude_086,magnitude_087,-0.048000200500545154,-0.11858938668531535,0.0657896331312103,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim2011,BinnedOLS,event,10,1,All,357,194,magnitude_088,magnitude_089,0.0051383207330016195,0.003013626353449616,0.0073698376426173905,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,BinnedOLS,event,10,1,ML <= 4,354,194,magnitude_088,magnitude_089,0.005731906807092166,0.0034528962514514257,0.007943498214810324,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,BinnedOLS,event,10,1,ML > 4,3,2,magnitude_088,magnitude_089,-0.05120775142947914,-0.06183447271429107,-0.039980281341934897,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim2011,BinnedOLS,event,20,1,All,357,194,magnitude_090,magnitude_091,0.00360716260520777,0.00022655602742111433,0.0070614810791137655,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,BinnedOLS,event,20,1,ML <= 4,354,194,magnitude_090,magnitude_091,0.004298995283012225,0.0007842296967362081,0.00772192021060262,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,BinnedOLS,event,20,1,ML > 4,3,2,magnitude_090,magnitude_091,-0.0611268382620736,-0.07116961430428916,-0.05112798326947514,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim2011,BinnedOLS,event,50,1,All,357,194,magnitude_092,magnitude_093,0.002993547537445615,-5.775682758389562e-05,0.006123326197764858,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,BinnedOLS,event,50,1,ML <= 4,354,194,magnitude_092,magnitude_093,0.0038632493570905785,0.0007281698176261966,0.006902174648820707,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,BinnedOLS,event,50,1,ML > 4,3,2,magnitude_092,magnitude_093,-0.07580239080791795,-0.08019409023032803,-0.0716534562323298,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mp_Liu_Kim2011,BinnedOLS,event,50,3,All,357,194,magnitude_094,magnitude_095,-0.00196637021819758,-0.006418040712970524,0.001452806702995921,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,BinnedOLS,event,50,3,ML <= 4,354,194,magnitude_094,magnitude_095,-0.000141164420454587,-0.002505973464574235,0.0019439720365802896,2500 paired held-out-family resamples
+ML_KMA,Mp_Liu_Kim2011,BinnedOLS,event,50,3,ML > 4,3,2,magnitude_094,magnitude_095,-0.12162476893229712,-0.23912164694613394,0.03658582273933461,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw,OLS,event,50,1,All,357,194,magnitude_096,magnitude_097,-0.00040101890845711807,-0.0026386085138868534,0.0011999080607619692,2500 paired held-out-family resamples
+ML_KMA,Mw,OLS,event,50,1,ML <= 4,354,194,magnitude_096,magnitude_097,0.0007549958245684635,-0.00014206792006355996,0.001648195450785563,2500 paired held-out-family resamples
+ML_KMA,Mw,OLS,event,50,1,ML > 4,3,2,magnitude_096,magnitude_097,-0.09504021554183867,-0.13778292780234164,-0.05445939848824271,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw,OLS,family,50,1,All,357,194,magnitude_098,magnitude_099,-0.0008377472791689378,-0.0022269263576624914,2.2316108921667317e-05,2500 paired held-out-family resamples
+ML_KMA,Mw,OLS,family,50,1,ML <= 4,354,194,magnitude_098,magnitude_099,-0.00018592659389744803,-0.0005320087321086506,0.00013861423072772182,2500 paired held-out-family resamples
+ML_KMA,Mw,OLS,family,50,1,ML > 4,3,2,magnitude_098,magnitude_099,-0.028131347976187826,-0.13227371216204492,0.03018879324423138,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw,ODR,event,50,1,All,357,194,magnitude_100,magnitude_101,-0.0009354921992529852,-0.0014212748870497335,-0.0004778816058892101,2500 paired held-out-family resamples
+ML_KMA,Mw,ODR,event,50,1,ML <= 4,354,194,magnitude_100,magnitude_101,-0.0008744941345690121,-0.0013356835144868694,-0.0004358243938742636,2500 paired held-out-family resamples
+ML_KMA,Mw,ODR,event,50,1,ML > 4,3,2,magnitude_100,magnitude_101,-0.10644891341335189,-0.2097553604885742,-0.007056766339519398,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw,ODR,family,50,1,All,357,194,magnitude_102,magnitude_103,-0.0011605867912116291,-0.0026005250769038503,0.00018546215442807033,2500 paired held-out-family resamples
+ML_KMA,Mw,ODR,family,50,1,ML <= 4,354,194,magnitude_102,magnitude_103,-0.0014806567024636536,-0.0027351749015480397,-0.00028887823604528814,2500 paired held-out-family resamples
+ML_KMA,Mw,ODR,family,50,1,ML > 4,3,2,magnitude_102,magnitude_103,-0.057121745227905474,-0.13185912916915823,0.07827453412730104,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw,BinnedOLS,event,10,1,All,357,194,magnitude_104,magnitude_105,0.00511589614795363,0.0029387212107668753,0.0073099262335100295,2500 paired held-out-family resamples
+ML_KMA,Mw,BinnedOLS,event,10,1,ML <= 4,354,194,magnitude_104,magnitude_105,0.005840792834518063,0.003493134941271896,0.008125082316433824,2500 paired held-out-family resamples
+ML_KMA,Mw,BinnedOLS,event,10,1,ML > 4,3,2,magnitude_104,magnitude_105,-0.057336488352090986,-0.07006498717575357,-0.043679632602227854,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw,BinnedOLS,event,20,1,All,357,194,magnitude_106,magnitude_107,0.004706939419453743,0.00040574078583655444,0.009007876619054257,2500 paired held-out-family resamples
+ML_KMA,Mw,BinnedOLS,event,20,1,ML <= 4,354,194,magnitude_106,magnitude_107,0.005619178007626333,0.0011201491328029888,0.009911005066827542,2500 paired held-out-family resamples
+ML_KMA,Mw,BinnedOLS,event,20,1,ML > 4,3,2,magnitude_106,magnitude_107,-0.07588732491646766,-0.0906563324782302,-0.06092873135802705,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw,BinnedOLS,event,50,1,All,357,194,magnitude_108,magnitude_109,0.0032833986319522057,-0.00038196412279509824,0.006938160825936151,2500 paired held-out-family resamples
+ML_KMA,Mw,BinnedOLS,event,50,1,ML <= 4,354,194,magnitude_108,magnitude_109,0.004389266751690851,0.0005836287467129372,0.00797596028559188,2500 paired held-out-family resamples
+ML_KMA,Mw,BinnedOLS,event,50,1,ML > 4,3,2,magnitude_108,magnitude_109,-0.08853281930277607,-0.09211025474881065,-0.08531483174031637,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw,BinnedOLS,event,50,3,All,357,194,magnitude_110,magnitude_111,-0.0017678434347382643,-0.005754328118865201,0.0013064184143142298,2500 paired held-out-family resamples
+ML_KMA,Mw,BinnedOLS,event,50,3,ML <= 4,354,194,magnitude_110,magnitude_111,-0.00012064186227170315,-0.002325557573474295,0.001748107692273574,2500 paired held-out-family resamples
+ML_KMA,Mw,BinnedOLS,event,50,3,ML > 4,3,2,magnitude_110,magnitude_111,-0.08352805219207748,-0.21197660272256655,0.097511623985007,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw_source_Vs_Kim2011,OLS,event,50,1,All,357,194,magnitude_112,magnitude_113,-0.00031613731376314846,-0.0021732069255978705,0.0010390567148613244,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,OLS,event,50,1,ML <= 4,354,194,magnitude_112,magnitude_113,0.000637337415043529,-0.000172786179014138,0.0014493105272072656,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,OLS,event,50,1,ML > 4,3,2,magnitude_112,magnitude_113,-0.08228451079881127,-0.12379512426429787,-0.041822791222446504,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw_source_Vs_Kim2011,OLS,family,50,1,All,357,194,magnitude_114,magnitude_115,-0.0008115920448357045,-0.002174478413217002,2.6793027297435626e-05,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,OLS,family,50,1,ML <= 4,354,194,magnitude_114,magnitude_115,-0.0001895575202059685,-0.0005420252231756843,0.00015135537990877348,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,OLS,family,50,1,ML > 4,3,2,magnitude_114,magnitude_115,-0.028524009044499893,-0.1324444003587007,0.03508199285128531,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw_source_Vs_Kim2011,ODR,event,50,1,All,357,194,magnitude_116,magnitude_117,-0.0008685606239568627,-0.0013417662983848534,-0.0004257368153007232,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,ODR,event,50,1,ML <= 4,354,194,magnitude_116,magnitude_117,-0.0008366032683776448,-0.00128545083878604,-0.00041140230118074024,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,ODR,event,50,1,ML > 4,3,2,magnitude_116,magnitude_117,-0.09038472891649119,-0.1844077899667378,-0.0040829637684645205,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw_source_Vs_Kim2011,ODR,family,50,1,All,357,194,magnitude_118,magnitude_119,-0.0010796871153766485,-0.0023621330871787033,0.00010023231304119136,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,ODR,family,50,1,ML <= 4,354,194,magnitude_118,magnitude_119,-0.0013141116642336192,-0.0025062435606144446,-0.00024749433189451373,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,ODR,family,50,1,ML > 4,3,2,magnitude_118,magnitude_119,-0.046779256758607,-0.11152901846984646,0.05740999190704891,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw_source_Vs_Kim2011,BinnedOLS,event,10,1,All,357,194,magnitude_120,magnitude_121,0.005422733151467671,0.0030708431011822333,0.007859626920252756,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,BinnedOLS,event,10,1,ML <= 4,354,194,magnitude_120,magnitude_121,0.006035139826281219,0.0035405332544946955,0.008475924807958323,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,BinnedOLS,event,10,1,ML > 4,3,2,magnitude_120,magnitude_121,-0.048311647970908866,-0.0556738382309817,-0.04050189805033377,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw_source_Vs_Kim2011,BinnedOLS,event,20,1,All,357,194,magnitude_122,magnitude_123,0.0032741759865334286,-0.00011415928927989701,0.006728826037415687,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,BinnedOLS,event,20,1,ML <= 4,354,194,magnitude_122,magnitude_123,0.003978198193892682,0.0003842935838022227,0.007438652771518911,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,BinnedOLS,event,20,1,ML > 4,3,2,magnitude_122,magnitude_123,-0.0582355985716978,-0.06512257487224327,-0.051355529113235154,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw_source_Vs_Kim2011,BinnedOLS,event,50,1,All,357,194,magnitude_124,magnitude_125,0.003404369492356049,0.00019880271436340216,0.006754541755187457,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,BinnedOLS,event,50,1,ML <= 4,354,194,magnitude_124,magnitude_125,0.0043127285184791225,0.0010249473847987064,0.007593720400970728,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,BinnedOLS,event,50,1,ML > 4,3,2,magnitude_124,magnitude_125,-0.07768246019085329,-0.08327877934261808,-0.07246615445558557,"Exhaustive paired empirical bootstrap, 2 families"
+ML_KMA,Mw_source_Vs_Kim2011,BinnedOLS,event,50,3,All,357,194,magnitude_126,magnitude_127,-0.0013876670628124865,-0.004850779417648499,0.0012863635552031417,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,BinnedOLS,event,50,3,ML <= 4,354,194,magnitude_126,magnitude_127,-1.9260739420490225e-05,-0.0018924479067286646,0.0016687578181239933,2500 paired held-out-family resamples
+ML_KMA,Mw_source_Vs_Kim2011,BinnedOLS,event,50,3,ML > 4,3,2,magnitude_126,magnitude_127,-0.07352641323573986,-0.19664087024428675,0.10243876767498782,"Exhaustive paired empirical bootstrap, 2 families"

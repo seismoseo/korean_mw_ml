@@ -1,0 +1,40 @@
+{
+  "n_events": 357,
+  "n_families": 194,
+  "n_fits": 128,
+  "n_reused_fits": 66,
+  "n_depth_fits": 84,
+  "depth_range": [
+    5.02,
+    23.73
+  ],
+  "n_measured_ML_above_4": 6,
+  "n_measured_ML_above_4_families": 5,
+  "n_KMA_ML_above_4": 3,
+  "n_KMA_ML_above_4_families": 2,
+  "methods": "Identical paired-A events and family blocks; same OLS/ODR/binned specifications for Mp and Mw; leave whole families out.",
+  "interval_scope": "Paired predictive-gain intervals resample existing held-out family losses. Depth-coefficient intervals resample/refit complete families. Conditional on selected events and measurement/velocity/depth assumptions.",
+  "limitations": "Only five independent families have measured ML>4. Depth endpoints are sensitivities, not posterior samples; depth trends are observational and may reflect path/site/ML/source-estimation effects.",
+  "protected_outputs_sha256": {
+    "tables/Mw_ML_catalog.csv": "4d4442c04364f30c4eba52081c8278e841eea8e6a14a4b4660a72e1977dd0954",
+    "tables/Mw_ML_primary.csv": "4e262478309a943a4313768a5754dba96d213aebde8d1fc77f9cafebde7cf61f",
+    "tables/Mw_independent_ML_catalog.csv": "e47f8fa6d57a7cca073c049c4f608ae24e5346024ff289adaa356ddc6e6d6230",
+    "tables/Mw_independent_ML_primary.csv": "c1f74b6a965f7398bd4316168dbc9f2c303cf1cbfa1df286443410a90f51826f",
+    "tables/independent_ML_catalog.csv": "a72e8bbd67d7e5e0d10d916f7140154eb8713a29bbe711cdb0e6da6bff71b064",
+    "tables/Sangju2026_summary.json": "48446ddf8ae370ca150070e7434db355c2dcf134a07024589cb167777e5b740b",
+    "tables/clean_spectral_fits.csv": "d6b97e064b0477007a8c962ad389f46d321055e9daf8eab027ac6e9e3e619d28",
+    "inputs/source_velocity_models.json": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+    "reports/Spectral_fit_atlas.pdf": "49081acc8d65cbab69f84be09619d45a9a12e1f37c00eec1104e481ffac6210b",
+    "reports/Velocity_models_and_magnitudes.pdf": "c8d413e667f272040fb8d01aca0b42135c6f35efb464d1e94031616faee6c9d5",
+    "reports/Estimator_and_KR_Mw_comparison.pdf": "78557c9189cfc83e44a632656de53d5d4392990ed2edb15261bfb24df41b67ed",
+    "reports/Hong_KR_Mw_regression_and_stability.pdf": "d2a6a16798c8b5a880e15760b2931223f27b10aa5ddae7d07606e1617ef72291",
+    "reports/Korean_Mw_ML_study.pdf": "b75fdf0461af94745ac8d1162f5e5c2a2e17dfb7c25d49d4e38d641cad06b307",
+    "reports/Independent_ML_and_Mw_comparison.pdf": "dd6c23622c874e0fb1a63f4bfe7bcaa89cabc94e6dce04a012a9396b1360a227"
+  },
+  "inputs_sha256": {
+    "potency_event_catalog.csv": "a207ab12336e612abe1c56f17a8b7c0a1481484c430a8f2073924fc2bd100a6c",
+    "potency_regressions.csv": "86cbc3830acd2533a9499fb04e471a9d87eed30ff7a703fe9f91ff67bd086494",
+    "potency_heldout_predictions.csv": "33d62cd7c96607a63855563f30f3040b84fe31340c1322855678fcba1fc1083d",
+    "Mw_independent_ML_catalog.csv": "e47f8fa6d57a7cca073c049c4f608ae24e5346024ff289adaa356ddc6e6d6230"
+  }
+}

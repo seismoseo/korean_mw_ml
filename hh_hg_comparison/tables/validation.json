@@ -1,0 +1,15 @@
+{
+  "pairs": 14,
+  "sensor_components": 84,
+  "source_files_content_hash_verified": 110,
+  "metadata_files_content_hash_recorded": 18,
+  "matched_location_codes": true,
+  "absolute_arrival_times": "passed",
+  "window_coverage": "passed",
+  "coherence_bounds": "passed",
+  "one_sided_PSD_energy_error": 1.9984014443252818e-15,
+  "known_acceleration_amplitude_tests": "tables/processing_validation.json",
+  "report_pages": 8,
+  "combined_report_pages": 21,
+  "magnitude_estimation_performed_by_this_report": false
+}

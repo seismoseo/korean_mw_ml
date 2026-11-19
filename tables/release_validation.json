@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "n_historical": 642,
+  "n_including_Sangju": 643,
+  "n_selected_ML_sites": 19814,
+  "n_processed_HG_components": 27001,
+  "unit_counts": {
+    "HH:M/S": 26444,
+    "EL:M/S": 12129,
+    "HG:M/S**2": 27001
+  },
+  "sampling_rates_Hz": [
+    99.99949,
+    99.99964,
+    99.99966,
+    99.99968,
+    99.99969,
+    99.9997,
+    99.99988,
+    99.99991,
+    99.99996,
+    99.99998,
+    99.99999,
+    100.0,
+    100.00002,
+    100.00006,
+    100.0001,
+    100.00011,
+    100.00012,
+    100.00013,
+    100.00114
+  ],
+  "n_reproduced_spectral_fits": 103,
+  "n_verified_count_hashes": 1066,
+  "spectral_signature": "c141e939284ba071d8bd7953b4ec223dcb88fd6b8c3fbe6b5d5c6d5e92e74e49",
+  "ML_signature": "2b74dbdfc696a957837022e33c232943a2fe0a118964b4f442a2e40d2a9dcfd4",
+  "pdf_pages": {
+    "Spectral_fit_atlas.pdf": 161,
+    "Potency_magnitude_and_quadratic_scaling.pdf": 11,
+    "Velocity_models_and_magnitudes.pdf": 3,
+    "Estimator_and_KR_Mw_comparison.pdf": 6,
+    "Hong_KR_Mw_regression_and_stability.pdf": 9,
+    "Korean_Mw_ML_study.pdf": 21,
+    "Independent_ML_and_Mw_comparison.pdf": 10
+  },
+  "primary_Mw_A": 443,
+  "paired_primary": 357
+}

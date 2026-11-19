@@ -1,0 +1,54 @@
+{
+  "policy": {
+    "primary": "Same original station/location, UTC windows, components and physical units; no fitted amplitude renormalization",
+    "spectral_quantity": "One-sided multitaper acceleration PSD; displacement-equivalent ASD = sqrt(PSD)/(2*pi*f)^2",
+    "response": "Remove full dated response to ACC; water_level=None; pre_filt [.005,.02,25,40] Hz at 100 sps; scale high corners if needed",
+    "windows": {
+      "short": "S-.1 to S+10.0 s; equal 10.1 s pre-P noise ending P-1",
+      "long": "origin to origin+80 s; equal 80 s pre-P noise ending P-1"
+    },
+    "multitaper": "DPSS: short NW=3 K=5; long NW=2 K=3; unit-energy tapers, equal weights; next_fast_len FFT",
+    "signal_quality": "Amplitude SNR=sqrt(Psignal/Pnoise); common-signal ratio uses noise-subtracted power where both SNR>=3",
+    "coherence": "Component magnitude-squared coherence and its power-weighted mean; also retain phase-sensitive vector coherence; amplitude ratios use both SNR>=3 without requiring axis agreement",
+    "timing": "Original UTC timestamps; Lanczos interpolation onto common sample grid before spectral windows",
+    "water_level_control": "Output DISP, water_level 60 vs None, otherwise identical processing; this isolates regularization",
+    "ML": "Same 4--2 km/s hypocentral window, geometric horizontal WA peaks; causal .5--10 Hz; no water level; prefilter [.1,.25,15,20]",
+    "bands": [
+      [
+        0.05,
+        0.2
+      ],
+      [
+        0.2,
+        0.5
+      ],
+      [
+        0.5,
+        1.0
+      ],
+      [
+        0.7,
+        1.2
+      ],
+      [
+        1.0,
+        2.0
+      ],
+      [
+        2.0,
+        5.0
+      ],
+      [
+        5.0,
+        10.0
+      ],
+      [
+        10.0,
+        20.0
+      ]
+    ]
+  },
+  "code_sha256": "c84c242b4c233af4bc3b48f55b90e3dc7de61bc7244870462ef7ebaa16dbdc7f",
+  "pair_inputs_sha256": "35ba16176de1abed7aff6ffc3122cd80add36ab047228f69366e93af96135949",
+  "source_hashes_sha256": "5eb40a56c23b948afe8548e190bb5cffc640169ede3cfba1dd3c54ebb0808af9"
+}

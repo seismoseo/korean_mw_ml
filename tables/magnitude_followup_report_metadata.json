@@ -1,0 +1,24 @@
+{
+  "narrative_scales": [
+    1.0,
+    1.0
+  ],
+  "figures": [
+    {
+      "stem": "20_Mw_ML_scaling",
+      "caption": "357 identical paired-A events; 194 families. Mw uses C=9.05 and the Haenam Kim & Kim (1983) source model.\nThe fit weights, bootstrap blocks, bins and prediction tests match the potency analysis. Shading resamples whole families.\nThese are selected-sample relations; the published Liu potency curve is not a moment-magnitude calibration."
+    },
+    {
+      "stem": "21_large_event_fit_comparison",
+      "caption": "Six events with measured ML > 4, in five independent families. Dates are UTC. Events 2 and 3 are in the Gyeongju family.\nThe quadratic improves large-event prediction, while changes below ML 4 are small. The five-family gain interval includes zero.\nThe highest event is outside the training magnitude range when its entire family is held out. KMA ML > 4 gives only three events."
+    },
+    {
+      "stem": "22_magnitude_depth_residuals",
+      "caption": "357 paired-A events. Right: remove the ML polynomial estimated jointly with depth; the remaining slope is conditional on ML.\nShading: 95% whole-family coefficient intervals. Diamonds: 5-km-bin medians. Dotted: Kim & Kim boundary at 15 km.\nThe decline is concentrated at 5\u201315 km; a slope within the 15\u201324 km subset is unresolved. Depth is not established as the cause."
+    }
+  ],
+  "followup_first_page": 7,
+  "followup_pages": 5,
+  "n_regressions": 128,
+  "n_depth_regressions": 84
+}

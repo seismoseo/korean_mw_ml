@@ -1,0 +1,1192 @@
+[
+  {
+    "event_id": "20260822214301",
+    "station": "MOPB",
+    "network": "KS",
+    "name": "Haenam",
+    "origin_utc": "2026-08-22 21:43:02.020",
+    "ML": 3.1,
+    "lat": 34.66214,
+    "lon": 126.40141,
+    "depth_km": 20.052,
+    "latitude": 34.8173,
+    "longitude": 126.3812,
+    "epicentral_km": 17.312013922347294,
+    "azimuth": 353.86877026673903,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.MOPB.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.MOPB.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.MOPB.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.MOPB.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.MOPB.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.MOPB.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.MOPB.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.MOPB.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.MOPB.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.MOPB.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.MOPB.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.MOPB.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/MOPB/KS.MOPB.HHZ.2026.234.00.00.00",
+        "sha256": "33813efe61d8d3433584ebebf216c57b500085050992097d12126be3b0d955ae"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.MOPB..HHZ",
+        "sha256": "7361a2603967791c96c6a4912715065042efee61e3339d03aa7d8f2b46b62985"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/MOPB/KS.MOPB.HHN.2026.234.00.00.00",
+        "sha256": "c72fa3aa19008f476b334a57d27a5b330a3aa6a203dd0ed91e2f8c80678af0a3"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.MOPB..HHN",
+        "sha256": "ca9390092609dbc39255c268d349b73633d75552c08694f415d2da36aa398bb8"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/MOPB/KS.MOPB.HHE.2026.234.00.00.00",
+        "sha256": "9585da75ce6af0d082e0503809108c54a644f62c69e5a0e7218853d59ff35ed1"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.MOPB..HHE",
+        "sha256": "63e111f7a28836c132afc1fc6f44567253652cd97584d7451be0ebf52b4db7ae"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/MOPB/KS.MOPB.HGZ.2026.234.00.00.00",
+        "sha256": "999f4ed4f0d364922044d9e53b9455cafca2f68abd68b9a5e189021bd91e54e1"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.MOPB..HGZ",
+        "sha256": "c5669f9a50bce5e02d6ac0fa00b817c0cf57fb6f1d5fcacddef82773c0834fab"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/MOPB/KS.MOPB.HGN.2026.234.00.00.00",
+        "sha256": "217511d4acff356e635ce5356516d11cd1c8484be3271eb77d9ac15da45cbe3f"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.MOPB..HGN",
+        "sha256": "17c2ba018eba6941f701478c27d488a50803788fb6a85796ae148212c9a49f18"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/MOPB/KS.MOPB.HGE.2026.234.00.00.00",
+        "sha256": "519bbfd9619401402f0ef01f8438693759109ec4e530e64f455e5207553f22e6"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.MOPB..HGE",
+        "sha256": "c8258d29aca7866d11cc07329e25238403d6030690d6e776950f3483f42f1dd1"
+      }
+    ],
+    "P_source": "observed SAC",
+    "S_source": "observed SAC",
+    "P_utc": "2026-08-22T21:43:06.538000Z",
+    "S_utc": "2026-08-22T21:43:09.747999Z"
+  },
+  {
+    "event_id": "20260822214301",
+    "station": "HANB",
+    "network": "KS",
+    "name": "Haenam",
+    "origin_utc": "2026-08-22 21:43:02.020",
+    "ML": 3.1,
+    "lat": 34.66214,
+    "lon": 126.40141,
+    "depth_km": 20.052,
+    "latitude": 34.554,
+    "longitude": 126.5688,
+    "epicentral_km": 19.484188184722566,
+    "azimuth": 127.95494872888517,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.HANB.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.HANB.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.HANB.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.HANB.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.HANB.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.HANB.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.HANB.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.HANB.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.HANB.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.HANB.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.HANB.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.HANB.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/HANB/KS.HANB.HHZ.2026.234.00.00.00",
+        "sha256": "f59354c044139bd194da2b43216717458d7a67de74ffe5c583d8bba5afcdb367"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.HANB..HHZ",
+        "sha256": "58901a80b74283fce6caebbb9bfacbf6a24c1e2eded2a4cd955d4a85281fe9ec"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/HANB/KS.HANB.HHN.2026.234.00.00.00",
+        "sha256": "39f0379f14111ce25eae02c46d003d96cff493fe3040c8a4ba33fff11a290fb7"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.HANB..HHN",
+        "sha256": "a910ab80e13cf5f94011636fa5da717236bf40f5b2bdf9858905ee3d03c2ebe4"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/HANB/KS.HANB.HHE.2026.234.00.00.00",
+        "sha256": "d4651331f2909f95a33c36f3cec6cb8eb2dad7310042f35b6602e75d7ad64f33"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.HANB..HHE",
+        "sha256": "0823a3aec15080b10d3a0104d422d33bc0d7caa04153383397f825c23c18ffe9"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/HANB/KS.HANB.HGZ.2026.234.00.00.00",
+        "sha256": "dc04c51ad8e5d3dd5b56db241458acdb98bd125c965f2932ec037dba364f022d"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.HANB..HGZ",
+        "sha256": "42e540b4c5507a560835a229026fecf63abd293b2a8673a1489368154c152e06"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/HANB/KS.HANB.HGN.2026.234.00.00.00",
+        "sha256": "14b39c55fc5e8335039d545f33c90996c03c2d7c67de4a39a9ac3f047eebd9ad"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.HANB..HGN",
+        "sha256": "0cd65486a7305f2cf3787aaed10ccea93ac42f640fdda224b986af6d6906224b"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/HANB/KS.HANB.HGE.2026.234.00.00.00",
+        "sha256": "cf6848bf77a1aad053bb6663cbf645973095768995a40df67fa42296f38db462"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.HANB..HGE",
+        "sha256": "6075c571c68f9db587415b2824badc1c4b1bf3d0840961c2a9c324e4265c48b8"
+      }
+    ],
+    "P_source": "observed SAC",
+    "S_source": "observed SAC",
+    "P_utc": "2026-08-22T21:43:06.638000Z",
+    "S_utc": "2026-08-22T21:43:09.968000Z"
+  },
+  {
+    "event_id": "20260822214301",
+    "station": "JAEB",
+    "network": "KS",
+    "name": "Haenam",
+    "origin_utc": "2026-08-22 21:43:02.020",
+    "ML": 3.1,
+    "lat": 34.66214,
+    "lon": 126.40141,
+    "depth_km": 20.052,
+    "latitude": 34.87905,
+    "longitude": 126.02876,
+    "epicentral_km": 41.746187553438,
+    "azimuth": 305.3050169830395,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.JAEB.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.JAEB.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.JAEB.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.JAEB.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.JAEB.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.JAEB.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.JAEB.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.JAEB.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.JAEB.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.JAEB.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.JAEB.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.JAEB.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/JAEB/KS.JAEB.HHZ.2026.234.00.00.00",
+        "sha256": "cb59d121fddd4d08f6db93cb34f0a92dbbe8565ebe53682752da373b7f821991"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.JAEB..HHZ",
+        "sha256": "3d28c52ee500d210f3aa23f1d61d506bed7ca149ec0f89b2388519705a0d188a"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/JAEB/KS.JAEB.HHN.2026.234.00.00.00",
+        "sha256": "f1c3ca59dbb65d904d7bb839af44a69d243e22f11859cbc17a0ba75ee59e3c91"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.JAEB..HHN",
+        "sha256": "1a8750eb6eaa46e7a348e77ba7a2e5d663f86a7c37ca11b3da0581349955e18e"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/JAEB/KS.JAEB.HHE.2026.234.00.00.00",
+        "sha256": "e7a4a3a9b4509a247032d632a59bcf955779ddd1338a2e9db14c4dae8444a933"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.JAEB..HHE",
+        "sha256": "86e510c2a528f3eb2e3063317fe9c8b77c21b60b53b323c97ae2404006e7033e"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/JAEB/KS.JAEB.HGZ.2026.234.00.00.00",
+        "sha256": "fc2b772c22bb7149fe21ee13d79d0f7023f9e6af97f8f44cf5083014da76840d"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.JAEB..HGZ",
+        "sha256": "ec17170b3a22df2ae8694e45779fa7b26361bb23e69712ebca7759a6c0628f26"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/JAEB/KS.JAEB.HGN.2026.234.00.00.00",
+        "sha256": "a47550583952d0b746c8c26f040fb69024c5fe6079fa1bb02c6bf9c4e606b39f"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.JAEB..HGN",
+        "sha256": "e830f753a406ac90bc7e5be33343d5b140fca33e40c3a2e69d22c450630a9ed0"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/JAEB/KS.JAEB.HGE.2026.234.00.00.00",
+        "sha256": "1d1d3afe5df81082e40697d2c3b7b9c08c8b7dbf925efadc6b09e514c83223e3"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.JAEB..HGE",
+        "sha256": "a9cf1d0ba394361a747dc4e1be55973f04df47dd4279d5690f2fe285655a8de3"
+      }
+    ],
+    "P_source": "observed SAC",
+    "S_source": "observed SAC",
+    "P_utc": "2026-08-22T21:43:09.630001Z",
+    "S_utc": "2026-08-22T21:43:15.070000Z"
+  },
+  {
+    "event_id": "20260822214301",
+    "station": "BGDB",
+    "network": "KS",
+    "name": "Haenam",
+    "origin_utc": "2026-08-22 21:43:02.020",
+    "ML": 3.1,
+    "lat": 34.66214,
+    "lon": 126.40141,
+    "depth_km": 20.052,
+    "latitude": 34.7726,
+    "longitude": 125.9469,
+    "epicentral_km": 43.39938421375398,
+    "azimuth": 286.5299861735798,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.BGDB.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.BGDB.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.BGDB.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.BGDB.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.BGDB.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260822214301/KS.BGDB.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.BGDB.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.BGDB.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.BGDB.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.BGDB.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.BGDB.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260822214301.KS.BGDB.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/BGDB/KS.BGDB.HHZ.2026.234.00.00.00",
+        "sha256": "5b7cdffe95072eab8508b63550669f91e29f82698d42085a88426554b49ff09d"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.BGDB..HHZ",
+        "sha256": "4d1773aa0099f9038339f01fd028b890bf30ecb95a81fff1e3919e577b599c6b"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/BGDB/KS.BGDB.HHN.2026.234.00.00.00",
+        "sha256": "5cadde9259f5dcb5b91886d370018790bae7bac2ea9c949114ea497927b072be"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.BGDB..HHN",
+        "sha256": "e350b08d0369e6001edf9111272cf9cee91b1f073a9f82999c184c9d5496442b"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/BGDB/KS.BGDB.HHE.2026.234.00.00.00",
+        "sha256": "39f891a3ee00ebd28f35fa29605caed17c95f60efe798f798a3b73ac74310ee1"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.BGDB..HHE",
+        "sha256": "f80e5f1f61ce95784fe8ec3f8fb5b8cb42efcba7ca0cdc1f10406ac5cfe1a1a4"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/BGDB/KS.BGDB.HGZ.2026.234.00.00.00",
+        "sha256": "6ec8b5a4f8dd64af4b5eb81bdb8954d6dab4bead922f663b5f87f826ce306ea3"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.BGDB..HGZ",
+        "sha256": "cffddde8b55f71c7617037cbb608dc5ac1316379eb5bf55aeb59b547fb9b0acf"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/BGDB/KS.BGDB.HGN.2026.234.00.00.00",
+        "sha256": "43921c19014b9132c4a630e5c2c0e911cdf0562b90ada226d85953154bc94fb8"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.BGDB..HGN",
+        "sha256": "3e7e25f6136ec68f1fb97c12a5236c14f9a3d27e4e7a74a3d92e1930e617dc66"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/BGDB/KS.BGDB.HGE.2026.234.00.00.00",
+        "sha256": "192b9a296b649c0ee8968a169fbdf82433615d67dfa14988c9b3907c0d9574da"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.BGDB..HGE",
+        "sha256": "76815f77eb0632dc26019dd70d10d16ad805bc89fe07daf1462ce7df3b1379f0"
+      }
+    ],
+    "P_source": "observed SAC",
+    "S_source": "observed SAC",
+    "P_utc": "2026-08-22T21:43:09.858000Z",
+    "S_utc": "2026-08-22T21:43:15.497999Z"
+  },
+  {
+    "event_id": "20260825002354",
+    "station": "MOPB",
+    "network": "KS",
+    "name": "Haenam",
+    "origin_utc": "2026-08-25 00:23:54.980",
+    "ML": 1.3,
+    "lat": 34.66187,
+    "lon": 126.4034,
+    "depth_km": 20.057,
+    "latitude": 34.8173,
+    "longitude": 126.3812,
+    "epicentral_km": 17.362189478013562,
+    "azimuth": 353.28194200623585,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.MOPB.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.MOPB.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.MOPB.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.MOPB.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.MOPB.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.MOPB.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.MOPB.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.MOPB.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.MOPB.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.MOPB.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.MOPB.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.MOPB.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/MOPB/KS.MOPB.HHZ.2026.237.00.00.00",
+        "sha256": "e2f81792cdbf972b5e8f7808dbd7799244fa7852f093619a1c41f2f9fe6727ba"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.MOPB..HHZ",
+        "sha256": "7361a2603967791c96c6a4912715065042efee61e3339d03aa7d8f2b46b62985"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/MOPB/KS.MOPB.HHN.2026.237.00.00.00",
+        "sha256": "803d47c624abba3cad54441ca4498ad4b8d24e5cb3d4c8345d12763ff4d8405e"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.MOPB..HHN",
+        "sha256": "ca9390092609dbc39255c268d349b73633d75552c08694f415d2da36aa398bb8"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/MOPB/KS.MOPB.HHE.2026.237.00.00.00",
+        "sha256": "767ccace6c763957fde714b9a432161790f6226a6bc5d52dd5b4350b7a9bb434"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.MOPB..HHE",
+        "sha256": "63e111f7a28836c132afc1fc6f44567253652cd97584d7451be0ebf52b4db7ae"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/MOPB/KS.MOPB.HGZ.2026.237.00.00.00",
+        "sha256": "7fc1e9a965ed6e4d2a9beb0d056bac3c7cb801c7b54ddde2e15c3f20fa951bba"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.MOPB..HGZ",
+        "sha256": "c5669f9a50bce5e02d6ac0fa00b817c0cf57fb6f1d5fcacddef82773c0834fab"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/MOPB/KS.MOPB.HGN.2026.237.00.00.00",
+        "sha256": "5e29da4d3ac4ef3856f2b81dbd3bf51bbff8d2492f49e52cc53d19d78cde6247"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.MOPB..HGN",
+        "sha256": "17c2ba018eba6941f701478c27d488a50803788fb6a85796ae148212c9a49f18"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/MOPB/KS.MOPB.HGE.2026.237.00.00.00",
+        "sha256": "e10f4fdf776e7de47eb394558691b2c180af82d8f161e8bc7f10504b9f9335f0"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.MOPB..HGE",
+        "sha256": "c8258d29aca7866d11cc07329e25238403d6030690d6e776950f3483f42f1dd1"
+      }
+    ],
+    "P_source": "Kim1983 TauP",
+    "S_source": "Kim1983 TauP",
+    "P_utc": "2026-08-25T00:23:59.341646Z",
+    "S_utc": "2026-08-25T00:24:02.568004Z"
+  },
+  {
+    "event_id": "20260825002354",
+    "station": "HANB",
+    "network": "KS",
+    "name": "Haenam",
+    "origin_utc": "2026-08-25 00:23:54.980",
+    "ML": 1.3,
+    "lat": 34.66187,
+    "lon": 126.4034,
+    "depth_km": 20.057,
+    "latitude": 34.554,
+    "longitude": 126.5688,
+    "epicentral_km": 19.32214299973124,
+    "azimuth": 128.2187237762007,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.HANB.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.HANB.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.HANB.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.HANB.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.HANB.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.HANB.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.HANB.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.HANB.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.HANB.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.HANB.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.HANB.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.HANB.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/HANB/KS.HANB.HHZ.2026.237.00.00.00",
+        "sha256": "2b57391d1e484b5c90200e97a3b1de1d36f7185a50082a643a7e053b539bc5e4"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.HANB..HHZ",
+        "sha256": "58901a80b74283fce6caebbb9bfacbf6a24c1e2eded2a4cd955d4a85281fe9ec"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/HANB/KS.HANB.HHN.2026.237.00.00.00",
+        "sha256": "ff1914c140de6fe49e399c7d3fbc0552784490795645e2d79c06da2e5c3dd470"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.HANB..HHN",
+        "sha256": "a910ab80e13cf5f94011636fa5da717236bf40f5b2bdf9858905ee3d03c2ebe4"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/HANB/KS.HANB.HHE.2026.237.00.00.00",
+        "sha256": "c2d4f5798013dd363e8973943aef310abeacfcf54bdc6d6e2548753c66351616"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.HANB..HHE",
+        "sha256": "0823a3aec15080b10d3a0104d422d33bc0d7caa04153383397f825c23c18ffe9"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/HANB/KS.HANB.HGZ.2026.237.00.00.00",
+        "sha256": "6f8eb882f475a9a7877b097ac6aae2ec4b414f2946de721028768807ca109ece"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.HANB..HGZ",
+        "sha256": "42e540b4c5507a560835a229026fecf63abd293b2a8673a1489368154c152e06"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/HANB/KS.HANB.HGN.2026.237.00.00.00",
+        "sha256": "61a190a862b0dc40710a2a2f5fd3d182c7a1b822e9b700e3411c6951753aa254"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.HANB..HGN",
+        "sha256": "0cd65486a7305f2cf3787aaed10ccea93ac42f640fdda224b986af6d6906224b"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/HANB/KS.HANB.HGE.2026.237.00.00.00",
+        "sha256": "1095ab71e67d42499d838fed25894563f31f11b2957d993b58e9837d69f30d49"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.HANB..HGE",
+        "sha256": "6075c571c68f9db587415b2824badc1c4b1bf3d0840961c2a9c324e4265c48b8"
+      }
+    ],
+    "P_source": "observed SAC",
+    "S_source": "observed SAC",
+    "P_utc": "2026-08-25T00:23:59.598000Z",
+    "S_utc": "2026-08-25T00:24:02.947999Z"
+  },
+  {
+    "event_id": "20260825002354",
+    "station": "JAEB",
+    "network": "KS",
+    "name": "Haenam",
+    "origin_utc": "2026-08-25 00:23:54.980",
+    "ML": 1.3,
+    "lat": 34.66187,
+    "lon": 126.4034,
+    "depth_km": 20.057,
+    "latitude": 34.87905,
+    "longitude": 126.02876,
+    "epicentral_km": 41.91243549083601,
+    "azimuth": 305.19545262054953,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.JAEB.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.JAEB.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.JAEB.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.JAEB.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.JAEB.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.JAEB.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.JAEB.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.JAEB.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.JAEB.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.JAEB.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.JAEB.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.JAEB.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/JAEB/KS.JAEB.HHZ.2026.237.00.00.00",
+        "sha256": "7a187870aa7c1757127bd18f0238d6bfcbc8cf4f4dec2bd1dea9f16fccbed653"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.JAEB..HHZ",
+        "sha256": "3d28c52ee500d210f3aa23f1d61d506bed7ca149ec0f89b2388519705a0d188a"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/JAEB/KS.JAEB.HHN.2026.237.00.00.00",
+        "sha256": "fbc96f2b92b09ecea74c841b9f876e0a1bb2b0fd5ccb2db4f1fa0bc98c76e0af"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.JAEB..HHN",
+        "sha256": "1a8750eb6eaa46e7a348e77ba7a2e5d663f86a7c37ca11b3da0581349955e18e"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/JAEB/KS.JAEB.HHE.2026.237.00.00.00",
+        "sha256": "f46bb86c71caa5de0e4521d2ccf6d651f261798c271aa6a62ecd7e2427861249"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.JAEB..HHE",
+        "sha256": "86e510c2a528f3eb2e3063317fe9c8b77c21b60b53b323c97ae2404006e7033e"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/JAEB/KS.JAEB.HGZ.2026.237.00.00.00",
+        "sha256": "404cf4edab8d31c13fe5ac1e7c65cdf4a9729e022d2def41c2308195c8531e1c"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.JAEB..HGZ",
+        "sha256": "ec17170b3a22df2ae8694e45779fa7b26361bb23e69712ebca7759a6c0628f26"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/JAEB/KS.JAEB.HGN.2026.237.00.00.00",
+        "sha256": "196357628071977828d2ee96d2b3c18bb53ccc514c1fdaed69a9af57beb2ef38"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.JAEB..HGN",
+        "sha256": "e830f753a406ac90bc7e5be33343d5b140fca33e40c3a2e69d22c450630a9ed0"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/JAEB/KS.JAEB.HGE.2026.237.00.00.00",
+        "sha256": "20b9d42a00d77f5befd51aef45f2d0e23affe42cf7d1397b6a4bd00571c42c6b"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.JAEB..HGE",
+        "sha256": "a9cf1d0ba394361a747dc4e1be55973f04df47dd4279d5690f2fe285655a8de3"
+      }
+    ],
+    "P_source": "observed SAC",
+    "S_source": "observed SAC",
+    "P_utc": "2026-08-25T00:24:02.630001Z",
+    "S_utc": "2026-08-25T00:24:08.070000Z"
+  },
+  {
+    "event_id": "20260825002354",
+    "station": "BGDB",
+    "network": "KS",
+    "name": "Haenam",
+    "origin_utc": "2026-08-25 00:23:54.980",
+    "ML": 1.3,
+    "lat": 34.66187,
+    "lon": 126.4034,
+    "depth_km": 20.057,
+    "latitude": 34.7726,
+    "longitude": 125.9469,
+    "epicentral_km": 43.58278066148516,
+    "azimuth": 286.50063788824286,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.BGDB.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.BGDB.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.BGDB.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.BGDB.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.BGDB.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20260825002354/KS.BGDB.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.BGDB.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.BGDB.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.BGDB.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.BGDB.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.BGDB.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20260825002354.KS.BGDB.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/BGDB/KS.BGDB.HHZ.2026.237.00.00.00",
+        "sha256": "037205ee978f0adea2719d7acf2a5bce3e45e9d3cc39327533d52700eaa424d7"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.BGDB..HHZ",
+        "sha256": "4d1773aa0099f9038339f01fd028b890bf30ecb95a81fff1e3919e577b599c6b"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/BGDB/KS.BGDB.HHN.2026.237.00.00.00",
+        "sha256": "83bfcd05eea3c7ae61b3cd55441c5becb7f9e15192e6c5cbe847ac646a40536a"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.BGDB..HHN",
+        "sha256": "e350b08d0369e6001edf9111272cf9cee91b1f073a9f82999c184c9d5496442b"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/BGDB/KS.BGDB.HHE.2026.237.00.00.00",
+        "sha256": "5515c84a1d909449985a302df06ac6fd1e0d3c9693462aa35aa07eab0b0349c2"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.BGDB..HHE",
+        "sha256": "f80e5f1f61ce95784fe8ec3f8fb5b8cb42efcba7ca0cdc1f10406ac5cfe1a1a4"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/BGDB/KS.BGDB.HGZ.2026.237.00.00.00",
+        "sha256": "9a1c1741ac9468e3879690482fa715678f9b4d232f881bfcda9b5aecef4cb227"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.BGDB..HGZ",
+        "sha256": "cffddde8b55f71c7617037cbb608dc5ac1316379eb5bf55aeb59b547fb9b0acf"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/BGDB/KS.BGDB.HGN.2026.237.00.00.00",
+        "sha256": "917fd0b5d1cae459b143c6978e1ef93e905ac6e18e724e02d01ef1960e1ace24"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.BGDB..HGN",
+        "sha256": "3e7e25f6136ec68f1fb97c12a5236c14f9a3d27e4e7a74a3d92e1930e617dc66"
+      },
+      {
+        "path": "/home/msseo/works/Claude/data/necis/continuous/2026/BGDB/KS.BGDB.HGE.2026.237.00.00.00",
+        "sha256": "55f047d13be8ec506e92990ecf329bf77c3ccf4c4cabc15949169c9ef067e116"
+      },
+      {
+        "path": "/home/msseo/works/27.Haenam_sequence_renewal/data/stations/responses/necis_fetched_20261011/extracted/RESP.KS.BGDB..HGE",
+        "sha256": "76815f77eb0632dc26019dd70d10d16ad805bc89fe07daf1462ce7df3b1379f0"
+      }
+    ],
+    "P_source": "observed SAC",
+    "S_source": "observed SAC",
+    "P_utc": "2026-08-25T00:24:02.868000Z",
+    "S_utc": "2026-08-25T00:24:08.528000Z"
+  },
+  {
+    "event_id": "20261117141017",
+    "station": "SAJB",
+    "network": "KS",
+    "name": "Sangju",
+    "origin_utc": "2026-11-17T14:10:17Z",
+    "ML": 3.6,
+    "lat": 36.52,
+    "lon": 127.96,
+    "depth_km": 19.76,
+    "latitude": 36.4078,
+    "longitude": 128.1575,
+    "epicentral_km": 21.642390758201273,
+    "azimuth": 125.06093698139473,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.SAJB.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.SAJB.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.SAJB.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.SAJB.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.SAJB.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.SAJB.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.SAJB.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.SAJB.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.SAJB.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.SAJB.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.SAJB.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.SAJB.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.SAJB.HHZ.2026.321.14.10.17",
+        "sha256": "c143e4f7aa82a6e7d4ef401551179ed40ebb447e96969cafefa21a1bb10d6d69"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.SAJB.HHN.2026.321.14.10.17",
+        "sha256": "f7b067ec23c232de560512d7d6b7eaf153a4f46242cdccabfe3a415a5c0b66a1"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.SAJB.HHE.2026.321.14.10.17",
+        "sha256": "c7edb9dbf98e33e6407e9d8a50ab63ef2f7a3e45f66a2c605d71457ceeafc859"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.SAJB.HGZ.2026.321.14.10.17",
+        "sha256": "f091f2bf45b40ab92555eb5b7fd08c1afd825930ee7331ad4f95a298ec695ee0"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.SAJB.HGN.2026.321.14.10.17",
+        "sha256": "0f268bf6d725d7d3983a69b7501032b5d78bf6a8dded0b5f86b387551f409989"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.SAJB.HGE.2026.321.14.10.17",
+        "sha256": "05b12871d1559293b2841d64eb545a3478fc7f76d48eb313cde75e4ce325a778"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      }
+    ],
+    "P_source": "observed SAC",
+    "S_source": "observed SAC",
+    "P_utc": "2026-11-17T14:10:22.350000Z",
+    "S_utc": "2026-11-17T14:10:25.700000Z"
+  },
+  {
+    "event_id": "20261117141017",
+    "station": "OKCB",
+    "network": "KS",
+    "name": "Sangju",
+    "origin_utc": "2026-11-17T14:10:17Z",
+    "ML": 3.6,
+    "lat": 36.52,
+    "lon": 127.96,
+    "depth_km": 19.76,
+    "latitude": 36.3461,
+    "longitude": 127.7941,
+    "epicentral_km": 24.365428710427985,
+    "azimuth": 217.67747666910114,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.OKCB.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.OKCB.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.OKCB.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.OKCB.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.OKCB.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.OKCB.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.OKCB.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.OKCB.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.OKCB.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.OKCB.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.OKCB.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.OKCB.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.OKCB.HHZ.2026.321.14.10.17",
+        "sha256": "2881b2243f15392edad57e2ba9ce59ae2a6b017356eb490a5f12023ebff84ba1"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.OKCB.HHN.2026.321.14.10.17",
+        "sha256": "3fb8a9d911d21bc4dbb9d1f14ee1ec6932c84e13131ab0d80f92f03b22d87797"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.OKCB.HHE.2026.321.14.10.17",
+        "sha256": "cae258cd125cf7e959d299916de3d570b34e959afed0ee7bc72e231cee455626"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.OKCB.HGZ.2026.321.14.10.17",
+        "sha256": "f033255da544d64241bdbccdbe7e2227b7527c9840cf2c7c7a6239e94c1e73d6"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.OKCB.HGN.2026.321.14.10.17",
+        "sha256": "8295ccc95383be0e24432e7e719246df71c5bf15a57afce5e2f229fe59670a4c"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.OKCB.HGE.2026.321.14.10.17",
+        "sha256": "a90b3475e73503aa415c0baf676fbbd653ef893e888af2ac7963802557319bb1"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      }
+    ],
+    "P_source": "observed SAC",
+    "S_source": "observed SAC",
+    "P_utc": "2026-11-17T14:10:22.640003Z",
+    "S_utc": "2026-11-17T14:10:26.240003Z"
+  },
+  {
+    "event_id": "20261117141017",
+    "station": "CHJ3",
+    "network": "KS",
+    "name": "Sangju",
+    "origin_utc": "2026-11-17T14:10:17Z",
+    "ML": 3.6,
+    "lat": 36.52,
+    "lon": 127.96,
+    "depth_km": 19.76,
+    "latitude": 36.873,
+    "longitude": 127.9748,
+    "epicentral_km": 39.195423905571,
+    "azimuth": 1.929307168102218,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.CHJ3.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.CHJ3.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.CHJ3.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.CHJ3.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.CHJ3.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.CHJ3.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.CHJ3.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.CHJ3.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.CHJ3.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.CHJ3.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.CHJ3.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.CHJ3.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.CHJ3.HHZ.2026.321.14.10.17",
+        "sha256": "9b0233879b73164073345a097f110904429137552fd4a544415176befdcf9f65"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.CHJ3.HHN.2026.321.14.10.17",
+        "sha256": "069cbb32a06bef42465ace97c1bd47345aafe4f5bfe9431a8a32902acd4410bd"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.CHJ3.HHE.2026.321.14.10.17",
+        "sha256": "0a6ad98727becc663f1afb793f8a0287302ae41a0ec0c9820036b981df72c314"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.CHJ3.HGZ.2026.321.14.10.17",
+        "sha256": "53f05e9576f5ed2a431a01f90239abd1482f5fa0a62f79f22ec5a9c4c02d1da6"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.CHJ3.HGN.2026.321.14.10.17",
+        "sha256": "f4441d5b8811b3e89afddcfa30c05c628cdf5ea6955b1fa627a21f49e63206c8"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.CHJ3.HGE.2026.321.14.10.17",
+        "sha256": "17dbc743f4aea51d92bc155f23b846fc44ad33f94c2b7f68433b0d8dc7184d0a"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      }
+    ],
+    "P_source": "observed SAC",
+    "S_source": "observed SAC",
+    "P_utc": "2026-11-17T14:10:24.760003Z",
+    "S_utc": "2026-11-17T14:10:29.900003Z"
+  },
+  {
+    "event_id": "20261117141017",
+    "station": "KESB",
+    "network": "KS",
+    "name": "Sangju",
+    "origin_utc": "2026-11-17T14:10:17Z",
+    "ML": 3.6,
+    "lat": 36.52,
+    "lon": 127.96,
+    "depth_km": 19.76,
+    "latitude": 36.953658,
+    "longitude": 127.604785,
+    "epicentral_km": 57.64132612021292,
+    "azimuth": 326.7103649996819,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.KESB.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.KESB.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.KESB.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.KESB.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.KESB.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.KESB.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.KESB.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.KESB.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.KESB.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.KESB.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.KESB.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.KESB.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.KESB.HHZ.2026.321.14.10.17",
+        "sha256": "16b8c7e1361310ce0be2c97a332dd2cb76657e9ea843685d9d2a7cc170801bb3"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.KESB.HHN.2026.321.14.10.17",
+        "sha256": "69e3dc974749dc4a438afaa1f4d5ec6499145cc50e530e72073ca9f4ba6f7735"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.KESB.HHE.2026.321.14.10.17",
+        "sha256": "4012002f4ae7e410f01a1d1584ce72682bf34f9cae7f75c0d66eef5d02f03fab"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.KESB.HGZ.2026.321.14.10.17",
+        "sha256": "83be90bf984f1ed0a721b3067ed7c38c190937b575ae387fa0817425c8966da0"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.KESB.HGN.2026.321.14.10.17",
+        "sha256": "2d43069579cc146467f6e0102c4752c6e7bde99acb4d644c138c16f49b48aa84"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.KESB.HGE.2026.321.14.10.17",
+        "sha256": "85778a9432d49ebb903a4bed5338b753a50466a9c60eb2940cf128e99ff5d3cf"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      }
+    ],
+    "P_source": "observed SAC",
+    "S_source": "observed SAC",
+    "P_utc": "2026-11-17T14:10:27.599999Z",
+    "S_utc": "2026-11-17T14:10:34.560000Z"
+  },
+  {
+    "event_id": "20261117141017",
+    "station": "JECB",
+    "network": "KS",
+    "name": "Sangju",
+    "origin_utc": "2026-11-17T14:10:17Z",
+    "ML": 3.6,
+    "lat": 36.52,
+    "lon": 127.96,
+    "depth_km": 19.76,
+    "latitude": 37.1596,
+    "longitude": 128.1947,
+    "epicentral_km": 74.00220031822252,
+    "azimuth": 16.36272884659727,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.JECB.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.JECB.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.JECB.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.JECB.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.JECB.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.JECB.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.JECB.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.JECB.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.JECB.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.JECB.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.JECB.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.JECB.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.JECB.HHZ.2026.321.14.10.17",
+        "sha256": "b0b6a55758252ac52564e515547974ce3ef9c6827caf6fdcf57ac1bb1fa21388"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.JECB.HHN.2026.321.14.10.17",
+        "sha256": "d881baa5dfcab5173920781dcc3ebeda7d2c7090b0d09067ea60e2d74798261c"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.JECB.HHE.2026.321.14.10.17",
+        "sha256": "13abfbffc28b5ce584b8914f1d29fe651582cb946978c6980656df99565d74e9"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.JECB.HGZ.2026.321.14.10.17",
+        "sha256": "5ef3fd11aa0bdde948e4eaa572caadc8d545a6d72c50e366d1ce263775c3f7d0"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.JECB.HGN.2026.321.14.10.17",
+        "sha256": "885128d59c7871b174020fd3dbd244679d1adbd8fb53c36ea2965d482b3df630"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.JECB.HGE.2026.321.14.10.17",
+        "sha256": "5508143f405bf10b25661e8071eb041a2b0f94322e282c2f59701160e35608d9"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      }
+    ],
+    "P_source": "observed SAC",
+    "S_source": "observed SAC",
+    "P_utc": "2026-11-17T14:10:30.039996Z",
+    "S_utc": "2026-11-17T14:10:39.059995Z"
+  },
+  {
+    "event_id": "20261117141017",
+    "station": "BURB",
+    "network": "KS",
+    "name": "Sangju",
+    "origin_utc": "2026-11-17T14:10:17Z",
+    "ML": 3.6,
+    "lat": 36.52,
+    "lon": 127.96,
+    "depth_km": 19.76,
+    "latitude": 37.2317,
+    "longitude": 127.7486,
+    "epicentral_km": 81.19876879425254,
+    "azimuth": 346.64160539575704,
+    "traces": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.BURB.HHZ.mseed",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.BURB.HHN.mseed",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.BURB.HHE.mseed",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.BURB.HGZ.mseed",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.BURB.HGN.mseed",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/cutouts/20261117141017/KS.BURB.HGE.mseed"
+    },
+    "responses": {
+      "HHZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.BURB.HHZ.xml",
+      "HHN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.BURB.HHN.xml",
+      "HHE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.BURB.HHE.xml",
+      "HGZ": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.BURB.HGZ.xml",
+      "HGN": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.BURB.HGN.xml",
+      "HGE": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/responses/20261117141017.KS.BURB.HGE.xml"
+    },
+    "sources": [
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.BURB.HHZ.2026.321.14.10.17",
+        "sha256": "fcde2777450f48c0949d2fdea62c7e3059363a8ff8353cdbf595e3c8eef1b7be"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.BURB.HHN.2026.321.14.10.17",
+        "sha256": "7e8290d9b6156e98bc6a8253a47d41554b0efe75b9696131443ddb9df20a0028"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.v/MSEED/KS.BURB.HHE.2026.321.14.10.17",
+        "sha256": "08a60bd890f8bc3552bf60049ca0d3de54504a7ab640479b837671a7d3abec4d"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.BURB.HGZ.2026.321.14.10.17",
+        "sha256": "50497b98380b0745e368044a91a0f6183a6decf4f53622f0eab8937496d32a20"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.BURB.HGN.2026.321.14.10.17",
+        "sha256": "4b2aa28e1f62de6c2b452010e28a853783ad1dd51defc616d1e4bc4e455ef4a2"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      },
+      {
+        "path": "/home/msseo/works/Claude/korean_mw_ml/hh_hg_comparison/inputs/events/20261117141017/2026011364.a/MSEED/KS.BURB.HGE.2026.321.14.10.17",
+        "sha256": "c7ec28b357a9e2d21f3de3559d26c5599fdca5cda3e0a95a2a2093c546af8c69"
+      },
+      {
+        "path": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+        "sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+      }
+    ],
+    "P_source": "observed SAC",
+    "S_source": "observed SAC",
+    "P_utc": "2026-11-17T14:10:31.240001Z",
+    "S_utc": "2026-11-17T14:10:40.930001Z"
+  }
+]

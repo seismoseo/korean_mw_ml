@@ -1,0 +1,154 @@
+{
+  "adopted_estimator": "Multitaper, NW=4, K=7; generalized Boatwright; 10.1 s; C=9.05",
+  "source_velocity_model": "Kim & Kim (1983), Vp/Vs=1.73",
+  "source_velocity_comparison": "Published Kim et al. (2011), Table 2",
+  "source_velocity_config_sha256": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+  "Fourier_role": "Sensitivity check; quality A requires |Mw_MT-Mw_FFT|<=0.10 by construction",
+  "KR_repository": "https://github.com/dhsheen/KR_Mw",
+  "commit": "61c24f655b83e320675cf64f01bc862792947d55",
+  "KR_events": 490,
+  "KR_station_rows": 12413,
+  "exact_matches": 294,
+  "A_matches": 199,
+  "paired_A_matches": 165,
+  "estimator_statistics": {
+    "A": {
+      "n_events": 443,
+      "n_finite": 443,
+      "median": -0.013031415906767485,
+      "q16": -0.053611989959001745,
+      "q84": 0.015831740541160568,
+      "max_absolute": 0.09955989762779671,
+      "n_abs_gt_0p1": 0
+    },
+    "B": {
+      "n_events": 61,
+      "n_finite": 61,
+      "median": -0.11773842273541923,
+      "q16": -0.13513392429094448,
+      "q84": -0.030044030768562484,
+      "max_absolute": 0.14385649385617771,
+      "n_abs_gt_0p1": 49
+    },
+    "C": {
+      "n_events": 115,
+      "n_finite": 115,
+      "median": -0.20496286382553874,
+      "q16": -0.35275005311391266,
+      "q84": -0.0665434359874044,
+      "max_absolute": 0.6882446701260359,
+      "n_abs_gt_0p1": 96
+    },
+    "F": {
+      "n_events": 23,
+      "n_finite": 0,
+      "median": null,
+      "q16": null,
+      "q84": null,
+      "max_absolute": null,
+      "n_abs_gt_0p1": 0
+    }
+  },
+  "comparison": [
+    {
+      "selection": "Mw A",
+      "our_estimator": "Mw",
+      "KR_field": "mw_spectra",
+      "regression_method": "OLS y on x",
+      "n": 199,
+      "median_difference": -0.06781715790686427,
+      "mean_difference": -0.07026562801849023,
+      "robust_scatter": 0.04819951785258052,
+      "raw_RMS": 0.08759399063969092,
+      "centered_RMS": 0.05230151733318472,
+      "correlation": 0.9837372722387445,
+      "slope": 0.9996542594613366,
+      "intercept": -0.06932656891724692,
+      "n_blocks": 119,
+      "family_mean_difference": -0.07076912567420908,
+      "family_mean_lo": -0.07860783639778283,
+      "family_mean_hi": -0.06297715876796958
+    },
+    {
+      "selection": "Mw A",
+      "our_estimator": "Mw_Fourier",
+      "KR_field": "mw_spectra",
+      "regression_method": "OLS y on x",
+      "n": 199,
+      "median_difference": -0.050561565240523354,
+      "mean_difference": -0.05176444286934481,
+      "robust_scatter": 0.056770891805606634,
+      "raw_RMS": 0.07964951207416174,
+      "centered_RMS": 0.060535008285110305,
+      "correlation": 0.9781106636937175,
+      "slope": 0.9210532754443118,
+      "intercept": 0.16266120849924506,
+      "n_blocks": 119,
+      "family_mean_difference": -0.05491687033268361,
+      "family_mean_lo": -0.06442447896810163,
+      "family_mean_hi": -0.04585811952826701
+    },
+    {
+      "selection": "Mw A",
+      "our_estimator": "Mw",
+      "KR_field": "mw_TD",
+      "regression_method": "OLS y on x",
+      "n": 199,
+      "median_difference": -0.10268817525140372,
+      "mean_difference": -0.10081839183758572,
+      "robust_scatter": 0.03988346396482795,
+      "raw_RMS": 0.11114392997946686,
+      "centered_RMS": 0.046782742956817565,
+      "correlation": 0.9870204095395941,
+      "slope": 1.0046981525976675,
+      "intercept": -0.1137224935804664,
+      "n_blocks": 119,
+      "family_mean_difference": -0.095592938177934,
+      "family_mean_lo": -0.10382751105571786,
+      "family_mean_hi": -0.08751179642230807
+    },
+    {
+      "selection": "Mw A",
+      "our_estimator": "Mw_Fourier",
+      "KR_field": "mw_TD",
+      "regression_method": "OLS y on x",
+      "n": 199,
+      "median_difference": -0.08397036639750333,
+      "mean_difference": -0.0823172066884403,
+      "robust_scatter": 0.04881281715901439,
+      "raw_RMS": 0.09601957066802146,
+      "centered_RMS": 0.0494331410521703,
+      "correlation": 0.9858774676395512,
+      "slope": 0.9299475929796499,
+      "intercept": 0.11009105777981448,
+      "n_blocks": 119,
+      "family_mean_difference": -0.0797406828364085,
+      "family_mean_lo": -0.08866585191367536,
+      "family_mean_hi": -0.07128147899599854
+    }
+  ],
+  "station_table_alignment": {
+    "exact_spectra_counts": 291,
+    "exact_TD_counts": 184,
+    "caution": "Details table is not an exact station-list reconstruction of either event-summary column; do not infer event MAD or fit aggregation from these rows."
+  },
+  "edge_example": {
+    "event_id": "20160829153946",
+    "quality": "C",
+    "stations": 18,
+    "median_MT_over_rectangular_FFT": 0.08311671583880585,
+    "median_cosine_FFT_over_rectangular_FFT": 0.10914369551683364,
+    "band_Hz": [
+      2,
+      10
+    ]
+  },
+  "limitations": [
+    "KR_Mw contains two CSV files and no estimation code or method README at this commit.",
+    "Supplied Hong and Sheen (2026) paper establishes C=9.05, density 2700, Vs 3610, radiation .63, free surface 2, fixed depth 10 km and bilinear spreading; see Hong_paper_method_audit.json.",
+    "Exact DPSS settings, PSD-to-FAS conversion, response prefilter/water level and event/detail version correspondence remain unspecified.",
+    "The 2026 Sangju event is outside the 2017-2022 KR_Mw catalog.",
+    "Magnitude agreement is not used to recalibrate either catalog."
+  ],
+  "source_context": "references/Hong_Sheen_2026_BSSA_Moment_magnitude.pdf; DOI 10.1785/0120250293"
+}

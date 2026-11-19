@@ -1,0 +1,5 @@
+event_id,origin_utc,ml,Mw,z_central,regression_residual,selection_reason
+20141207202857,2014-12-07 20:28:57,3.3,3.50385354177984,21.54,0.24333690903916327,Retained waveform-review set; values refreshed for current source Vs(z)
+20150801182234,2015-08-01 18:22:34,2.1,2.0687027470131114,6.12,-0.3570488690101681,Retained waveform-review set; values refreshed for current source Vs(z)
+20160912104432,2016-09-12 10:44:32,5.1,4.940778606981087,16.09,0.42811444916431274,Retained waveform-review set; values refreshed for current source Vs(z)
+20170516142902,2017-05-16 14:29:02,2.2,3.0568374042198294,6.02,0.5615220368034337,Retained waveform-review set; values refreshed for current source Vs(z)

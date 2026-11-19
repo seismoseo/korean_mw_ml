@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "provided_papers": [
+    {
+      "file": "references/Trugman2026_SRL.pdf",
+      "sha256": "5f984fef5a8bbe79f1ce6690e7fa742f37442244262e4125caf3806203d21103",
+      "DOI": "10.1785/0220250419",
+      "pages": 10
+    },
+    {
+      "file": "references/Liu2026_GRL.pdf",
+      "sha256": "60a461de6d123d1315dc196b57df175d427a725c1abb0d882ee6a642985e9866",
+      "DOI": "10.1029/2026GL124983",
+      "pages": 13
+    },
+    {
+      "file": "references/Liu2026_GRK_SM.pdf",
+      "sha256": "67e376e43776a6f62d6f39412ec519e0eb37b2bc42d72103a18f81612ba8e31b",
+      "DOI": "Supporting Information, Liu2026",
+      "pages": 16
+    }
+  ],
+  "source_velocity_config_sha256": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+  "protected_outputs_verified": 14,
+  "adopted_magnitudes_and_six_reports_unchanged": true,
+  "physical_potency_formula_max_relative_error": {
+    "Kim1983": 2.5268676040468563e-13,
+    "Kim2011": 2.580158309228864e-13
+  },
+  "mixed_unit_conversion_verified": true,
+  "reference_rigidity_and_C_offsets_verified": true,
+  "independent_family_weighted_OLS_verified": true,
+  "independent_paper_binning_verified": true,
+  "complete_Gyeongju_holdout_verified": true,
+  "bootstrap_success_fraction": 1.0,
+  "ODR_linear_closed_form_max_error": 2.713860123293444e-07,
+  "ODR_quadratic_projection_max_error": 1.6589772769970423e-06,
+  "report_pages": 11,
+  "pdf_text_spans_checked": 740,
+  "report_sha256": "9d40840d42e797381701fe693654ab7b76338397ae40aa9b717d0f151bcd5bfa",
+  "Mpv_status": "Not estimated; source-only scalar potency is explicitly distinguished.",
+  "code_sha256": {
+    "potency_model.py": "55e77c3b42626e717f313521a59619c72f306d22b80e30b2778d69f264401915",
+    "potency_regression.py": "aa5765cc7fe2ad79fb156338e84c0354e0faf7d51efe53ced13ac6fa10817b7f",
+    "analyze_potency.py": "e0cb70752352c8bc7637c7605dc96daebc2f6480637c3943fe1c42dc3cc82015",
+    "potency_regional_controls.py": "8677bd161ddaabdc7a6a1afcf71312272a37dc05ec6beb60c69301ab31834e99",
+    "report_potency.py": "fc80034c3264f2a67ca9647428a35bdde82000d6208532ecfa68c0d5dc32faba",
+    "validate_potency.py": "e5dda84f82655f8a0cebf9413fd89a9da12ba61874746b850c4a0340a1115adc"
+  }
+}

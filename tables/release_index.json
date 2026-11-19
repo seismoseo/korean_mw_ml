@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "adopted_estimator": "Multitaper / Boatwright",
+  "candidate_events": 642,
+  "Mw_quality_counts": {
+    "A": 443,
+    "C": 115,
+    "B": 61,
+    "F": 23
+  },
+  "primary_events": 439,
+  "primary_blocks": 227,
+  "paired_primary_events": 357,
+  "paired_primary_blocks": 194,
+  "numerical_validation": "tables/release_validation.json",
+  "reports": {
+    "Estimator_and_KR_Mw_comparison.pdf": {
+      "pages": 6,
+      "sha256": "78557c9189cfc83e44a632656de53d5d4392990ed2edb15261bfb24df41b67ed"
+    },
+    "Hong_KR_Mw_regression_and_stability.pdf": {
+      "pages": 9,
+      "sha256": "d2a6a16798c8b5a880e15760b2931223f27b10aa5ddae7d07606e1617ef72291"
+    },
+    "Independent_ML_and_Mw_comparison.pdf": {
+      "pages": 10,
+      "sha256": "dd6c23622c874e0fb1a63f4bfe7bcaa89cabc94e6dce04a012a9396b1360a227"
+    },
+    "Korean_Mw_ML_study.pdf": {
+      "pages": 21,
+      "sha256": "b75fdf0461af94745ac8d1162f5e5c2a2e17dfb7c25d49d4e38d641cad06b307"
+    },
+    "Potency_magnitude_and_quadratic_scaling.pdf": {
+      "pages": 11,
+      "sha256": "9d40840d42e797381701fe693654ab7b76338397ae40aa9b717d0f151bcd5bfa"
+    },
+    "Spectral_fit_atlas.pdf": {
+      "pages": 161,
+      "sha256": "49081acc8d65cbab69f84be09619d45a9a12e1f37c00eec1104e481ffac6210b"
+    },
+    "Velocity_models_and_magnitudes.pdf": {
+      "pages": 3,
+      "sha256": "c8d413e667f272040fb8d01aca0b42135c6f35efb464d1e94031616faee6c9d5"
+    }
+  },
+  "external_adopted_projects_modified": false,
+  "comparison_validation": "tables/comparison_validation.json",
+  "comparison_passed": true,
+  "primary_values_changed_by_comparison": false,
+  "source_velocity_model": "Kim & Kim (1983), Vp/Vs=1.73",
+  "source_velocity_comparison": "Kim et al. (2011), published Table 2",
+  "source_velocity_validation": "tables/source_velocity_update_validation.json",
+  "source_velocity_config_sha256": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+  "source_velocity_updated": true,
+  "Hong_regression_validation": "tables/Hong_report_validation.json",
+  "Hong_regression_passed": true,
+  "estimator_stability_common_plateau_events": 568,
+  "potency_analysis_validation": "tables/potency_validation.json",
+  "potency_analysis_passed": true,
+  "potency_analysis_scope": "Source-only scalar potency and exploratory matched Mp/Mw regressions, large-event prediction, normalization and depth-residual controls. Adopted Mw/ML unchanged; Mpv not estimated.",
+  "potency_paper_method_audit": "tables/potency_paper_method_audit.json",
+  "magnitude_followup_validation": "tables/magnitude_followup_validation.json",
+  "magnitude_followup_passed": true,
+  "potency_rigidity_literature_audit": "tables/potency_rigidity_literature_audit.json",
+  "potency_rigidity_literature_passed": true
+}

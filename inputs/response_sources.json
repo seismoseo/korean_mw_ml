@@ -1,0 +1,15 @@
+{
+  "master_source": "/home/msseo/works/5.P_wave_moment_tensor_inversion/Response/KS_KG_metadata_1.0.2.xml/KS_KG_metadata_1.0.2.xml",
+  "master_source_sha256": "87114e03182b205e89ef46589c7805b51fe23dcc01ac2c14345a0914303a6b2d",
+  "master_creation_date": "2024-06-26",
+  "velocity_subset": "/home/msseo/works/Claude/korean_mw_ml/inputs/master_velocity.xml",
+  "subset_sha256": "c3ce703c97d9d1f086fa4c11aa5acf1ea02476ad46863ef3e5458d8b4277bd9c",
+  "retained_channel_epochs": 1632,
+  "removed_other_channel_epochs": 5526,
+  "merged_override": "/home/msseo/works/27.Haenam_sequence_renewal/docs/decisions/response_inventory_20261014/merged_inventory.xml",
+  "merged_sha256": "c8b62ce103a32832c243c9c284fb0b6a425452e5bbbf9c9f4376359cee8ce051",
+  "policy": "Exact channel and epoch; audited merged response first, dated NECIS current response second, historical master fallback; require station coordinate agreement within 2 km. HG permitted only with acceleration units. One record per site.",
+  "limitations": "An open historical epoch is not independent proof that the instrument stayed unchanged. The national response history has not received the full Haenam station audit.",
+  "necis_current": "/home/msseo/works/Claude/sangju_20261117/results/inputs/necis_KS_sangju.xml",
+  "necis_current_sha256": "bdd33f5826fc5474bfc2cfcc7ef32b3db2f0a0ea446be5339cfcb8925c095eef"
+}
