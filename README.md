@@ -6,8 +6,36 @@ for the ML 3.6 Sangju earthquake of 17 November 2026, which is kept out of all f
 are compared with each other, with the KMA ML, with the published Mw catalog of Hong and Sheen (2026),
 and with potency magnitude.
 
-**Main report:** [`reports/Korean_Mw_ML_study.pdf`](reports/Korean_Mw_ML_study.pdf), 21 pages: methods,
-results, figures and the sensor appendix. The numbers in all reports are read from the files in `tables/`.
+**Original ML≥2 report:** [`reports/Korean_Mw_ML_study.pdf`](reports/Korean_Mw_ML_study.pdf), 21 pages: methods,
+results, figures and the sensor appendix. Report numbers are read from their corresponding `tables/` folders.
+
+**Smaller-event extension:** [Extended_Mw_ML_scaling.pdf](small_events/extension/reports/Extended_Mw_ML_scaling.pdf),
+27 pages, now covering **ML, Mw and scalar potency magnitude Mp together**. All 2,317 eligible catalog-ML 1.5–1.9 events, a fixed lower-magnitude sample and the 642 reference
+events were assessed: **3,532 attempts** in total. The uniform NW2/three-taper method gives **304 smaller
+paired-A events**, 293 outside the pilot; **166 new events have measured ML 1.5–2.0**. The family-weighted reference line is
+Mw = 2.200 + 0.717(ML − 2), based on 676 paired-A events in 374 families; quadratic and
+fixed-knot models under family weights do not improve prediction of the new small events using our measured ML.
+For a description across magnitude ranges, the earlier **50-bin median method** gives
+Mw = 2.181607 + 0.669254u + 0.037806u², u = measured ML − 2. Its large-event prediction RMS
+is 0.108, versus 0.144 for the bin-median line and 0.169 for the family-weighted line.
+Equal-bin weights restore the emphasis on sparse large events that family weights lose after expansion.
+The corresponding Mp curve is **Mp = 2.161185 + 0.673739u + 0.034604u²**. It lowers large-event
+prediction RMS from 0.1365 for the bin line to 0.1006 for the bin quadratic. Mp is available for all
+**2,000 finite-Mw cases** and uses the earlier Liu normalization with depth-dependent source rigidity.
+The [expanded potency report](small_events/extension/reports/Potency_magnitude_and_quadratic_scaling.pdf)
+extracts the eleven-page joint section: definitions, both ML axes, two velocity models, equations,
+regression methods, large events, depth trends, rigidity, Hong comparisons and the same-WA-amplitude ML attenuation/gain controls.
+**Independent Wood–Anderson ML was measured for 2,222 events, including 1,698 of grade A.**
+The [fourteen-page regression comparison](small_events/extension/reports/Linear_quadratic_Mw_ML_comparison.pdf)
+starts with the matched Mp/Mw definitions, curves and equations, then gives the weight diagnosis and
+family-weighted linear/quadratic equations, earlier larger-event curves, OLS/ODR and prediction tests for
+both measured ML and KMA ML. The KMA-ML quadratic has appreciable curvature; it is a separate result.
+This is scaling among accepted measurements.
+The original 642-event results are preserved. [All-attempt ML/Mw/Mp catalog](small_events/extension/tables/potency_event_catalog.csv)
+and [methods/run order](small_events/extension/README.txt).
+
+The earlier [pilot report](small_events/reports/Small_event_Mw_ML_pilot.pdf) records the fixed initial
+selection and the window/taper experiments that preceded the expansion.
 
 | Report | Pages | Content |
 |---|---|---|
@@ -17,10 +45,17 @@ results, figures and the sensor appendix. The numbers in all reports are read fr
 | [`Estimator_and_KR_Mw_comparison.pdf`](reports/Estimator_and_KR_Mw_comparison.pdf) | 6 | Multitaper versus direct Fourier spectra; first comparison with KR_Mw |
 | [`Hong_KR_Mw_regression_and_stability.pdf`](reports/Hong_KR_Mw_regression_and_stability.pdf) | 9 | Method differences from Hong and Sheen (2026); OLS, orthogonal and Deming fits |
 | [`Potency_magnitude_and_quadratic_scaling.pdf`](reports/Potency_magnitude_and_quadratic_scaling.pdf) | 11 | Potency magnitude; linear versus quadratic ML scaling; depth trend |
+| [`Snoke_coefficient_and_bandwidth_audit.pdf`](reports/Snoke_coefficient_and_bandwidth_audit.pdf) | 6 | Ahn and Kang (2026): coefficient audit, bandwidth, source-shape and moment-stability tests |
 | [`Spectral_fit_atlas.pdf`](reports/Spectral_fit_atlas.pdf) | 161 | Spectrum and fit of every event, rejected ones included |
 | [`hh_hg_comparison/reports/HH_HG_paired_comparison.pdf`](hh_hg_comparison/reports/HH_HG_paired_comparison.pdf) | 8 | Co-located broadband (HH) and accelerometer (HG) records at Haenam and Sangju |
+| [`Small_event_Mw_ML_pilot.pdf`](small_events/reports/Small_event_Mw_ML_pilot.pdf) | 7 | Fixed small-event pilot, all failures, independent ML coverage, window/taper controls and exploratory fits |
+| [`Small_event_spectral_atlas.pdf`](small_events/reports/Small_event_spectral_atlas.pdf) | 45 | Every one of the 180 attempted pilot/control events, including failures |
+| [Extended_Mw_ML_scaling.pdf](small_events/extension/reports/Extended_Mw_ML_scaling.pdf) | 27 | Joint ML/Mw/Mp study: independent ML, original potency definition, matched methods and historical controls, depth/velocity/Hong comparisons, spectral controls and spectra |
+| [Expanded potency report](small_events/extension/reports/Potency_magnitude_and_quadratic_scaling.pdf) | 11 | The joint Mw/Mp section alone, with coverage matching the earlier ML≥2 potency study |
+| [Linear_quadratic_Mw_ML_comparison.pdf](small_events/extension/reports/Linear_quadratic_Mw_ML_comparison.pdf) | 14 | Matched Mp/Mw equations and curves, followed by the fitting-objective audit and detailed family-weighted Mw controls |
+| [Accepted_small_event_spectra.pdf](small_events/extension/reports/Accepted_small_event_spectra.pdf) | 76 | Every smaller event passing both A-quality checks; 304 events |
 
-## What was done
+## Original ML≥2 study
 
 1. **Events.** KMA events of ML ≥ 2, 1 January 2010 to 31 October 2026, whose depths have grade G2 or G3
    in the national depth assessment of the Sangju study: 642 events. Depth is used as a continuous
@@ -60,6 +95,11 @@ results, figures and the sensor appendix. The numbers in all reports are read fr
 8. **Potency.** Scalar potency P0 = M0/(ρβ²) and the magnitude MP of Liu et al. (2026). A quadratic
    ML–MP relation is tested against a line, and the residuals are tested for a depth trend. This is a
    separate analysis; it does not change the adopted Mw.
+9. **Snoke coefficient audit.** Ahn and Kang (2026) identify an inconsistency in one alternative
+   Brune K–J integral formula. Our final plateau comes from direct spectral fitting, so no Snoke
+   coefficient correction is applied. Independent integral calculations, the saved-spectrum replay,
+   passband and source-model sensitivities are in the new audit report. These diagnostics preserve
+   adopted Mw/ML, regressions and previous reports.
 
 The choices behind these steps, who made them and where their evidence is: [`docs/decisions.csv`](docs/decisions.csv).
 
@@ -100,6 +140,32 @@ The choices behind these steps, who made them and where their evidence is: [`doc
     0.037–0.087). The median residual falls from +0.020 at 5–10 km to −0.035 at 10–15 km and stays near
     −0.03 deeper. This is a trend in the selected events, not a correction
     (`tables/magnitude_followup_depth_regressions.csv`, `tables/magnitude_followup_depth_bins.csv`).
+- **Ahn and Kang (2026) audit.** The paper's algebra and finite-band benchmark reproduce independently.
+  All 620 finite adopted Mw estimates, including Sangju, replay to numerical precision. For 443
+  Mw grade-A events, the diagnostic Snoke estimate uses an assumed high-frequency tail supplying a
+  median 40% of its velocity-square integral. This qualifies source-corner and stress-drop use, not
+  the observed plateau by itself. Source-model review cases are listed in
+  `tables/snoke_model_review_events.csv`; no blanket 0.10 magnitude adjustment is justified.
+
+- **Smaller-event extension.** The 3,532-attempt expansion gives 676 paired-A events in 374 families
+  at measured ML≥1.5. The family-balanced slope is 0.717 (interval 0.700–0.734); equal-axis
+  ODR gives 0.730. Family-held-out RMS on the 166 new measured-ML 1.5–2 events is 0.071. The uniform
+  NW2 estimates differ from the original method by median −0.019 Mw and RMS 0.026 across 424 shared
+  Mw-A controls. Full-census and pilot-family-exclusion sensitivities support the linear result.
+  Independent ML is finite for 2,222 events (1,698 A); all 46,117 selected station ML readings
+  reproduce from their archived Wood–Anderson N/E peak amplitudes. Full previous/expanded
+  linear and quadratic coefficients are in `regression_comparison_models.csv`. Using measured ML,
+  expanded family-weighted curvature is −0.000095; using KMA ML it is +0.062359 (interval +0.0301–+0.1038).
+  Both axes use identical event membership; matched NW2 larger-only versus expanded fits separate
+  the addition of smaller events from the spectral-method change.
+  The restored 50-bin OLS method gives measured-ML curvature +0.037806 (bin ODR +0.037289).
+  On the six measured-ML>4 events, its fitted RMS is 0.0878 and whole-family-held-out event RMS
+  is 0.1082; the corresponding family-weighted quadratic gives 0.1673 and 0.1773.
+  New-small-event prediction RMS is 0.0686, close to the family line's 0.0685. No event is trimmed
+  from the measured-ML bin fits. Large events carry only 0.606% of the expanded family loss,
+  compared with 1.815% previously. Tables `fit_objective_*` retain all 80 audited specifications.
+  Counts, failures and every comparison are in `small_events/extension/tables/`; the earlier national
+  catalog, regressions and reports remain unchanged.
 
 ## Layout
 
@@ -108,9 +174,10 @@ The choices behind these steps, who made them and where their evidence is: [`doc
 | `code/` | All scripts, in one folder because they import each other. Run order below. |
 | `inputs/` | Event list (`cohort.csv`), processing settings (`study_config.json`), quality rules, response sources, the two velocity models (`source_velocity_models.json`), the KR_Mw source record, a map coastline, the earlier Mw and ML from velocity sensors only (before HG was added; used for the before–after comparison), and a copy of the Haenam ML recipe that `local_magnitude.py` imports from the Haenam project. |
 | `tables/` | Catalogs, fits, regressions, checks, the release index and the file manifest (groups below). |
-| `figures/` | Figures 01–22 of the reports, as PNG and PDF. |
+| `figures/` | Figures 01–26 of the reports, as PNG and PDF; the Snoke audit also includes SVG. |
 | `reports/` | The PDF reports. |
 | `hh_hg_comparison/` | The paired-sensor study: its own `code/`, `tables/`, `figures/` and report; `inputs/` holds the pair list and checksums. |
+| `small_events/` | Initial pilot and the completed `extension/`: frozen selections, all attempts, uniform-estimator scaling, figures, reports and validation. Earlier adopted values preserved. |
 | `ml_validation/` | Provenance of the ML measurement and the HG processing checks. |
 | `references/` | The papers used ([`references/README.md`](references/README.md)). |
 | `docs/` | Decision log and the record of the restructuring of 19 November 2026 ([`docs/restructure_20261119.md`](docs/restructure_20261119.md)). |
@@ -132,6 +199,7 @@ Tables by prefix:
 | `KR_Mw_*`, `Hong_*`, `comparison_*` | Comparison with Hong and Sheen (2026) | `compare_KR_Mw.py`, `hong_regressions.py`, `report_Hong_regressions.py` |
 | `source_velocity_*` | The two velocity models and the conversion of 19 November 2026 | `update_source_velocities.py`, `report_source_velocity.py`, `validate_source_velocity_update.py` |
 | `potency_*`, `magnitude_followup_*` | Potency analysis and its follow-up questions | `analyze_potency.py`, `potency_regional_controls.py`, `analyze_magnitude_followup.py`, `audit_potency_literature.py`, `report_potency.py` |
+| `snoke_*` | Ahn and Kang equation audit; matched-band integral diagnostics; source-shape and Mw–ML sensitivity controls | `snoke_audit.py`, `report_snoke_audit.py` |
 | `*_validation.json`, `release_index.json`, `MANIFEST.csv` | Pass/fail checks; index of checks and reports; size and SHA-256 of every local file | `validate_*.py`, `write_manifests.py` |
 
 ## Run order
@@ -161,18 +229,38 @@ Run from the project folder with one BLAS thread per process:
 8. **Potency.** `analyze_potency.py`, `potency_regional_controls.py`, `analyze_magnitude_followup.py`,
    `audit_potency_literature.py`, `report_potency.py` (pages 7–11 come from `report_magnitude_followup.py`),
    `validate_potency.py`, `validate_magnitude_followup.py`.
-9. **Index.** `write_manifests.py`.
+9. **Snoke audit.** `snoke_audit.py`, `report_snoke_audit.py`. These read existing spectra and preserve
+   adopted results; `--falloff-only` on the first script reuses the completed integral calculation
+   when only the additional model-bound controls are required.
+10. **Smaller events.** `small_events/README.txt` records the initial pilot. The completed expansion
+    has its own commands in `small_events/extension/README.txt`: prepare, run, analyze, compare, report and
+    validate. Both preserve the earlier national study and reports.
+11. **Index.** `python code/write_manifests.py --project-only` for this project, or without that flag to
+    also refresh the Sangju manifest.
 
-Steps 5–9 take about 5 minutes. `update_source_velocities.py` is not in the list. It converted the
+Steps 5–9 take several minutes with cached spectra; a fresh pilot also requires waveform processing.
+`update_source_velocities.py` is not in the list. It converted the
 stored results from the earlier fixed 3.5 km/s source velocity to the depth-dependent one once, on 19
 November 2026, and refuses to run again; a new run of step 2 applies the depth-dependent velocity
 directly.
 
 ## Not in the repository
 
+The 120-MiB joint prediction table is included losslessly as
+[`magnitude_scaling_predictions.csv.gz`](small_events/extension/tables/magnitude_scaling_predictions.csv.gz).
+After a fresh clone, restore its canonical CSV before running the extension validation or report scripts:
+
+```sh
+gzip -dk small_events/extension/tables/magnitude_scaling_predictions.csv.gz
+```
+
+The uncompressed CSV remains on the analysis server. Its exact size and SHA-256 are recorded in
+`tables/MANIFEST.csv` and the extension validation records.
+
 - **Waveforms.** KMA and NECIS waveforms are not redistributed: the Sangju records in
   `inputs/Sangju_counts/`, and the event and continuous records of `hh_hg_comparison/inputs/`.
 - **Per-event results and logs** (about 450 MB), regenerated by step 2.
+- **Pilot per-event caches and logs**, regenerated by the commands in `small_events/README.txt`.
 - **Instrument responses.**
   - `inputs/master_velocity.xml` is built by `prepare_responses.py` from the station metadata of Ahn et
     al. (2024), whose repository has no license.

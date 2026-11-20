@@ -1,0 +1,5 @@
+pilot_role,magnitude_stratum,attempted,finite_Mw,Mw_A,Mw_B,ML_measured,ML_A,paired_A,paired_A_or_B,design_weighted_paired_A_fraction
+control,2p0-2p4_control,18,17,12,1,17,12,7,13,0.3032407407407409
+small,0p5-0p9,54,12,1,0,15,5,0,1,0.0
+small,1p0-1p4,54,14,1,5,22,13,1,6,0.0021547301457007805
+small,1p5-1p9,54,29,7,6,34,27,6,13,0.10005754567688102

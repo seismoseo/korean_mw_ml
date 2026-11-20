@@ -1,0 +1,21 @@
+{
+  "signature": "67b2de067cab31f11065af817c178731455959aaefaf1f66b3b4a131f687ccbe",
+  "cohort_sha256": "d9a8408a649ebb99d196350826956c70086625a926db54f4dfa7dee78c42a388",
+  "processing_sources": {
+    "/home/msseo/works/Claude/korean_mw_ml/code/run_small_event_pilot.py": "fe1eef43c66903bfa55d5e383c2bd573ed7acbcebea8fb54791f5ca24c8c2b08",
+    "/home/msseo/works/Claude/korean_mw_ml/code/run_catalog.py": "90d49f775a2ba705b6f28f77b24626f0a89cbefbad64b6400f2c31917063fe85",
+    "/home/msseo/works/Claude/korean_mw_ml/code/local_magnitude.py": "9a9b522967baaf261b032209b06e278ff070ae417cf4e3759bd1c8a09df95928",
+    "/home/msseo/works/Claude/korean_mw_ml/code/instrument_processing.py": "04a21aae08f02fce19c5823a6afae70e19b1f185a3abb7b14baca900eeb2e5ce",
+    "/home/msseo/works/Claude/korean_mw_ml/code/spectra.py": "76cdc6631e4e408c2d8aad05e760799c38beb5dfbca03615c0bf4926f5fd9f0c",
+    "/home/msseo/works/Claude/korean_mw_ml/code/source_velocity.py": "1237d6073080c6503c48e856d1202ee66c65d5c03ad179d5578ac3645e661389",
+    "/home/msseo/works/27.Haenam_sequence_renewal/magnitudes/local_ml/buan_sheen2018_snapshot.py": "6b7fa05ecb15762fdd184e5b77d360302ccad7b2dc94d615b396988ad6d72678",
+    "/home/msseo/works/Claude/korean_mw_ml/inputs/response_sources.json": "f5b12b6b7e09686979efca0f1f5ece2eccdf802e785e39cd470359f0a6905a86",
+    "/home/msseo/works/Claude/korean_mw_ml/inputs/source_velocity_models.json": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+    "/home/msseo/works/Claude/korean_mw_ml/small_events/inputs/pilot_config.json": "7fc7d26aeb9104c9ef144a9f17b57d13596f68e0d7e4cc1530bb2840ac6a880f"
+  },
+  "neighbor_catalog": "/home/msseo/works/Claude/data/necis/catalog/necis_events_domestic_1978_2026.csv",
+  "neighbor_catalog_sha256": "02a672142f54bd5329fa34c21c60cbc39bca5a4f33f3c28a483a32359e57beea",
+  "known_neighbors_all_magnitudes": true,
+  "reference_project_modified": false,
+  "workers": 6
+}

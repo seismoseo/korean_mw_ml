@@ -1,0 +1,100 @@
+event_id,window_s,method,reason
+20160912104640,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912104640,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912104640,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912104640,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912104803,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912104803,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912105050,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912105050,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912105050,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912105050,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912105301,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912105301,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912110936,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912110936,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912113422,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912113422,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912113600,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912113600,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912113600,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912113600,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912113935,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912113935,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912114040,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912114040,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912114040,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912114040,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912115500,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912115500,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912121638,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912121638,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912131836,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912131836,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912145342,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912145342,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912153218,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912153218,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912170935,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912170935,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912170935,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912170935,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912201554,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912201554,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20160912201554,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20160912201554,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20170105203323,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20170105203323,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20170308172431,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20170308172431,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20170308172431,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20170308172431,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20170409190249,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20170409190249,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20170409190249,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20170409190249,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20171030020210,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20171030020210,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20171030020210,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20171030020210,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20171108085249,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20171108085249,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20171115095826,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20171115095826,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20171204125547,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20171204125547,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20171204125547,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20171204125547,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20180109071751,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20180109071751,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20180109071751,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20180109071751,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20180110094259,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20180110094259,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20180110094259,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20180110094259,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20180203021218,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20180203021218,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20180210200723,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20180210200723,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20180210200723,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20180210200723,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20180225172303,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20180225172303,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20181211184304,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20181211184304,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20190310192700,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20190310192700,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20190313032020,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20190313032020,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20191031072934,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20191031072934,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20200107210300,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20200107210300,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20200107210300,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20200107210300,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20221028232918,,,No retained event spectra
+20250912232829,10.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20250912232829,10.1,Direct Fourier,No contiguous usable band of one decade and 20 samples
+20250912232829,20.1,Multitaper,No contiguous usable band of one decade and 20 samples
+20250912232829,20.1,Direct Fourier,No contiguous usable band of one decade and 20 samples

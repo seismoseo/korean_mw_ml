@@ -1,0 +1,5 @@
+selection,comparison,n_events,n_blocks,family_mean_delta_MSE,lower,upper,negative_favors_alternative
+"New small, ML>=1.5",quadratic minus linear,291,198,9.104409248448767e-06,3.2712496368389164e-06,1.506349054729779e-05,True
+"New small, ML>=1.5",hinge2 minus linear,291,198,4.472674902763597e-05,4.463122333360949e-06,9.149466848821854e-05,True
+"New small, ML1.5–2",quadratic minus linear,166,112,1.4129796573644399e-05,3.6679068379170823e-06,2.415106281164978e-05,True
+"New small, ML1.5–2",hinge2 minus linear,166,112,5.08460310448341e-05,-1.1637593724913322e-05,0.0001299787072285483,True

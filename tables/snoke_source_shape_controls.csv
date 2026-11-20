@@ -1,0 +1,9 @@
+model,falloff,integrable_J,correct_integral_coefficient,Brune_coefficient_inferred_omega_over_true,Brune_coefficient_delta_Mw
+Generalized Boatwright,1.5,False,,,
+Generalized Boatwright,1.6,True,2.343693653724283,0.853353848879468,-0.04591389891663187
+Generalized Boatwright,1.8,True,1.8475628634403138,1.0825071447235282,0.022953847632801797
+Generalized Boatwright,2.0,True,1.681792830507429,1.189207115002721,0.05017166594399686
+Generalized Boatwright,2.4,True,1.5401113735191532,1.2986073828089468,0.07565191172230566
+Generalized Boatwright,3.0,True,1.45647531512197,1.3731780959380788,0.09181791148009692
+Generalized Boatwright,4.0,True,1.4036890189849145,1.4248170164117342,0.10250606214062262
+Brune,2.0,True,2.0,1.0,0.0

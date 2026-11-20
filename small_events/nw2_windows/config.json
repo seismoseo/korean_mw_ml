@@ -1,0 +1,31 @@
+{
+  "signature": "1d75ae8274826140b170c0a6b4701235588ae5a7ce7af9ea164c0f5bbd3807e7",
+  "windows_s": [
+    5.1,
+    10.1
+  ],
+  "band_Hz": [
+    0.5,
+    20
+  ],
+  "nw": 2,
+  "kspec": 3,
+  "reason": "NW=2 gives half-bandwidth about 0.39 Hz for the 5.1-s window; three tapers retain the original common 0.5-20-Hz band.",
+  "acceptance": "Use the same A/B station, plateau, estimator/source-shape/window thresholds. Real ML>=2 controls assess transfer; no ad hoc amplitude adjustment or adopted-catalog replacement.",
+  "diagnostic_only": true,
+  "pulse_controls": {
+    "unit_area_input": true,
+    "noise_free": true,
+    "known_plateau": 1.0,
+    "cases": 72,
+    "band_Hz": [
+      0.5,
+      20
+    ],
+    "nw": 2,
+    "kspec": 3,
+    "maximum_absolute_delta_Mw_short_minus_20s": 0.03367234730637078,
+    "maximum_absolute_Mw_error_vs_true_input": 0.09494147180236705,
+    "caveat": "Pulse area is known after discrete normalization. This tests temporal/spectral operators, not path coda, real-noise selection, attenuation or site calibration. Absolute errors include source-shape/discretization effects; no correction is fitted."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "complete": true,
+  "attempted": 180,
+  "planned": 180,
+  "small_attempted": 162,
+  "small_Mw_quality_counts": {
+    "F": 107,
+    "C": 35,
+    "B": 11,
+    "A": 9
+  },
+  "small_ML_quality_counts": {
+    "F": 91,
+    "A": 45,
+    "B": 26
+  },
+  "small_paired_A": 7,
+  "small_paired_A_or_B": 20,
+  "measured_ML_range_paired_A": [
+    1.7754540370310883,
+    2.2261347380662775
+  ],
+  "KMA_ML_range_paired_A": [
+    1.2,
+    1.9
+  ],
+  "Mw_range_paired_A": [
+    2.11725580006757,
+    2.4836209191812237
+  ],
+  "finite_Mw": 55,
+  "yield_by_magnitude": [
+    {
+      "pilot_role": "control",
+      "magnitude_stratum": "2p0-2p4_control",
+      "attempted": 18,
+      "finite_Mw": 17,
+      "Mw_A": 12,
+      "Mw_B": 1,
+      "ML_measured": 17,
+      "ML_A": 12,
+      "paired_A": 7,
+      "paired_A_or_B": 13,
+      "design_weighted_paired_A_fraction": 0.3032407407407409
+    },
+    {
+      "pilot_role": "small",
+      "magnitude_stratum": "0p5-0p9",
+      "attempted": 54,
+      "finite_Mw": 12,
+      "Mw_A": 1,
+      "Mw_B": 0,
+      "ML_measured": 15,
+      "ML_A": 5,
+      "paired_A": 0,
+      "paired_A_or_B": 1,
+      "design_weighted_paired_A_fraction": 0.0
+    },
+    {
+      "pilot_role": "small",
+      "magnitude_stratum": "1p0-1p4",
+      "attempted": 54,
+      "finite_Mw": 14,
+      "Mw_A": 1,
+      "Mw_B": 5,
+      "ML_measured": 22,
+      "ML_A": 13,
+      "paired_A": 1,
+      "paired_A_or_B": 6,
+      "design_weighted_paired_A_fraction": 0.0021547301457007805
+    },
+    {
+      "pilot_role": "small",
+      "magnitude_stratum": "1p5-1p9",
+      "attempted": 54,
+      "finite_Mw": 29,
+      "Mw_A": 7,
+      "Mw_B": 6,
+      "ML_measured": 34,
+      "ML_A": 27,
+      "paired_A": 6,
+      "paired_A_or_B": 13,
+      "design_weighted_paired_A_fraction": 0.10005754567688102
+    }
+  ],
+  "original_adopted_results_unchanged": true,
+  "regressions": {
+    "n_new_paired_A": 7,
+    "n_new_blocks": 7,
+    "fit_extension": false
+  },
+  "regressions_A_or_B_sensitivity": {
+    "n_new_paired_A": 20,
+    "n_new_blocks": 20,
+    "combined_events": 377,
+    "combined_blocks": 212,
+    "fit_extension": true,
+    "regression_scope": "A/B-grade sensitivity; Exploratory selected pilot plus reference. Family bootstrap/CV and ODR do not correct for SNR-dependent missingness."
+  }
+}

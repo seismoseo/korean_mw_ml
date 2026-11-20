@@ -1,0 +1,12 @@
+topic,extension_coverage
+Physical definitions,Original P0 and Liu Mp; both velocity models; 28/36-GPa normalizations
+Magnitude regression,Every one of the earlier 128 Mw/Mp specifications and native-target scores reproduced
+Magnitude range,"Previous 357, expanded NW4 582, larger NW2 375, expanded NW2 676"
+Fit objectives,Family/event OLS and ODR; bin OLS; added bin ODR; 10/20/50-bin and support controls
+Uncertainty and prediction,Whole-family bootstrap; whole-family holdouts; fit/CV errors separated
+Large events,Same six measured-ML>4 events in five families; extrapolation flagged
+Depth dependence,Original 84 expanded-cohort depth controls plus 24 larger-only controls
+External comparisons,Unshifted Liu curve; Hong spectral/time-domain Mw and converted Mp
+Regional ML definitions,Same WA peaks: Sheen versus Hutton-Boore attenuation/distance; 2080/2800 gain control; matched Hong ML-range selection
+Catalog accounting,All 3532 attempts retained; Mp missing wherever Mw is missing
+Scope,Scalar source potency; effective-path-rigidity Mpv remains outside this spectral analysis

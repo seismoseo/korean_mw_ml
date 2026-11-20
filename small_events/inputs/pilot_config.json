@@ -1,0 +1,29 @@
+{
+  "scope": "Small-event feasibility pilot, not a complete national extension or an adopted conversion formula",
+  "seed": 20261119,
+  "eligible_small_events": 9325,
+  "small_events": 162,
+  "controls": 18,
+  "stratification": "KMA ML [0.5,1),[1,1.5),[1.5,2); depths [0,10),[10,16.89),>=16.89 km; eras 2010-16,2017-21,2022-26",
+  "sampling": "Six uniformly random events per small-event stratum; two ML2-2.4 controls per depth/era stratum. No replacement for missing data; selection made before waveform inspection.",
+  "source_catalog": "/home/msseo/works/Claude/sangju_20261117/results/tables/depth/national_confident_events.csv",
+  "source_catalog_sha256": "8888c94fe498ce7ee1af4f39c6d6fe68ac62593f9462d49f19d5179fd4112903",
+  "parent_catalog": "inputs/eligible_small_events.csv",
+  "cohort": "inputs/pilot_cohort.csv",
+  "primary_sensors": [
+    "HH",
+    "EL",
+    "HG"
+  ],
+  "quality_rules": "../inputs/analysis_quality_rules.json",
+  "quality_policy": "Same Mw/ML thresholds, source model, source constants, windows and band as the ML>=2 study. No acceptance based on Mw-ML agreement.",
+  "source_velocity_model": "Kim1983",
+  "comparison_velocity_model": "Kim2011",
+  "Mw_constant": 9.05,
+  "overlap_policy": "Use every known domestic catalog event (including ML<1.5), within 180 s and 50 km; same window-collision rules. Known-event coverage is incomplete.",
+  "frozen_reference_configuration_sha256": "61dce01b3e0e80268a0265073cf79b47fcb62f31af8b781f712f487845ea8cf6",
+  "pilot_cohort_sha256": "d9a8408a649ebb99d196350826956c70086625a926db54f4dfa7dee78c42a388",
+  "eligibility_caveat": "Conditional on successful original detection/picking and G2/G3 depth selection; not all Korean seismicity.",
+  "regression_caveat": "Pilot sampling and SNR-dependent acceptance are not a complete selection-function correction. Any extension fit is descriptive and provisional.",
+  "recording_caveat": "Modern station coverage and usable accelerometers can improve success; missing/failed cases remain in denominators."
+}

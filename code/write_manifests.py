@@ -5,8 +5,12 @@ hash of every report; MANIFEST.csv lists size and SHA-256 of every local file, i
 per-event results and raw inputs that are not in the git repository."""
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
+import argparse
 import csv,hashlib,json
 R=Path(__file__).resolve().parents[1]
+parser=argparse.ArgumentParser()
+parser.add_argument('--project-only',action='store_true',help='Update this project only; leave the Sangju manifest unchanged')
+args=parser.parse_args()
 
 # Keep the top-level validation index tied to the current release, rather than
 # leaving numerical counts and PDF hashes from an older processing generation.
@@ -62,6 +66,61 @@ if release.exists():
         check=json.loads(literature.read_text());assert check['passed']
         index.update(potency_rigidity_literature_audit='tables/potency_rigidity_literature_audit.json',
           potency_rigidity_literature_passed=True)
+    snoke=R/'tables/snoke_audit_validation.json'
+    if snoke.exists():
+        check=json.loads(snoke.read_text());assert check['passed']
+        index.update(snoke_audit_validation='tables/snoke_audit_validation.json',snoke_audit_passed=True,
+          Snoke_coefficient_correction_applied=False,
+          snoke_audit_scope='Equation and numerical audit with diagnostic integral, bandwidth and source-shape controls; adopted magnitudes and regressions preserved.')
+    pilot=R/'small_events/tables/validation.json'
+    if pilot.exists():
+        check=json.loads(pilot.read_text());assert check['passed']
+        for filename,digest in check['protected_results_sha256'].items():
+            assert hashlib.sha256((R/filename).read_bytes()).hexdigest()==digest,filename
+        pilot_reports={}
+        for filename,key,pages in [('Small_event_Mw_ML_pilot.pdf','report_sha256',7),
+                                   ('Small_event_spectral_atlas.pdf','atlas_sha256',45)]:
+            path=R/'small_events/reports'/filename
+            digest=hashlib.sha256(path.read_bytes()).hexdigest();assert digest==check[key]
+            with fitz.open(path) as doc:assert len(doc)==pages
+            pilot_reports[str(path.relative_to(R))]=dict(pages=pages,sha256=digest)
+        index.update(small_event_validation='small_events/tables/validation.json',small_event_pilot_passed=True,
+            small_event_scope=check['scope'],small_event_adopted_calibration_changed=False,
+            small_event_pilot_attempted=check['small_attempted'],small_event_controls=check['control_attempted'],
+            small_event_reports=pilot_reports)
+    extension=R/'small_events/extension/tables/validation.json'
+    if extension.exists():
+        check=json.loads(extension.read_text());assert check['passed']
+        summary=json.loads((R/'small_events/extension/tables/summary.json').read_text())
+        assert summary['complete'] and summary['attempted']==3532
+        for filename,digest in check['protected_results_sha256'].items():
+            assert hashlib.sha256((R/filename).read_bytes()).hexdigest()==digest,filename
+        for filename,record in check['reports'].items():
+            path=R/filename;assert hashlib.sha256(path.read_bytes()).hexdigest()==record['sha256']
+            with fitz.open(path) as doc:assert len(doc)==record['pages']
+        comparison_path=R/check['comparison_validation']
+        assert hashlib.sha256(comparison_path.read_bytes()).hexdigest()==check['comparison_validation_sha256']
+        detail=json.loads(comparison_path.read_text());assert detail['passed']
+        objective_path=R/check['fitting_objective_validation']
+        assert hashlib.sha256(objective_path.read_bytes()).hexdigest()==check['fitting_objective_validation_sha256']
+        objective=json.loads(objective_path.read_text());assert objective['passed']
+        potency_path=R/check['extension_potency_validation']
+        assert hashlib.sha256(potency_path.read_bytes()).hexdigest()==check['extension_potency_validation_sha256']
+        potency=json.loads(potency_path.read_text());assert potency['passed']
+        index.update(small_event_extension_validation='small_events/extension/tables/validation.json',
+            small_event_extension_passed=True,small_event_extension_transfer_passed=summary['transfer']['passed'],
+            small_event_extension_attempted=3532,small_event_extension_small_events=2890,
+            small_event_extension_primary_events=summary['primary_events'],small_event_extension_primary_blocks=summary['primary_blocks'],
+            small_event_extension_estimator=summary['uniform_estimator'],small_event_extension_reports=check['reports'],
+            small_event_extension_regression_comparison=check['comparison_validation'],
+            small_event_extension_independent_ML=detail['ML_counts'],
+            small_event_extension_fitting_objectives=check['fitting_objective_validation'],
+            small_event_extension_fitting_objective_models=objective['n_models'],
+            small_event_extension_potency_validation=check['extension_potency_validation'],
+            small_event_extension_finite_Mp=potency['finite_potency'],
+            small_event_extension_joint_magnitude_cases=potency['regression_cases'],
+            small_event_extension_previous_joint_cases_reproduced=potency['previous_native_cases_reproduced'],
+            legacy_national_results_preserved_by_extension=True)
     (R/'tables/release_index.json').write_text(json.dumps(index,indent=2)+'\n')
 
 def record(item):
@@ -70,8 +129,10 @@ def record(item):
         for block in iter(lambda:stream.read(1048576),b''):h.update(block)
     return p.relative_to(root).as_posix(),p.stat().st_size,h.hexdigest()
 
-for root,manifest in [(R,R/'tables/MANIFEST.csv'),
-  (R.parent/'sangju_20261117',R.parent/'sangju_20261117/results/MANIFEST.csv')]:
+targets=[(R,R/'tables/MANIFEST.csv')]
+if not args.project_only:
+    targets.append((R.parent/'sangju_20261117',R.parent/'sangju_20261117/results/MANIFEST.csv'))
+for root,manifest in targets:
     paths=sorted(p for p in root.rglob('*') if p.is_file() and p!=manifest and
       not any(s in ['.git','.claude','__pycache__','.ipynb_checkpoints'] for s in p.relative_to(root).parts))
     with ThreadPoolExecutor(12) as pool:rows=list(pool.map(record,((root,p) for p in paths)))

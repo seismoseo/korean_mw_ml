@@ -1,0 +1,63 @@
+{
+  "complete": true,
+  "diagnostic_only": true,
+  "attempted": 180,
+  "yield_by_magnitude": [
+    {
+      "pilot_role": "control",
+      "magnitude_stratum": "2p0-2p4_control",
+      "attempted": 18,
+      "finite_Mw": 17,
+      "Mw_A": 12,
+      "Mw_B": 1,
+      "paired_A": 7,
+      "paired_A_or_B": 13
+    },
+    {
+      "pilot_role": "small",
+      "magnitude_stratum": "0p5-0p9",
+      "attempted": 54,
+      "finite_Mw": 12,
+      "Mw_A": 3,
+      "Mw_B": 1,
+      "paired_A": 2,
+      "paired_A_or_B": 4
+    },
+    {
+      "pilot_role": "small",
+      "magnitude_stratum": "1p0-1p4",
+      "attempted": 54,
+      "finite_Mw": 15,
+      "Mw_A": 3,
+      "Mw_B": 6,
+      "paired_A": 3,
+      "paired_A_or_B": 9
+    },
+    {
+      "pilot_role": "small",
+      "magnitude_stratum": "1p5-1p9",
+      "attempted": 54,
+      "finite_Mw": 34,
+      "Mw_A": 7,
+      "Mw_B": 6,
+      "paired_A": 6,
+      "paired_A_or_B": 13
+    }
+  ],
+  "small_paired_A": 11,
+  "small_paired_A_or_B": 26,
+  "measured_ML_range_paired_A": [
+    1.4766636705786236,
+    2.2261347380662775
+  ],
+  "transfer_controls": {
+    "n_shared_Mw_A": 12,
+    "median_delta_Mw": -0.01380089080006397,
+    "RMS_delta_Mw": 0.020722045905248072,
+    "max_abs_delta_Mw": 0.04364005313677177,
+    "criterion": "At least 5 shared Mw-A controls; |median delta|<=0.05 and RMS delta<=0.10, fixed before the control outputs were assessed.",
+    "passed": true
+  },
+  "interpretation": "Short-window estimates remain a sensitivity. Control agreement is necessary but not sufficient for an unbiased small-event scaling; no catalog replacement or residual-based amplitude offset.",
+  "scheme": "NW2, K3, 5.1/10.1 s, 0.5-20 Hz"
+}

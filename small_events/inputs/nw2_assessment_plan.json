@@ -1,0 +1,20 @@
+{
+  "windows_s": [
+    5.1,
+    10.1
+  ],
+  "NW": 2,
+  "K": 3,
+  "band_Hz": [
+    0.5,
+    20
+  ],
+  "reason": "Resolve the same low-frequency edge with a shorter window, trading estimator variance against resolution",
+  "assessment": "Diagnostic; same fixed pilot, same acceptance criteria and real ML>=2 controls; no tuning by Mw-ML agreement",
+  "transfer_gate": {
+    "minimum_shared_Mw_A_controls": 5,
+    "maximum_absolute_median_delta_Mw": 0.05,
+    "maximum_RMS_delta_Mw": 0.1
+  },
+  "adopted_catalog_modified": false
+}

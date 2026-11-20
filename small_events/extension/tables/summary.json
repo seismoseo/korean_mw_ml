@@ -1,0 +1,78 @@
+{
+  "complete": true,
+  "attempted": 3532,
+  "planned": 3532,
+  "small_attempted": 2890,
+  "new_small_attempted": 2728,
+  "uniform_estimator": "NW2 K3 5.1/10.1 s, 0.5\u201320 Hz",
+  "adopted_catalog_preserved": true,
+  "transfer": {
+    "passed": true,
+    "all_controls": {
+      "bin": "All",
+      "n": 424,
+      "median_delta": -0.01941259284207808,
+      "RMS_delta": 0.025643995437377415,
+      "max_abs_delta": 0.08857712174989718
+    },
+    "bins": [
+      {
+        "bin": "ML2\u20132.4",
+        "n": 258,
+        "median_delta": -0.013180557839453044,
+        "RMS_delta": 0.021015803576317597,
+        "max_abs_delta": 0.08857712174989718
+      },
+      {
+        "bin": "ML2.5\u20132.9",
+        "n": 122,
+        "median_delta": -0.025108927996863928,
+        "RMS_delta": 0.028375691501570852,
+        "max_abs_delta": 0.06737567882184337
+      },
+      {
+        "bin": "ML>=3",
+        "n": 44,
+        "median_delta": -0.03317472127522003,
+        "RMS_delta": 0.038919290886276395,
+        "max_abs_delta": 0.08420665893022194
+      }
+    ],
+    "gate": {
+      "minimum_shared_Mw_A": 30,
+      "maximum_abs_median_delta": 0.05,
+      "maximum_RMS_delta": 0.1,
+      "per_catalog_ML_bin_maximum_abs_median": 0.05,
+      "minimum_per_bin": 5,
+      "bins": [
+        2,
+        2.5,
+        3,
+        6
+      ]
+    },
+    "limit": "Agreement assesses transfer between estimators on shared accepted records, not absolute accuracy or complete low-SNR coverage."
+  },
+  "small_event_sensor_check": {
+    "event_station_band_pairs": 0,
+    "coordinate_pairs": 0,
+    "scope": "No paired usable records; no amplitude correction"
+  },
+  "reference_overlap_reassessment": {
+    "reprocessed": 126,
+    "changed_finite_Mw": 18,
+    "changed_finite_ML": 8,
+    "changed_Mw_grade": 26,
+    "changed_ML_grade": 16
+  },
+  "small_paired_A": 304,
+  "small_paired_AB": 504,
+  "new_small_paired_A": 293,
+  "new_small_paired_A_measured_ML1p5_2": 166,
+  "paired_A_measured_ML_range": [
+    1.4761811008472379,
+    2.60355494540363
+  ],
+  "primary_events": 676,
+  "primary_blocks": 374
+}

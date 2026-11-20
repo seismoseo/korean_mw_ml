@@ -13,6 +13,28 @@ __pycache__/
 /ml_events/
 /logs/
 
+# Reproducible per-event caches and logs of the small-event feasibility pilot.
+/small_events/events/
+/small_events/spectra/
+/small_events/station_logs/
+/small_events/ml_events/
+/small_events/logs/
+/small_events/short_windows/events/
+/small_events/short_windows/spectra/
+/small_events/nw2_windows/events/
+/small_events/nw2_windows/spectra/
+/small_events/extension/events/
+/small_events/extension/ml_events/
+/small_events/extension/station_logs/
+/small_events/extension/spectra/
+/small_events/extension/nw2_windows/events/
+/small_events/extension/nw2_windows/spectra/
+/small_events/extension/logs/
+
+# Published losslessly as .csv.gz to fit GitHub's per-file limit.
+# Keep the canonical CSV locally; restore it after cloning with gzip -dk.
+/small_events/extension/tables/magnitude_scaling_predictions.csv
+
 # Raw waveforms, instrument responses and third-party catalogs: not redistributed (see README).
 /inputs/Sangju_counts/
 /inputs/master_velocity.xml

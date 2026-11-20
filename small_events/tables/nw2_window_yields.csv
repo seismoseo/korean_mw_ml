@@ -1,0 +1,5 @@
+pilot_role,magnitude_stratum,attempted,finite_Mw,Mw_A,Mw_B,paired_A,paired_A_or_B
+control,2p0-2p4_control,18,17,12,1,7,13
+small,0p5-0p9,54,12,3,1,2,4
+small,1p0-1p4,54,15,3,6,3,9
+small,1p5-1p9,54,34,7,6,6,13

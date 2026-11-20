@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "attempted": 3532,
+  "finite_Mw": 2000,
+  "finite_Mp": 2000,
+  "primary_events": 676,
+  "primary_families": 374,
+  "regression_cases": 480,
+  "main_method_cases": 384,
+  "depth_control_cases": 108,
+  "previous_native_cases_reproduced": 128,
+  "maximum_previous_CV_error": 1.1102230246251565e-16,
+  "source_velocity_sensitivity": {
+    "Mw": {
+      "median_abs": 0.03529483981534254,
+      "max_abs": 0.03529483981534365
+    },
+    "Mp": {
+      "median_abs": 0.011764946605113735,
+      "max_abs": 0.011764946605114623
+    }
+  },
+  "source_velocity_config_sha256": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+  "definitions": {
+    "P0": "M0/(rho*Vs(z)^2), m3",
+    "Mp_Liu": "(2/3)*(log10(P0[m3])+1.4563)",
+    "density_kg_m3": 2800,
+    "primary_model": "Kim1983",
+    "comparison_model": "Kim2011",
+    "equivalent_Liu_reference_rigidity_Pa": 35999792704.335686,
+    "Mw_constant": 9.05,
+    "Mp_alternatives": "Mpo28_C9p10, Mpo28_C9p05, Mp36_C9p05; these constant shifts do not change free-fit curvature or depth slopes"
+  },
+  "scope": "Scalar source potency; Mp quality inherits Mw spectral quality. No new waveform processing, relocation or effective-path-rigidity Mpv inversion."
+}

@@ -34,6 +34,10 @@
       "pages": 11,
       "sha256": "9d40840d42e797381701fe693654ab7b76338397ae40aa9b717d0f151bcd5bfa"
     },
+    "Snoke_coefficient_and_bandwidth_audit.pdf": {
+      "pages": 6,
+      "sha256": "2c996542c087c493763a0cbc593bda1124a61d24a58748390dbe8d144c5def8f"
+    },
     "Spectral_fit_atlas.pdf": {
       "pages": 161,
       "sha256": "49081acc8d65cbab69f84be09619d45a9a12e1f37c00eec1104e481ffac6210b"
@@ -62,5 +66,79 @@
   "magnitude_followup_validation": "tables/magnitude_followup_validation.json",
   "magnitude_followup_passed": true,
   "potency_rigidity_literature_audit": "tables/potency_rigidity_literature_audit.json",
-  "potency_rigidity_literature_passed": true
+  "potency_rigidity_literature_passed": true,
+  "snoke_audit_validation": "tables/snoke_audit_validation.json",
+  "snoke_audit_passed": true,
+  "Snoke_coefficient_correction_applied": false,
+  "snoke_audit_scope": "Equation and numerical audit with diagnostic integral, bandwidth and source-shape controls; adopted magnitudes and regressions preserved.",
+  "small_event_validation": "small_events/tables/validation.json",
+  "small_event_pilot_passed": true,
+  "small_event_scope": "Fixed-cohort feasibility and diagnostic window/taper experiments; no revised primary relation",
+  "small_event_adopted_calibration_changed": false,
+  "small_event_pilot_attempted": 162,
+  "small_event_controls": 18,
+  "small_event_reports": {
+    "small_events/reports/Small_event_Mw_ML_pilot.pdf": {
+      "pages": 7,
+      "sha256": "62c8e68bcf97a3a1aafc380c8a4331f79868bdf0ca633876390e95c0d92adb99"
+    },
+    "small_events/reports/Small_event_spectral_atlas.pdf": {
+      "pages": 45,
+      "sha256": "d1ce408a08b2b53c953a07a9b35254088cd98fe6c6c8b242b18d20bbccdcf6b9"
+    }
+  },
+  "small_event_extension_validation": "small_events/extension/tables/validation.json",
+  "small_event_extension_passed": true,
+  "small_event_extension_transfer_passed": true,
+  "small_event_extension_attempted": 3532,
+  "small_event_extension_small_events": 2890,
+  "small_event_extension_primary_events": 676,
+  "small_event_extension_primary_blocks": 374,
+  "small_event_extension_estimator": "NW2 K3 5.1/10.1 s, 0.5\u201320 Hz",
+  "small_event_extension_reports": {
+    "small_events/extension/reports/Extended_Mw_ML_scaling.pdf": {
+      "pages": 27,
+      "sha256": "8bed016c10dc74278d60d4cad8dd8fe29471edf0692a97778505f9d3ddfb5007"
+    },
+    "small_events/extension/reports/Linear_quadratic_Mw_ML_comparison.pdf": {
+      "pages": 14,
+      "sha256": "1db31825f862efd65d9e2a4606da6efa214a861373b80496cfcfaf6b6cc3e0e8"
+    },
+    "small_events/extension/reports/Potency_magnitude_and_quadratic_scaling.pdf": {
+      "pages": 11,
+      "sha256": "93e729b3d035fda8b3f118a6b77f4b06da2f29556bb1d22ac7f5c0b07f505e23"
+    },
+    "small_events/extension/reports/Accepted_small_event_spectra.pdf": {
+      "pages": 76,
+      "sha256": "f1ff1107dc5eb9f87fbc1fc3b8c271651c6e581010eb3b04247384663edd4778"
+    }
+  },
+  "small_event_extension_regression_comparison": "small_events/extension/tables/regression_comparison_validation.json",
+  "small_event_extension_independent_ML": {
+    "All": {
+      "attempted": 3532,
+      "ML_measured": 2222,
+      "ML_A": 1698,
+      "median_ML_A_minus_KMA": 0.1914409194796961
+    },
+    "Catalog ML<2": {
+      "attempted": 2890,
+      "ML_measured": 1614,
+      "ML_A": 1200,
+      "median_ML_A_minus_KMA": 0.2115131965245961
+    },
+    "Catalog ML>=2": {
+      "attempted": 642,
+      "ML_measured": 608,
+      "ML_A": 498,
+      "median_ML_A_minus_KMA": 0.152324492265969
+    }
+  },
+  "small_event_extension_fitting_objectives": "small_events/extension/tables/fit_objective_validation.json",
+  "small_event_extension_fitting_objective_models": 80,
+  "small_event_extension_potency_validation": "small_events/extension/tables/potency_validation.json",
+  "small_event_extension_finite_Mp": 2000,
+  "small_event_extension_joint_magnitude_cases": 480,
+  "small_event_extension_previous_joint_cases_reproduced": 128,
+  "legacy_national_results_preserved_by_extension": true
 }

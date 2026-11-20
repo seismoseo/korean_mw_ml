@@ -1,0 +1,23 @@
+{
+  "signature": "3f68a6b7c8942733e8174e769a486402e667c7b2cafd50450b465a6e1cc2f919",
+  "windows_s": [
+    3.1,
+    5.1
+  ],
+  "band_Hz": [
+    1.5,
+    20
+  ],
+  "reason": "Time-bandwidth product NW=4 gives half-bandwidth about 1.29 Hz for 3.1 s; a common 1.5-Hz lower bound avoids using the original 0.5-Hz edge.",
+  "acceptance": "Use the same A/B station, plateau, estimator/source-shape/window thresholds. Real ML>=2 controls assess transfer; no ad hoc amplitude adjustment or adopted-catalog replacement.",
+  "diagnostic_only": true,
+  "pulse_controls": {
+    "unit_area_input": true,
+    "noise_free": true,
+    "known_plateau": 1.0,
+    "cases": 72,
+    "maximum_absolute_delta_Mw_short_minus_10s": 0.0788297455170747,
+    "maximum_absolute_Mw_error_vs_true_input": 0.1687111396783422,
+    "caveat": "Pulse area is known after discrete normalization. This tests temporal/spectral operators, not path coda, real-noise selection, attenuation or site calibration. Absolute errors include source-shape/discretization effects; no correction is fitted."
+  }
+}

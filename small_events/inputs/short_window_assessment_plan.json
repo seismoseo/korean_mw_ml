@@ -1,0 +1,19 @@
+{
+  "windows_s": [
+    3.1,
+    5.1
+  ],
+  "band_Hz": [
+    1.5,
+    20
+  ],
+  "assessment": "Diagnostic only; same event cohort, same quality gates; no tuning by Mw-ML agreement",
+  "transfer_gate": {
+    "minimum_shared_Mw_A_controls": 5,
+    "maximum_absolute_median_delta_Mw": 0.05,
+    "maximum_RMS_delta_Mw": 0.1
+  },
+  "calibration": "No empirical amplitude offset will be fitted to the controls",
+  "record_basis": "Conservative subset: all records with computable original 10.1-s spectra, including original SNR failures and alternative sensors",
+  "limitation": "A passing transfer gate does not correct low-SNR selection or establish a nationally representative relation"
+}

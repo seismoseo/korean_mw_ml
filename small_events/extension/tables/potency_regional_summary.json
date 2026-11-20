@@ -1,0 +1,39 @@
+{
+  "scope": "Change only attenuation/distance and the illustrative gain on identical saved N/E WA peaks and station sets",
+  "original_station_ML_error": 1.637578961322106e-14,
+  "n_station_readings": 46117,
+  "gain_shift": 0.1290946963794577,
+  "gain_scope": "2800/2080 is an illustrative gain control, not a claim about the observational Liu catalog gain",
+  "paired_events": 676,
+  "Hong_same_ML_range": 483,
+  "definitions": [
+    {
+      "ML_definition": "ML_Sheen",
+      "n": 676,
+      "median_ML_minus_ours": 0.0,
+      "median_Mp_minus_Liu": -0.24895319581898634,
+      "RMS_to_Liu": 0.25906594120141324
+    },
+    {
+      "ML_definition": "ml",
+      "n": 676,
+      "median_ML_minus_ours": -0.22246179812502564,
+      "median_Mp_minus_Liu": -0.08070154082918202,
+      "RMS_to_Liu": 0.14840392484920334
+    },
+    {
+      "ML_definition": "ML_HB87_same_WA2080",
+      "n": 676,
+      "median_ML_minus_ours": -0.1160241663810333,
+      "median_Mp_minus_Liu": -0.16431035057177046,
+      "RMS_to_Liu": 0.17271593041497818
+    },
+    {
+      "ML_definition": "ML_HB87_WA2800_gain_control",
+      "n": 676,
+      "median_ML_minus_ours": 0.013070529998424285,
+      "median_Mp_minus_Liu": -0.2589504416797801,
+      "RMS_to_Liu": 0.2630979209023676
+    }
+  ]
+}

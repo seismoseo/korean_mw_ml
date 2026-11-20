@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "models": 32,
+  "ML_counts": {
+    "All": {
+      "attempted": 3532,
+      "ML_measured": 2222,
+      "ML_A": 1698,
+      "median_ML_A_minus_KMA": 0.1914409194796961
+    },
+    "Catalog ML<2": {
+      "attempted": 2890,
+      "ML_measured": 1614,
+      "ML_A": 1200,
+      "median_ML_A_minus_KMA": 0.2115131965245961
+    },
+    "Catalog ML>=2": {
+      "attempted": 642,
+      "ML_measured": 608,
+      "ML_A": 498,
+      "median_ML_A_minus_KMA": 0.152324492265969
+    }
+  },
+  "station_measurements": 46117,
+  "maximum_station_ML_replay_error": 0.0,
+  "previous_coefficients_reproduced": true,
+  "same_event_sets_for_both_ML_definitions": true,
+  "test_target": "Same 676 uniform-NW2 paired-A events; every target family omitted from each training cohort",
+  "target_ranges": "Defined using independently measured ML for both ML definitions",
+  "sampling_policy": "Existing quality selections; no waveform or magnitude changes",
+  "protected_inputs_sha256": {
+    "tables/Mw_independent_ML_primary.csv": "c1f74b6a965f7398bd4316168dbc9f2c303cf1cbfa1df286443410a90f51826f",
+    "tables/independent_ML_regressions.csv": "7a2d491f066af3c565d0a5cf9b4f1a599f9bad36a93c17f418b3b54d6e217c79",
+    "tables/magnitude_followup_regressions.csv": "1b98a3cfbd832c5f8ed5463e0d5b92863a4349eb9d87abe3346a04f91d7e4b0f",
+    "tables/magnitude_followup_bootstrap.npz": "e24c0974d7f0638626c6c16ee5fa8e208c57b092e64bfe68e43e1f70d4f5a91e",
+    "small_events/extension/tables/NW2_Mw_ML_catalog.csv": "8f1ea4d8f301dafe2ee7807ceeee0fcbc911290400b9b42ffd6abf3492cc1fa3",
+    "small_events/extension/tables/NW4_Mw_ML_catalog.csv": "6edb886fe03c57eb75827e763e55995a7c1e0739eab1b975c011e19345ff6e9e",
+    "small_events/extension/tables/Mw_ML_catalog.csv": "be9b103b8c0bb4615ed06fe6efda1248727c3b969235de930b2d865d0a807816",
+    "small_events/extension/tables/paired_A_MLge1p5.csv": "38d070a7f70686d8be8aef708f0768b1bf80933dd4f3071f43abea01578d345d",
+    "small_events/extension/tables/regressions.csv": "1dfaafee6f40f3f69784416e127124f11afd2f6468949cfc801bfedd9cb559f6",
+    "small_events/extension/tables/regression_bands.csv": "91521a1b664a0299092680f7b4cb84869ade59027f5cdd788504771c70cd7747",
+    "small_events/extension/tables/family_heldout_predictions.csv": "217183affc00fb20861abaeb24a7dc3da3539ad4ae87d75f35fd50a0f83eb474",
+    "small_events/extension/tables/summary.json": "c7ccc2e9aa314a29d0977a83d82ff955b7e2d2b8eba927305103a4a3fc4290b9"
+  },
+  "source_sha256": "e365327ba86d45a4fcabfa0b264dc7ea12fe7cd28bfe8e7f9341f8b099f96a30",
+  "outputs_sha256": {
+    "ML_measurement_audit.csv": "b32cae44437d084897a3502bef070d239cb0436bbc7673154e7295c90ada7e49",
+    "ML_station_measurements.csv": "f659893194087c2e139e739146a4feda19ec5dce185689dae88ee4e85d00a3ea",
+    "regression_comparison_models.csv": "d473962127fe9c16dbf008bb395a0961ec8ffabafd75d38e4dc3dab46d6e5659",
+    "regression_comparison_predictions.csv": "46507d8e06534a5f69d228491880c218a1d8679f0393595e1cf62ce6999023b9",
+    "regression_comparison_curves.csv": "84cff92a07ef3af20f76097ade6bf623726c728363a241dffb8c5dd0ce4903b1",
+    "regression_comparison_bootstrap.npz": "6b49b5378177d7a0e0dd10303bd120426610d8df06db16cbff7abdb6785d0890",
+    "regression_comparison_performance.csv": "0ee0f512b509b1da9284d2a87c8ebe95b935144ab0d1ec6a4c17c824245dd52f"
+  }
+}

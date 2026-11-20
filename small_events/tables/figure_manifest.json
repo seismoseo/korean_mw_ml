@@ -1,0 +1,22 @@
+[
+  {
+    "stem": "01_small_event_sampling",
+    "caption": "Six randomly selected events per magnitude \u00d7 depth \u00d7 era cell; no replacement or selection by waveform amplitude or Mw\u2013ML agreement.\nEra cells: 2010\u20132016, 2017\u20132021, 2022\u2013Oct 2026. Fractions describe this balanced pilot, not the national detection rate."
+  },
+  {
+    "stem": "02_small_event_scaling",
+    "caption": "Original processing gives seven paired-A events, measured ML 1.78\u20132.23; the NW2 window candidate reaches ML 1.48. No revised primary relation is adopted.\nThe A/B sensitivity adds 20 events to the 357-event reference; bootstrap/CV resamples or withholds whole families. These controls do not remove SNR selection bias."
+  },
+  {
+    "stem": "03_small_event_limits",
+    "caption": "Original 10.1/20.1 s, NW=4, seven tapers, 0.5\u201320 Hz; all HH/EL/HG inputs retained subject to the published response and SNR rules.\nUseful sites contribute \u226520 SNR-passing samples; the fitted stack must span \u2265one decade. No threshold was relaxed to obtain a smaller-event relation."
+  },
+  {
+    "stem": "04_small_event_window_controls",
+    "caption": "3/5 s NW4 uses 1.5\u201320 Hz to respect taper bandwidth; 5/10 s NW2 uses three tapers and the original 0.5\u201320 Hz band.\nPulse controls have known unit area but omit real path coda/noise/site effects. Real control agreement is necessary, not sufficient, for a revised scaling."
+  },
+  {
+    "stem": "05_small_event_spectra",
+    "caption": "Examples are the first chronological Mw-A and first finite non-A case in each catalog-magnitude bin; selection does not use Mw\u2013ML residuals.\nPoints show retained spectral samples; lines show fitted spectra, even when another quality criterion fails. The full atlas includes all 180 attempts."
+  }
+]

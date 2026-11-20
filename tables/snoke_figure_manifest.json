@@ -1,0 +1,18 @@
+[
+  {
+    "stem": "23_Snoke_equation_controls",
+    "caption": "Panels a\u2013c compare the two implementations, each iterated to convergence; they are not errors relative to the true source.\nPanel d compares the self-consistent finite-band estimate with the true Brune input. The coefficient does not remove tail-approximation error."
+  },
+  {
+    "stem": "24_Snoke_bandwidth",
+    "caption": "Band ratios and the blue J fraction are conditional on the direct Brune fit; they are not measured missing energy.\nThe stringent paper benchmark is a diagnostic reference, not a requirement for plateau-based Mw. Grade A assesses moment, not a resolved corner or stress drop."
+  },
+  {
+    "stem": "25_Snoke_moment_sensitivity",
+    "caption": "a\u2013c: 443 grade-A events. d: only 210 retain one decade after trimming. e\u2013f: 443 events, same frequency gate and source coefficient.\nOrange in e marks the original n=1.5 bound. Exponents \u22641.5 are finite-band sensitivity models; extending them to infinite frequency would make J diverge."
+  },
+  {
+    "stem": "26_Snoke_event_examples",
+    "caption": "10.1 s multitaper, original site selections and path corrections; Kim & Kim (1983) source-depth velocity, density 2800 kg/m\u00b3, C=9.05.\nIntegral and direct Brune curves use their own estimated corners. They are diagnostic alternatives; the adopted magnitudes are unchanged."
+  }
+]

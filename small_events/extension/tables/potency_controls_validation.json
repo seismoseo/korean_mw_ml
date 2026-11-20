@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "analysis_validation_sha256": "5979a3891fe40dfeca325b959ed9563cbc5185f2198c224d9665f71012794470",
+  "source_sha256": "12b087e1ea5001abfdbb81ddd03b7d35bb03f618045a579e7923162d6e9c3a2c",
+  "matched_Hong_paired_A": 182,
+  "Hong_regressions": 48,
+  "regional_ML_regressions": 32,
+  "station_amplitudes_sha256": "f659893194087c2e139e739146a4feda19ec5dce185689dae88ee4e85d00a3ea",
+  "original_regional_engine_sha256": "8677bd161ddaabdc7a6a1afcf71312272a37dc05ec6beb60c69301ab31834e99",
+  "outputs_sha256": {
+    "potency_normalization.csv": "6aff97ba0b5114c4a2076a3e111f3a1a24a718a8d0e593686a228c7dafedf6d1",
+    "potency_Liu_comparison.csv": "89b840ae630a79679b53db978804dc884907c47467cd2b49474a5226424ce4e4",
+    "potency_Hong_regressions.csv": "daeb427e67808e6cef08e748d86eab22f88efececb92b39cfb805d18ad60003c",
+    "potency_Hong_bootstrap.npz": "5bdbc907babf8e37553e978312c88a58beccaeb1d6abc4ff94bef7495b03ada1",
+    "potency_report_coverage.csv": "5d074385343fa15345b8e1e585f02b17ea8fb2a7ce28eb6ce2f17a85c54b1592",
+    "potency_ML_definition_controls.csv": "4d3033c093aadd711ddd597c7f6913cbfd40e60e6ad9ef6498412af6935250ad",
+    "potency_regional_regressions.csv": "92f881f2f43e543bf9342984af27abe6be65346e20ae2e9b13c1b189260ab7b2",
+    "potency_regional_predictions.csv": "8e4a35c0a0f8034c1b360166e8e55a21602102ce3d52f4e773db938bb6130e8d",
+    "potency_regional_bootstrap.npz": "fd212830f7c0307215993efd763e602ac444cfd936a6effecee91ba93423804e",
+    "potency_regional_summary.json": "add7871246bd23ff38ff722de68b8d480b9fb5c771be9684ad6fe702af88845a"
+  }
+}

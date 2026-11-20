@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "reports": {
+    "small_events/extension/reports/Extended_Mw_ML_scaling.pdf": {
+      "pages": 27,
+      "sha256": "8bed016c10dc74278d60d4cad8dd8fe29471edf0692a97778505f9d3ddfb5007"
+    },
+    "small_events/extension/reports/Linear_quadratic_Mw_ML_comparison.pdf": {
+      "pages": 14,
+      "sha256": "1db31825f862efd65d9e2a4606da6efa214a861373b80496cfcfaf6b6cc3e0e8"
+    },
+    "small_events/extension/reports/Potency_magnitude_and_quadratic_scaling.pdf": {
+      "pages": 11,
+      "sha256": "93e729b3d035fda8b3f118a6b77f4b06da2f29556bb1d22ac7f5c0b07f505e23"
+    },
+    "small_events/extension/reports/Accepted_small_event_spectra.pdf": {
+      "pages": 76,
+      "sha256": "f1ff1107dc5eb9f87fbc1fc3b8c271651c6e581010eb3b04247384663edd4778"
+    }
+  },
+  "narrative_scales": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "PDF_page_bounds_passed": true,
+  "all_accepted_small_spectra_in_atlas": true,
+  "original_results_preserved": true,
+  "source_sha256": "3b19ce6c0cf56d87fa3c84634151e6e772f79f903c4b830821960d644d473b2d",
+  "summary_sha256": "c7ccc2e9aa314a29d0977a83d82ff955b7e2d2b8eba927305103a4a3fc4290b9",
+  "figures": [
+    {
+      "stem": "01_extension_sampling",
+      "caption": "All 2,317 confident-depth catalog-ML 1.5\u20131.9 events were attempted; lower bins use the fixed nested sample.\nFractions are conditional on event detection, confident depth and this sampling design. Paired A requires grade A for both Mw and independent ML."
+    },
+    {
+      "stem": "02_extension_scaling",
+      "caption": "The quadratic is fitted freely; its small curvature makes it almost overlap the line. Panel (c) shows the actual difference on its own scale.\nBoth panels use the same 676 events and family-balanced OLS. Shading: pointwise 95% family-bootstrap bands. The ML axis is independently measured Wood\u2013Anderson ML."
+    },
+    {
+      "stem": "03_extension_controls",
+      "caption": "Control gates were fixed before new Mw results: \u226530 shared Mw-A controls, |median \u0394Mw|\u22640.05 and RMS\u22640.10; populated magnitude bins also require |median|\u22640.05.\nIntervals resample whole families; the dotted line in (c) is the earlier 357-event slope. Design-weight sensitivities remain conditional on accepted measurements."
+    },
+    {
+      "stem": "04_extension_measurement_limits",
+      "caption": "Mw A: \u22658 useful sites (\u226520 frequency samples at SNR\u22653 each), \u22658 common-window sites, an observed plateau and \u2265one frequency decade.\n|\u0394Mw|\u22640.10 for Fourier/source-shape/window checks; log10 fit RMS\u22640.15. ML A: \u22655 sites; robust scatter\u22640.35.\nBlank magnitudes and every failure remain in the catalog. Success is conditional on detection, confident depth and sufficient signal."
+    },
+    {
+      "stem": "05_extension_small_event_spectra",
+      "caption": "First chronological fresh paired-A events from distinct families in measured-ML bins 1.50\u20131.65, 1.65\u20131.80 and 1.80\u20132.00. No selection uses Mw\u2013ML residuals.\nPoints are accepted SNR samples of the stacked spectrum; the line is the primary source fit. The separate atlas shows every accepted small-event case."
+    },
+    {
+      "stem": "06_independent_local_magnitude",
+      "caption": "ML_Sheen is measured from response-corrected Wood\u2013Anderson amplitudes; ml is the separate KMA catalog value. No event magnitude is copied or fitted to KMA.\nAll 46,117 retained station readings reproduce from their saved N/E peak amplitudes and the published attenuation formula. Station corrections are zero."
+    },
+    {
+      "stem": "07_previous_and_expanded_regressions",
+      "caption": "Solid curves: observed ML range of each training cohort. Dashed curves: extrapolation. Points: the same 676 NW2 target events.\nPrevious 357 curves reproduce the earlier saved coefficients. NW4 and NW2 use different windows/tapers; the two NW2 cohorts isolate the addition of smaller events."
+    },
+    {
+      "stem": "08_regression_prediction_comparison",
+      "caption": "Every model predicts the same NW2 target magnitudes; each target family is excluded from its training cohort. Target ranges use measured ML for both x-axis definitions.\nNW4-to-NW2 comparisons include a method change. The NW2 larger-only versus expanded comparison holds the method fixed. Large-event conclusions have few independent families."
+    },
+    {
+      "stem": "09_extension_fit_objectives",
+      "caption": "Each curve uses all accepted training magnitudes, with the stated weights. Open squares: the same filtered bin medians used for the bin fits.\nThe previous headline and bin-OLS coefficients reproduce exactly. Bin-median ODR is an additional equal-axis check. NW4/NW2 magnitudes remain separate.\nLabels 1\u20136: 2015-12-21, 2016-09-12, 2016-09-19, 2019-07-21, 2023-11-29 and 2024-06-11 (UTC)."
+    },
+    {
+      "stem": "10_extension_weight_and_prediction",
+      "caption": "All prediction scores use the same NW2 target magnitudes. Every target family, including its smaller members, is omitted and bin medians are recomputed.\nBin fits give each occupied magnitude bin equal weight. Intervals resample whole families; six large events supply only five independent families. Event RMS differs from family RMS."
+    },
+    {
+      "stem": "11_extension_Mp_Mw_ML",
+      "caption": "The same 676 paired-A events and Kim & Kim (1983) source model; Mp uses the original Liu normalization and Mw uses C=9.05.\nBin medians have equal fit weight. Shading: 95% whole-family bootstrap. The earlier 357-event curves retain their NW4 values; the Liu curve is unshifted."
+    },
+    {
+      "stem": "12_extension_Mp_Mw_methods",
+      "caption": "Every row is fitted freely on the same event membership for each cohort and quantity; ODR assumes equal errors on its fitted coordinates.\nThe earlier 128 Mw/Mp specifications and native-target prediction scores reproduce. Tables also retain 10/20/50 bins and the minimum-three-events-per-bin control."
+    },
+    {
+      "stem": "13_extension_Mp_Mw_large_events",
+      "caption": "Six measured-ML>4 events in five families; all methods use identical NW2 targets. The two large Gyeongju events require extrapolation in their held-out fold.\nLabels 1\u20136: 2015-12-21, 2016-09-12, 2016-09-19, 2019-07-21, 2023-11-29 and 2024-06-11 (UTC). Few independent large families limit generalization."
+    },
+    {
+      "stem": "14_extension_Mp_Mw_depth",
+      "caption": "The established family-weighted depth model and 95% whole-family intervals are retained; ML and depth coefficients are estimated jointly.\nSource-velocity models change only source coefficients. Tables retain geography, sensor/distance, layer, depth-subset and endpoint controls. These are conditional associations."
+    },
+    {
+      "stem": "15_extension_Mp_velocity_normalization",
+      "caption": "Source \u03bc uses the event-depth velocity, while the 28/36-GPa values define alternative magnitude zero points. Constant shifts do not change free-fit curvature.\n\u0394Mp = \u0394Mw/3 is algebra for this source-coefficient experiment. Endpoint differences are sensitivities with fixed spectra/path corrections, not depth-posterior errors."
+    },
+    {
+      "stem": "16_extension_Mp_Mw_Hong",
+      "caption": "Exact origin-time matches with both magnitudes grade A. Hong Mp is converted from published spectral/time-domain Mw using Hong\u2019s \u03c1=2700 kg/m\u00b3, Vs=3.61 km/s.\nNo published event magnitude is refitted or shifted to our scale. OLS/ODR tables compare catalog magnitudes and ML; full-catalog regressions retain their different selection."
+    },
+    {
+      "stem": "17_extension_ML_definition_control",
+      "caption": "HB changes only the attenuation/distance convention on the same saved horizontal WA amplitudes; event selection, signal processing and scalar potency stay fixed.\nThe 2800/2080 gain is an illustrative control and shifts ML by 0.1291. This is not a full reproduction of the published Liu observational ML processing."
+    }
+  ],
+  "comparison_validation_sha256": "e5789c03b2901d474189bb4e7c1c3937bfdec51a1aeb310f1cddd565b1609149",
+  "spectral_atlas_reused": true,
+  "objective_validation_sha256": "5bdf60245d4ef77a33cc8724ac60670f857ebdb60928dc132598cfd883ee2581",
+  "potency_analysis_validation_sha256": "5979a3891fe40dfeca325b959ed9563cbc5185f2198c224d9665f71012794470",
+  "potency_controls_validation_sha256": "6dfc64e195eee136d4d72ca7b95318b459f0cf92abcfb706209eb246203a5bee",
+  "potency_report_source_sha256": "a0540c5bc7fd8791056bd5b8b3da56356b1ccc34a3bdb6d98a53b135946a6e1b"
+}

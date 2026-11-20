@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "protected_inputs_sha256": {
+    "small_events/extension/tables/NW2_Mw_ML_catalog.csv": "8f1ea4d8f301dafe2ee7807ceeee0fcbc911290400b9b42ffd6abf3492cc1fa3",
+    "small_events/extension/tables/NW4_Mw_ML_catalog.csv": "6edb886fe03c57eb75827e763e55995a7c1e0739eab1b975c011e19345ff6e9e",
+    "small_events/extension/tables/paired_A_MLge1p5.csv": "38d070a7f70686d8be8aef708f0768b1bf80933dd4f3071f43abea01578d345d",
+    "small_events/extension/tables/Mw_ML_catalog.csv": "be9b103b8c0bb4615ed06fe6efda1248727c3b969235de930b2d865d0a807816",
+    "small_events/extension/tables/fit_objective_models.csv": "4ed984c2c4bcd1c59c472864403703a6c0783f131124af1279e52db89eb7b405",
+    "small_events/extension/tables/fit_objective_predictions.csv": "8cca533e993ed957c84afb89b627151a598c613b312824a62427b1cc7b748c98",
+    "small_events/extension/tables/fit_objective_bins.csv": "bc0faeed405497277efc1a24965f663e076c387eeb9faac87b7ac7054d24d2c7",
+    "small_events/extension/tables/fit_objective_bootstrap.npz": "8d8fb7028e4a9e62561c1372f2426e1e02c43fdd1cd23296e855dcd5f1e03caa",
+    "tables/Mw_independent_ML_primary.csv": "c1f74b6a965f7398bd4316168dbc9f2c303cf1cbfa1df286443410a90f51826f",
+    "tables/magnitude_followup_regressions.csv": "1b98a3cfbd832c5f8ed5463e0d5b92863a4349eb9d87abe3346a04f91d7e4b0f",
+    "tables/magnitude_followup_bootstrap.npz": "e24c0974d7f0638626c6c16ee5fa8e208c57b092e64bfe68e43e1f70d4f5a91e",
+    "tables/magnitude_followup_prediction_metrics.csv": "0736953adfbfabdc7cbfea4e5612f963389794eb45f4e715f3d7a811dd6fda19",
+    "tables/magnitude_followup_depth_regressions.csv": "3454ba6c4fcb174a7d84f74d2c26bf64ab31adaa30f1a9d788121db50cdebb1a",
+    "tables/magnitude_followup_depth_bootstrap.npz": "d313b5786fd24ae6aa7fa06851cbc4ecc114393452ed2e64fa645f0afecd098b",
+    "tables/potency_event_catalog.csv": "a207ab12336e612abe1c56f17a8b7c0a1481484c430a8f2073924fc2bd100a6c",
+    "tables/Sangju2026_summary.json": "48446ddf8ae370ca150070e7434db355c2dcf134a07024589cb167777e5b740b",
+    "inputs/KR_Mw/Events_KP_2017_2022_Mw.csv": "7989b2cf8c121b36126298ce03cd0401135be8c54703e5407ee5fe2e2d43fcbd",
+    "inputs/source_velocity_models.json": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+    "reports/Estimator_and_KR_Mw_comparison.pdf": "78557c9189cfc83e44a632656de53d5d4392990ed2edb15261bfb24df41b67ed",
+    "reports/Hong_KR_Mw_regression_and_stability.pdf": "d2a6a16798c8b5a880e15760b2931223f27b10aa5ddae7d07606e1617ef72291",
+    "reports/Independent_ML_and_Mw_comparison.pdf": "dd6c23622c874e0fb1a63f4bfe7bcaa89cabc94e6dce04a012a9396b1360a227",
+    "reports/Korean_Mw_ML_study.pdf": "b75fdf0461af94745ac8d1162f5e5c2a2e17dfb7c25d49d4e38d641cad06b307",
+    "reports/Potency_magnitude_and_quadratic_scaling.pdf": "9d40840d42e797381701fe693654ab7b76338397ae40aa9b717d0f151bcd5bfa",
+    "reports/Snoke_coefficient_and_bandwidth_audit.pdf": "2c996542c087c493763a0cbc593bda1124a61d24a58748390dbe8d144c5def8f",
+    "reports/Spectral_fit_atlas.pdf": "49081acc8d65cbab69f84be09619d45a9a12e1f37c00eec1104e481ffac6210b",
+    "reports/Velocity_models_and_magnitudes.pdf": "c8d413e667f272040fb8d01aca0b42135c6f35efb464d1e94031616faee6c9d5"
+  },
+  "sources_sha256": {
+    "code/analyze_extension_potency.py": "17be594f5c8037d7fc5c0aa6cae00322e41d41bf85ad9a1d56d0eee44b80c19e",
+    "code/analyze_potency.py": "e0cb70752352c8bc7637c7605dc96daebc2f6480637c3943fe1c42dc3cc82015",
+    "code/potency_model.py": "55e77c3b42626e717f313521a59619c72f306d22b80e30b2778d69f264401915",
+    "code/potency_regression.py": "aa5765cc7fe2ad79fb156338e84c0354e0faf7d51efe53ced13ac6fa10817b7f",
+    "code/analyze_magnitude_followup.py": "fe44f3274f48fa391fe1417e4f5b90cc954f75e7e4b30deb1279a3fa8499f955",
+    "code/audit_extension_fit_objectives.py": "22d4323a1c326ac6a5814d7282473e14d1ddbcdca538ed41597cb8da4905ba77"
+  },
+  "outputs_sha256": {
+    "potency_event_catalog.csv": "b10dc19a2ec62e0376d917f4f077a0729804143ea86ec354afd223a58e63af77",
+    "potency_NW4_catalog.csv": "a288ddd60a8b289f31fa44c3ea32893affbce43b6d76e91b2ab8f2cdf52f8d68",
+    "magnitude_scaling_members.csv": "2a5ed07c9f27a80bf5a11fa41446739e388c3427da17594fea887dd83721d210",
+    "magnitude_scaling_regressions.csv": "f36df3d73e39b30eaf46b47f41f65df6159b3d920fc64d4626a0b11f5965f752",
+    "magnitude_scaling_predictions.csv": "091d0c2fc5f8b24c87a14820ba36a1b7df9d6d8b792d985b7bfc9235d57c4e25",
+    "magnitude_scaling_bins.csv": "e1a75ea2ca5eec5ba55ff03ee46bfc64854b8bc642cee6d33bd80f5a33c6c239",
+    "magnitude_scaling_bootstrap.npz": "d46ea2f0899079a1cf8c0fa55cf8490be14f979332c53f266e9586cb5e884035",
+    "magnitude_scaling_performance.csv": "5d8b5acebe0ec80859dd02268d7b4f26cc39f3679ff94adb01048fe7521ee00b",
+    "magnitude_scaling_prediction_gains.csv": "2822873da2df6d800f6a42140aac02bfbf444e10fdbf6f8a60843542b880103d",
+    "potency_depth_regressions.csv": "63fec470be9055247e15fecbb96c210b7f51613da6f29458eeb233153a11a450",
+    "potency_depth_predictions.csv": "6a07ce99c2ce3dc7464fd4d1d3ce9630fa6f1bd61ee0553341458a5396f0a48a",
+    "potency_depth_bootstrap.npz": "2c1b93308fa25d3b09ac22433ee3140453b2c1d7431f48a32079b22b6948ef19",
+    "potency_Hong_matches.csv": "ce5f36b7ab3be6bc1e578d3af964aed60acbf312171def698f702c5877b1bae2",
+    "potency_Hong_statistics.csv": "8dadcffc9fd47fb9c3cd2c2eb731021760be5438dedc92b4852d36e603c0b3ed",
+    "potency_summary.json": "4831647506d257a8afa942d76a12032c675189ba4ca1d6a44e6c206e4f77c58c"
+  },
+  "previous_native_cases_reproduced": 128,
+  "summary": {
+    "complete": true,
+    "attempted": 3532,
+    "finite_Mw": 2000,
+    "finite_Mp": 2000,
+    "primary_events": 676,
+    "primary_families": 374,
+    "regression_cases": 480,
+    "main_method_cases": 384,
+    "depth_control_cases": 108,
+    "previous_native_cases_reproduced": 128,
+    "maximum_previous_CV_error": 1.1102230246251565e-16,
+    "source_velocity_sensitivity": {
+      "Mw": {
+        "median_abs": 0.03529483981534254,
+        "max_abs": 0.03529483981534365
+      },
+      "Mp": {
+        "median_abs": 0.011764946605113735,
+        "max_abs": 0.011764946605114623
+      }
+    },
+    "source_velocity_config_sha256": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+    "definitions": {
+      "P0": "M0/(rho*Vs(z)^2), m3",
+      "Mp_Liu": "(2/3)*(log10(P0[m3])+1.4563)",
+      "density_kg_m3": 2800,
+      "primary_model": "Kim1983",
+      "comparison_model": "Kim2011",
+      "equivalent_Liu_reference_rigidity_Pa": 35999792704.335686,
+      "Mw_constant": 9.05,
+      "Mp_alternatives": "Mpo28_C9p10, Mpo28_C9p05, Mp36_C9p05; these constant shifts do not change free-fit curvature or depth slopes"
+    },
+    "scope": "Scalar source potency; Mp quality inherits Mw spectral quality. No new waveform processing, relocation or effective-path-rigidity Mpv inversion."
+  }
+}

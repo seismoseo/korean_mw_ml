@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "attempted": 3532,
+  "finite_potency": 2000,
+  "paired_events": 676,
+  "paired_families": 374,
+  "physical_formula_relative_errors": {
+    "Kim1983": 6.776801342311956e-13,
+    "Kim2011": 6.747935543671701e-13
+  },
+  "units_and_normalizations_verified": true,
+  "source_depth_models_verified": true,
+  "missing_values_and_inherited_quality_verified": true,
+  "previous_potency_values_reproduced": true,
+  "regression_cases": 480,
+  "previous_native_cases_reproduced": 128,
+  "independent_OLS_max_error": 5.662137425588298e-15,
+  "independent_ODR_max_normal_gradient": 2.3695176492419617e-08,
+  "independent_bins_and_Gyeongju_holdouts_verified": true,
+  "independent_depth_designs_verified": 108,
+  "same_amplitude_ML_definition_controls_verified": true,
+  "regional_ML_regression_cases": 32,
+  "report_validation_sha256": "93a8f1df92e87f008bca500f22e68c8b9148f7cf98444efc1b151d9eba552f9b",
+  "analysis_validation_sha256": "5979a3891fe40dfeca325b959ed9563cbc5185f2198c224d9665f71012794470",
+  "controls_validation_sha256": "6dfc64e195eee136d4d72ca7b95318b459f0cf92abcfb706209eb246203a5bee",
+  "source_sha256": "dd2e16d9407f06fa12b84b95dc509dfbc59ff2068934ec81d50ea2ec0aee359c",
+  "reports": {
+    "small_events/extension/reports/Extended_Mw_ML_scaling.pdf": {
+      "pages": 27,
+      "sha256": "8bed016c10dc74278d60d4cad8dd8fe29471edf0692a97778505f9d3ddfb5007"
+    },
+    "small_events/extension/reports/Linear_quadratic_Mw_ML_comparison.pdf": {
+      "pages": 14,
+      "sha256": "1db31825f862efd65d9e2a4606da6efa214a861373b80496cfcfaf6b6cc3e0e8"
+    },
+    "small_events/extension/reports/Potency_magnitude_and_quadratic_scaling.pdf": {
+      "pages": 11,
+      "sha256": "93e729b3d035fda8b3f118a6b77f4b06da2f29556bb1d22ac7f5c0b07f505e23"
+    },
+    "small_events/extension/reports/Accepted_small_event_spectra.pdf": {
+      "pages": 76,
+      "sha256": "f1ff1107dc5eb9f87fbc1fc3b8c271651c6e581010eb3b04247384663edd4778"
+    }
+  }
+}

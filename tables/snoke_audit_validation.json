@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "report_pages": 6,
+  "narrative_scales": [
+    1.0,
+    1.0
+  ],
+  "report_sha256": "2c996542c087c493763a0cbc593bda1124a61d24a58748390dbe8d144c5def8f",
+  "paper_sha256": "8eeca606f5f923864081db071176a751929ffe5aedb2c14c6d94400c81a69d8e",
+  "adopted_Mw_coefficient_correction_applicable": false,
+  "independent_algebra_and_paper_benchmarks_passed": true,
+  "adopted_Mw_replay_count": 620,
+  "adopted_Mw_replay_max_error": 8.881784197001252e-16,
+  "n_grade_A_diagnostic_events": 443,
+  "original_results_and_reports_unchanged": true,
+  "protected_sha256": {
+    "reports/Spectral_fit_atlas.pdf": "49081acc8d65cbab69f84be09619d45a9a12e1f37c00eec1104e481ffac6210b",
+    "reports/Velocity_models_and_magnitudes.pdf": "c8d413e667f272040fb8d01aca0b42135c6f35efb464d1e94031616faee6c9d5",
+    "reports/Estimator_and_KR_Mw_comparison.pdf": "78557c9189cfc83e44a632656de53d5d4392990ed2edb15261bfb24df41b67ed",
+    "reports/Hong_KR_Mw_regression_and_stability.pdf": "d2a6a16798c8b5a880e15760b2931223f27b10aa5ddae7d07606e1617ef72291",
+    "reports/Korean_Mw_ML_study.pdf": "b75fdf0461af94745ac8d1162f5e5c2a2e17dfb7c25d49d4e38d641cad06b307",
+    "reports/Independent_ML_and_Mw_comparison.pdf": "dd6c23622c874e0fb1a63f4bfe7bcaa89cabc94e6dce04a012a9396b1360a227",
+    "reports/Potency_magnitude_and_quadratic_scaling.pdf": "9d40840d42e797381701fe693654ab7b76338397ae40aa9b717d0f151bcd5bfa",
+    "tables/Mw_ML_catalog.csv": "4d4442c04364f30c4eba52081c8278e841eea8e6a14a4b4660a72e1977dd0954",
+    "tables/Mw_ML_primary.csv": "4e262478309a943a4313768a5754dba96d213aebde8d1fc77f9cafebde7cf61f",
+    "tables/Mw_independent_ML_catalog.csv": "e47f8fa6d57a7cca073c049c4f608ae24e5346024ff289adaa356ddc6e6d6230",
+    "tables/Mw_independent_ML_primary.csv": "c1f74b6a965f7398bd4316168dbc9f2c303cf1cbfa1df286443410a90f51826f",
+    "tables/clean_spectral_fits.csv": "d6b97e064b0477007a8c962ad389f46d321055e9daf8eab027ac6e9e3e619d28",
+    "tables/Sangju2026_summary.json": "48446ddf8ae370ca150070e7434db355c2dcf134a07024589cb167777e5b740b",
+    "tables/potency_event_catalog.csv": "a207ab12336e612abe1c56f17a8b7c0a1481484c430a8f2073924fc2bd100a6c",
+    "tables/independent_ML_regressions.csv": "7a2d491f066af3c565d0a5cf9b4f1a599f9bad36a93c17f418b3b54d6e217c79",
+    "tables/Hong_regression_comparison.csv": "735cc5ac8883867d9aa90aff2ec0125df100df0fcc0c749b49e3657b9b9e2735",
+    "inputs/study_config.json": "61dce01b3e0e80268a0265073cf79b47fcb62f31af8b781f712f487845ea8cf6",
+    "inputs/source_velocity_models.json": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+    "code/spectra.py": "76cdc6631e4e408c2d8aad05e760799c38beb5dfbca03615c0bf4926f5fd9f0c",
+    "code/source_velocity.py": "1237d6073080c6503c48e856d1202ee66c65d5c03ad179d5578ac3645e661389"
+  },
+  "source_sha256": {
+    "code/snoke_audit.py": "c116aa7c0b7e7ccbb38c644b73483eb5b19a5214023a75aab03acc836ccf2ab2",
+    "code/report_snoke_audit.py": "06dca21a79ee2283fb598a4889d3a2f0bc697d30b498c0d3168423a906181156",
+    "tables/snoke_audit_summary.json": "7560ee986f0634ce910973f9310e5f36b03ffcfa195dc6c5f0a24dbacdafec16"
+  },
+  "new_analysis_csv_sha256": {
+    "tables/snoke_Mw_ML_relation_sensitivity.csv": "a793f1936c05efb341e035d091acc30fba7a947dc1fa22173d66b1c8e582e283",
+    "tables/snoke_adopted_Mw_replay.csv": "841720773bc09223066d8a1b82557043ae0ff89d51197797182b7ec569d334f9",
+    "tables/snoke_band_sensitivity.csv": "a4c0f67c6cf6db68917db601dfe2ca6219e01767aa9adfccc4e9712a4d3f4756",
+    "tables/snoke_coefficient_ratios.csv": "3b40b91ae295c9c3621329c931d1b2daa547db48cee1f379cdc51f3e8c2958b3",
+    "tables/snoke_event_diagnostics.csv": "f168580020067bbce9eb38884e4cd6fd87df0df72ed5cae134ca744783d0e4b2",
+    "tables/snoke_excluded_bands.csv": "8e22f08e9427cd47c9a245ac353da523a849fea1f5d335ae1e9323d90bf02185",
+    "tables/snoke_falloff_sensitivity.csv": "f07070e64d0d4230f5ab4fe71b3f81be07d2cd3930134b22b5a359f704a7c006",
+    "tables/snoke_model_review_events.csv": "eaa89c5f7ed0ab6f97654a15b8e10e4d25a615f78887ec9d13c2605ec8e4691a",
+    "tables/snoke_named_event_examples.csv": "c4b15cb2d69d82af84a77a43e7d497f5c0d24ee5eff3c8c12eb9a35a718bb472",
+    "tables/snoke_source_shape_controls.csv": "373b0c577ec502e46a90a547347a8951f1a473ef00aff8d4ebc9052efa4591fb",
+    "tables/snoke_true_parameter_errors.csv": "b743ea8d5611ec27a193888ce8ce2a45945d25e102c76fa03282a05a9aaccc66"
+  },
+  "independent_numerical_checks": {
+    "Sangju_quadrature_bisection_relative_error": 2.5557334026871104e-13,
+    "independently_integrated_Boatwright_n2_coefficient": 1.681792830507429,
+    "original_Mw_ML_point_estimate_reproduced": true,
+    "one_sided_PSD_to_undoubled_FAS_max_error": 1.262177448353619e-29
+  },
+  "figure_and_report_page_bounds_passed": true
+}

@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "report_pages": 7,
+  "narrative_scales": [
+    1.0,
+    1.0
+  ],
+  "report_sha256": "62c8e68bcf97a3a1aafc380c8a4331f79868bdf0ca633876390e95c0d92adb99",
+  "atlas_sha256": "d1ce408a08b2b53c953a07a9b35254088cd98fe6c6c8b242b18d20bbccdcf6b9",
+  "atlas_pages": 45,
+  "original_results_and_reports_unchanged": true,
+  "protected_sha256": {
+    "reports/Spectral_fit_atlas.pdf": "49081acc8d65cbab69f84be09619d45a9a12e1f37c00eec1104e481ffac6210b",
+    "reports/Velocity_models_and_magnitudes.pdf": "c8d413e667f272040fb8d01aca0b42135c6f35efb464d1e94031616faee6c9d5",
+    "reports/Estimator_and_KR_Mw_comparison.pdf": "78557c9189cfc83e44a632656de53d5d4392990ed2edb15261bfb24df41b67ed",
+    "reports/Hong_KR_Mw_regression_and_stability.pdf": "d2a6a16798c8b5a880e15760b2931223f27b10aa5ddae7d07606e1617ef72291",
+    "reports/Korean_Mw_ML_study.pdf": "b75fdf0461af94745ac8d1162f5e5c2a2e17dfb7c25d49d4e38d641cad06b307",
+    "reports/Independent_ML_and_Mw_comparison.pdf": "dd6c23622c874e0fb1a63f4bfe7bcaa89cabc94e6dce04a012a9396b1360a227",
+    "reports/Potency_magnitude_and_quadratic_scaling.pdf": "9d40840d42e797381701fe693654ab7b76338397ae40aa9b717d0f151bcd5bfa",
+    "reports/Snoke_coefficient_and_bandwidth_audit.pdf": "2c996542c087c493763a0cbc593bda1124a61d24a58748390dbe8d144c5def8f",
+    "inputs/cohort.csv": "4615a9d1f58d46ef411fb724f725dd89688273dee5f8c5ac94b628fd569e9f8e",
+    "inputs/study_config.json": "61dce01b3e0e80268a0265073cf79b47fcb62f31af8b781f712f487845ea8cf6",
+    "inputs/analysis_quality_rules.json": "589e369959720e41d7c60f799b5358040d15260da0d53e9c0089b360841aa867",
+    "tables/Mw_ML_catalog.csv": "4d4442c04364f30c4eba52081c8278e841eea8e6a14a4b4660a72e1977dd0954",
+    "tables/Mw_ML_primary.csv": "4e262478309a943a4313768a5754dba96d213aebde8d1fc77f9cafebde7cf61f",
+    "tables/Mw_independent_ML_catalog.csv": "e47f8fa6d57a7cca073c049c4f608ae24e5346024ff289adaa356ddc6e6d6230",
+    "tables/Mw_independent_ML_primary.csv": "c1f74b6a965f7398bd4316168dbc9f2c303cf1cbfa1df286443410a90f51826f",
+    "tables/independent_ML_regressions.csv": "7a2d491f066af3c565d0a5cf9b4f1a599f9bad36a93c17f418b3b54d6e217c79",
+    "tables/Hong_regression_comparison.csv": "735cc5ac8883867d9aa90aff2ec0125df100df0fcc0c749b49e3657b9b9e2735",
+    "tables/potency_event_catalog.csv": "a207ab12336e612abe1c56f17a8b7c0a1481484c430a8f2073924fc2bd100a6c",
+    "tables/Sangju2026_summary.json": "48446ddf8ae370ca150070e7434db355c2dcf134a07024589cb167777e5b740b"
+  },
+  "planned_and_attempted": 180,
+  "small_events": 162,
+  "controls": 18,
+  "strict_small_pairs": 7,
+  "analysis_scope": "Feasibility and exploratory sensitivity; no revised primary Mw-ML relation or adopted magnitudes",
+  "source_sha256": {
+    "code/prepare_small_event_pilot.py": "43b14a13c642f24138ea689714e5a5743d0ddcb26953292e63f6d50981146b13",
+    "code/run_small_event_pilot.py": "fe1eef43c66903bfa55d5e383c2bd573ed7acbcebea8fb54791f5ca24c8c2b08",
+    "code/analyze_small_event_pilot.py": "4267d95b3c917e8efad817bae71317bd096c017f3ff2756c7b1bb16be02e77fd",
+    "code/small_event_short_windows.py": "9c531a0ce7de61e75a603f4cbe49ec7ffb41734bdb4f94dac866bb59e5ec772d",
+    "code/small_event_nw2_windows.py": "a0e5f2f668caf857d494d9ae1f6d83981f813b6e9b79aff2bda5b8b4ea1e00ee",
+    "code/report_small_event_pilot.py": "2e2542a8c149292c514a030fe4593aeb1702d77a1c8333c86f08a40dd69e15b5"
+  },
+  "figure_font_and_page_bounds_passed": true
+}

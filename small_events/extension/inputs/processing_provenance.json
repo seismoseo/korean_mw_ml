@@ -1,0 +1,20 @@
+{
+  "signature": "deffc85f8e0618455324e373491ceb6e2722d6fa3906d0f8fd2f861e3cbd6bfe",
+  "cohort_sha256": "d44453705c19262090b2f9dcddf2fccd9ab1a4b5b02e0e3d6815c4e86e142202",
+  "sources_sha256": {
+    "/home/msseo/works/Claude/korean_mw_ml/code/run_small_event_extension.py": "6bb4f21bbc9942ab6a17673af157992f275741bec755bdcd6412dc3bf2f89ce0",
+    "/home/msseo/works/Claude/korean_mw_ml/code/run_catalog.py": "90d49f775a2ba705b6f28f77b24626f0a89cbefbad64b6400f2c31917063fe85",
+    "/home/msseo/works/Claude/korean_mw_ml/code/local_magnitude.py": "9a9b522967baaf261b032209b06e278ff070ae417cf4e3759bd1c8a09df95928",
+    "/home/msseo/works/Claude/korean_mw_ml/code/instrument_processing.py": "04a21aae08f02fce19c5823a6afae70e19b1f185a3abb7b14baca900eeb2e5ce",
+    "/home/msseo/works/Claude/korean_mw_ml/code/spectra.py": "76cdc6631e4e408c2d8aad05e760799c38beb5dfbca03615c0bf4926f5fd9f0c",
+    "/home/msseo/works/Claude/korean_mw_ml/code/source_velocity.py": "1237d6073080c6503c48e856d1202ee66c65d5c03ad179d5578ac3645e661389",
+    "/home/msseo/works/Claude/korean_mw_ml/code/small_event_nw2_windows.py": "a0e5f2f668caf857d494d9ae1f6d83981f813b6e9b79aff2bda5b8b4ea1e00ee",
+    "/home/msseo/works/27.Haenam_sequence_renewal/magnitudes/local_ml/buan_sheen2018_snapshot.py": "6b7fa05ecb15762fdd184e5b77d360302ccad7b2dc94d615b396988ad6d72678",
+    "/home/msseo/works/Claude/korean_mw_ml/inputs/source_velocity_models.json": "e2133e180815cc2073ba4bafb0def84ddf8a83ca68f9464594d520a1fcf4d3b3",
+    "/home/msseo/works/Claude/korean_mw_ml/inputs/response_sources.json": "f5b12b6b7e09686979efca0f1f5ece2eccdf802e785e39cd470359f0a6905a86",
+    "/home/msseo/works/Claude/korean_mw_ml/small_events/extension/inputs/config.json": "a82062e10610b54512d104c1fb03b4cd3addba12538fc32b52f6a3597d9b2079",
+    "/home/msseo/works/Claude/korean_mw_ml/small_events/extension/inputs/reuse_registry.csv": "975b0e1352985e4ec3ba4563f5696da76553433c0f25c53376ca0ba73fde3a0b"
+  },
+  "workers": 16,
+  "adopted_project_modified": false
+}

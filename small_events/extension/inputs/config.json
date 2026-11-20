@@ -1,0 +1,82 @@
+{
+  "scope": "Expanded selected-event Mw\u2013ML study; preserve the adopted national catalog and pilot",
+  "seed": 20261120,
+  "selected_events": 3532,
+  "small_events": 2890,
+  "reference_events": 642,
+  "design": "Census of confident-depth catalog ML1.5\u20131.9; nested uniform total min(60,N) per depth/era cell at ML1\u20131.4; retain original 54 ML0.5\u20130.9 pilot cases; all 642 ML>=2 reference events.",
+  "new_small_cases": 2728,
+  "no_failed_cases_replaced": true,
+  "primary_spectral_scheme": {
+    "windows_s": [
+      5.1,
+      10.1
+    ],
+    "NW": 2,
+    "K": 3,
+    "band_Hz": [
+      0.5,
+      20
+    ]
+  },
+  "comparison_scheme": {
+    "windows_s": [
+      10.1,
+      20.1
+    ],
+    "NW": 4,
+    "K": 7,
+    "band_Hz": [
+      0.5,
+      20
+    ]
+  },
+  "frozen_quality_rules_sha256": "589e369959720e41d7c60f799b5358040d15260da0d53e9c0089b360841aa867",
+  "quality_policy": "Unchanged A/B gates; independent ML; no acceptance by Mw\u2013ML agreement.",
+  "source_model": "Kim1983 at source depth; rho2800; C9.05",
+  "sensors": [
+    "HH",
+    "EL",
+    "HG"
+  ],
+  "overlap_policy": "All known domestic magnitudes, 180 s and 50 km; reuse only if identical known-neighbor lists and event/input coordinates/paths.",
+  "cohort_sha256": "d44453705c19262090b2f9dcddf2fccd9ab1a4b5b02e0e3d6815c4e86e142202",
+  "reuse_registry_sha256": "975b0e1352985e4ec3ba4563f5696da76553433c0f25c53376ca0ba73fde3a0b",
+  "neighbors_sha256": "d6425486cde5e9e7b0c81d9e33adf9caee1050162bba0a3d5e87e5c99f71ff15",
+  "parent_sha256": "f55f1d2dc57f9dd184464580963492d84dc9c14064fba4fbd6b612963d894b6f",
+  "reference_cohort_sha256": "4615a9d1f58d46ef411fb724f725dd89688273dee5f8c5ac94b628fd569e9f8e",
+  "neighbor_catalog": "/home/msseo/works/Claude/data/necis/catalog/necis_events_domestic_1978_2026.csv",
+  "neighbor_catalog_sha256": "02a672142f54bd5329fa34c21c60cbc39bca5a4f33f3c28a483a32359e57beea",
+  "transfer_gate": {
+    "minimum_shared_Mw_A": 30,
+    "maximum_abs_median_delta": 0.05,
+    "maximum_RMS_delta": 0.1,
+    "per_catalog_ML_bin_maximum_abs_median": 0.05,
+    "minimum_per_bin": 5,
+    "bins": [
+      2,
+      2.5,
+      3,
+      6
+    ]
+  },
+  "regression_plan": {
+    "primary": "Both A, measured ML>=1.5, uniform NW2 estimator; family-balanced OLS with whole-family bootstrap and CV.",
+    "comparisons": [
+      "linear",
+      "quadratic",
+      "continuous hinge at measured ML2"
+    ],
+    "sensitivities": [
+      "equal-axis ODR",
+      "A or B",
+      "design and family weights",
+      "measured-ML floor",
+      "exclude original pilot events",
+      "same reference event set for both estimators"
+    ],
+    "no_selection_function_correction_claimed": true
+  },
+  "uncertainty": "Conditional station-resampling bounds, not total uncertainty. Bootstrap/CV of accepted events does not recover missing low-SNR events.",
+  "previous_results_preserved": true
+}
